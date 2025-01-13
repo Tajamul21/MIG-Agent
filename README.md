@@ -14,12 +14,12 @@
 <a href='https://huggingface.co/datasets/Michael4933/MIG-Bench'><img src='https://img.shields.io/badge/Benchmark-Huggingface-yellow'></a> 
 <a href='https://huggingface.co/datasets/Michael4933/MGrounding-630k'><img src='https://img.shields.io/badge/Dataset-Huggingface-blue'></a> 
 
-This repository hosts the usage details of our training dataset <strong>MGrounding-630k</strong> and benchmark <strong>MIG-Bench</strong> and the training implementation of Migician, the first competitive Multi-image Grounding MLLM capable of free-form grounding.
+This repository hosts the usage details of our training dataset <strong>MGrounding-630k</strong>, benchmark <strong>MIG-Bench</strong> and the training implementation of Migician, the first competitive Multi-image Grounding MLLM capable of free-form grounding.
 
 -----------
 
 ## 📰 News
-* **[2025.01.13]**  🌷🌷🌷 We have further released our massive multi-image grounding training dataset [MGrounding_630k](https://huggingface.co/datasets/Michael4933/MGrounding-630k) and our multi-image grounding benchmark [MIG-Bench](https://huggingface.co/datasets/Michael4933/MIG-Bench) on Huggingface🤗~ Feel free to download and apply them for your own use.
+* **[2025.01.13]**  🌷🌷🌷 We have further released our massive multi-image grounding training dataset [MGrounding_630k](https://huggingface.co/datasets/Michael4933/MGrounding-630k) and our multi-image grounding benchmark [MIG-Bench](https://huggingface.co/datasets/Michael4933/MIG-Bench) on Huggingface🤗. Feel free to download and apply them for your own use.
 * **[2025.01.12]**  🌟🌟🌟 The model weights are now available on HuggingFace! 🤗 Download and have a try at [Huggingface Model](https://huggingface.co/Michael4933/Migician)!
 * **[2025.01.10]** 🌞🌞🌞 We have released our paper on [Arxiv](https://arxiv.org/abs/2501.05767) at the start of the new year!
 
@@ -85,7 +85,7 @@ Migician/
 │  │        │            ├── COCO
 │  │        │            ├── ImageNet
 │  │        │            ├── Object365
-│  │        │            ├── common_train_70k.json # the addtional .zip files at this level may be of limited help
+│  │        │            ├── common_train_70k.json ### the addtional .zip files at this level may be of limited help
 │  │        │
 │  │        ├── Difference
 │  │        │            ├── clevr-change
@@ -100,8 +100,8 @@ Migician/
 │  │        │
 │  │        ├── Group_Grounding
 │  │        │            ├── SA-1B
-│  │        │            ├── _gg_reg_40k.json # group grounding reg task
-│  │        │            ├── gg_train_120k.json # group grounding rec task
+│  │        │            ├── _gg_reg_40k.json ### group grounding reg task
+│  │        │            ├── gg_train_120k.json ### group grounding rec task
 │  │        │
 │  │        ├── Object_Tracking
 │  │        │            ├── GOT-10k
@@ -118,7 +118,7 @@ Migician/
 │  │                     ├── Object365
 │  │                     ├── region_train_70k.json
 │  │
-│  ├── MGrounding-630k.json # containing all conversation data
+│  ├── MGrounding-630k.json ### containing all conversation data
 │
 ...
 ```
@@ -161,7 +161,7 @@ An example structure for training data:
 <span id='Inference'/>
 
 #### Inference
-As mentioned in the paper, 🎩🎩🎩Migician is finetuned on [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) through a progressive two-stage training process with massive amount of data on 8*A100-80G. You can feel the 🪄🪄🪄magic of multi-image grounding through the following code.
+As mentioned in the paper, Migician is finetuned on [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) through a progressive two-stage training process with massive amount of data on 8*A100-80G. You can feel the magic🪄 of multi-image grounding through the following code.
 
 <p align="center">
 <img src="figs/multi_view_all.png" width=100%>
