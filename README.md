@@ -72,7 +72,7 @@ MGrounding-630k encompasses a diverse collection of multi-image grounding tasks 
 >
 > Please ensure that you have sufficient hard disk storage and a stable internet connection.
 
-You can download the data at `./data/MGrounding-630k` and then simply unzip the corresponding .zip files. This brings you the data structure shown below. We gather all the conversation data at `./data/MGrounding-630k/MGrounding-630k.json` for convenient use, where each training example is labeled with its corresponding sub-task class. The seperate json files for each task is also provided along the way. We just want the best for ya~~~🥰
+You can download the data at `./data/MGrounding-630k` and then simply unzip the corresponding .zip files. This brings you the data structure shown below. We gather all the conversation data at `./data/MGrounding-630k/MGrounding-630k.json` for convenient use, where each training example is labeled with its corresponding sub-task class. The seperate json files for each task is also provided along the way.
 
 The downloading code from huggingface is provided in `./data/download.py`, which realizes one-hit quick download.
 
@@ -266,7 +266,7 @@ Each testing example is formatted as below, which includes the key informantion 
         "need_format": true
     }
 ```
-You can conduct one-hit evaluation for 🤩🤩🤩<strong>SEVEN</strong> different models[[Migician](https://huggingface.co/Michael4933/Migician), [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [InternVL2](https://huggingface.co/OpenGVLab/InternVL2-8B), [MiniCPM-V_2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6), [LLaVA-OneVision](https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov-hf), [mPLUG-Owl3](https://huggingface.co/mPLUG/mPLUG-Owl3-7B-241101), and [Mantis](https://huggingface.co/TIGER-Lab/Mantis-8B-Idefics2)] on MIG-Bench. Simply run the MIG_bench_eval.py script and it will report IOU@0.7, IOU@0.5, IOU@0.3 and ave-iou scores. We further facilitate the evaluation for 🤗[MIBench](https://huggingface.co/datasets/StarBottle/MIBench) and 🤗[MMIU](https://huggingface.co/MMIUBenchmark/MMIU/tree/main) in MIG_bench_eval.py for different models.
+You can conduct one-hit evaluation for <strong>SEVEN</strong> different models[[Migician](https://huggingface.co/Michael4933/Migician), [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [InternVL2](https://huggingface.co/OpenGVLab/InternVL2-8B), [MiniCPM-V_2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6), [LLaVA-OneVision](https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov-hf), [mPLUG-Owl3](https://huggingface.co/mPLUG/mPLUG-Owl3-7B-241101), and [Mantis](https://huggingface.co/TIGER-Lab/Mantis-8B-Idefics2)] on MIG-Bench. Simply run the MIG_bench_eval.py script and it will report IOU@0.7, IOU@0.5, IOU@0.3 and ave-iou scores. We further facilitate the evaluation for 🤗[MIBench](https://huggingface.co/datasets/StarBottle/MIBench) and 🤗[MMIU](https://huggingface.co/MMIUBenchmark/MMIU/tree/main) in MIG_bench_eval.py for different models.
 
 
 <span id='Finetune'/>
