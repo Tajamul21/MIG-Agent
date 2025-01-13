@@ -7,7 +7,7 @@
 
 -----
 
-<a href='https://michael4933.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://migician-vg.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href='#'><img src='https://img.shields.io/badge/Demo-Page-purple'></a> 
 <a href='https://arxiv.org/abs/2501.05767'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a> 
 <a href='https://huggingface.co/Michael4933/Migician'><img src='https://img.shields.io/badge/Model-Huggingface-red'></a> 
