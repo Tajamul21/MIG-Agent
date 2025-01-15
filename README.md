@@ -285,10 +285,10 @@ Migician/
 
 ## 📝 Citation
 ```bibtex
-@misc{li2025migicianrevealingmagicfreeform,
-      title={Migician: Revealing the Magic of Free-Form Multi-Image Grounding in Multimodal Large Language Models}, 
-      author={You Li and Heyu Huang and Chi Chen and Kaiyu Huang and Chao Huang and Zonghao Guo and Zhiyuan Liu and Jinan Xu and Yuhua Li and Ruixuan Li and Maosong Sun},
-      year={2025},
-      url={https://arxiv.org/abs/2501.05767}, 
+@article{li2025migician,
+  title={Migician: Revealing the Magic of Free-Form Multi-Image Grounding in Multimodal Large Language Models},
+  author={Li, You and Huang, Heyu and Chen, Chi and Huang, Kaiyu and Huang, Chao and Guo, Zonghao and Liu, Zhiyuan and Xu, Jinan and Li, Yuhua and Li, Ruixuan and others},
+  journal={arXiv preprint arXiv:2501.05767},
+  year={2025}
 }
 ```
