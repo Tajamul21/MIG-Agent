@@ -172,12 +172,14 @@ from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoPro
 from qwen_vl_utils import process_vision_info
 import torch
 
+path = "Your_Migician_Path"
 model = Qwen2VLForConditionalGeneration.from_pretrained(
-    "Your_Migician_Path",
+    path,
     torch_dtype=torch.bfloat16,
     attn_implementation="flash_attention_2", # Enabling flash_attention_2 for better acceleration and memory saving is recommended.
     device_map="auto",
 )
+processor = AutoProcessor.from_pretrained(path)
 
 messages = [
     {
