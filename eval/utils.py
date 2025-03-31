@@ -229,7 +229,7 @@ def resize_image(image, target_size=500):
     else:
         return image
 
-def load_image_intenvl2(image_file, input_size=4196, max_num=12):
+def load_image_intenvl2(image_file, input_size=448, max_num=12):
     image = Image.open(image_file).convert('RGB')
     # image = resize_image(image)
     transform = build_transform(input_size=input_size)
