@@ -1,0 +1,1703 @@
+[
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a red book(389,690),(599,870)",
+        "filter_answer": [
+            389,
+            690,
+            599,
+            870
+        ],
+        "iou": 0.5095508518327311,
+        "groundtruth": [
+            383,
+            722,
+            603,
+            816
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white light bulb(591,399),(651,465)",
+        "filter_answer": [
+            591,
+            399,
+            651,
+            465
+        ],
+        "iou": 0.6265060240963856,
+        "groundtruth": [
+            580,
+            391,
+            643,
+            461
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white paper(279,345),(419,525)",
+        "filter_answer": [
+            279,
+            345,
+            419,
+            525
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            521,
+            325,
+            608,
+            428
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The Pikachu toy(599,336),(903,804) is sitting up.",
+        "filter_answer": [
+            599,
+            336,
+            903,
+            804
+        ],
+        "iou": 0.7839889656409796,
+        "groundtruth": [
+            601,
+            237,
+            914,
+            799
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a pen(421,720),(501,855)",
+        "filter_answer": [
+            421,
+            720,
+            501,
+            855
+        ],
+        "iou": 0.4798373432734666,
+        "groundtruth": [
+            391,
+            737,
+            493,
+            888
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The yellow toy(765,234),(935,708).",
+        "filter_answer": [
+            765,
+            234,
+            935,
+            708
+        ],
+        "iou": 0.6599138618599457,
+        "groundtruth": [
+            767,
+            314,
+            955,
+            771
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the white cable(29,477),(469,876)",
+        "filter_answer": [
+            29,
+            477,
+            469,
+            876
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            447,
+            304,
+            558,
+            457
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A bird(465,381),(585,471).",
+        "filter_answer": [
+            465,
+            381,
+            585,
+            471
+        ],
+        "iou": 0.3896044158233671,
+        "groundtruth": [
+            431,
+            390,
+            542,
+            456
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "two ducks(869,165),(923,228)",
+        "filter_answer": [
+            869,
+            165,
+            923,
+            228
+        ],
+        "iou": 0.2127659574468085,
+        "groundtruth": [
+            862,
+            137,
+            979,
+            200
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white bird(624,597),(786,669)",
+        "filter_answer": [
+            624,
+            597,
+            786,
+            669
+        ],
+        "iou": 0.5013992537313433,
+        "groundtruth": [
+            600,
+            619,
+            753,
+            669
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A bird(552,479),(746,555).",
+        "filter_answer": [
+            552,
+            479,
+            746,
+            555
+        ],
+        "iou": 0.6474278544542033,
+        "groundtruth": [
+            545,
+            480,
+            724,
+            537
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a small white toy(87,453),(131,528)",
+        "filter_answer": [
+            87,
+            453,
+            131,
+            528
+        ],
+        "iou": 0.09090909090909091,
+        "groundtruth": [
+            50,
+            413,
+            100,
+            503
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a bird(599,471),(719,616)",
+        "filter_answer": [
+            599,
+            471,
+            719,
+            616
+        ],
+        "iou": 0.514454664914586,
+        "groundtruth": [
+            591,
+            486,
+            686,
+            594
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(521,345),(816,468)",
+        "filter_answer": [
+            521,
+            345,
+            816,
+            468
+        ],
+        "iou": 0.9102384291725105,
+        "groundtruth": [
+            510,
+            347,
+            819,
+            472
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The black mouse(500,570),(779,825) is in a different location.",
+        "filter_answer": [
+            500,
+            570,
+            779,
+            825
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            509,
+            285,
+            588,
+            457
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The difference is that the laptop in the second image is not turned on.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            485,
+            160,
+            692,
+            348
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a couple(255,591),(459,924)(459,591),(663,924)",
+        "filter_answer": [
+            255,
+            591,
+            459,
+            924
+        ],
+        "iou": 0.7320444915254237,
+        "groundtruth": [
+            237,
+            636,
+            469,
+            907
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(511,409),(566,501)",
+        "filter_answer": [
+            511,
+            409,
+            566,
+            501
+        ],
+        "iou": 0.6030383091149274,
+        "groundtruth": [
+            499,
+            417,
+            555,
+            500
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The bird(693,585),(903,798).",
+        "filter_answer": [
+            693,
+            585,
+            903,
+            798
+        ],
+        "iou": 0.6480783118029367,
+        "groundtruth": [
+            667,
+            589,
+            857,
+            786
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A bird(515,516),(665,643).",
+        "filter_answer": [
+            515,
+            516,
+            665,
+            643
+        ],
+        "iou": 0.5643943109367336,
+        "groundtruth": [
+            506,
+            512,
+            652,
+            600
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The man is wearing a blue shirt(505,453),(695,593).",
+        "filter_answer": [
+            505,
+            453,
+            695,
+            593
+        ],
+        "iou": 0.3159895462105013,
+        "groundtruth": [
+            502,
+            411,
+            778,
+            716
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(515,624),(579,744)",
+        "filter_answer": [
+            515,
+            624,
+            579,
+            744
+        ],
+        "iou": 0.5006622516556292,
+        "groundtruth": [
+            508,
+            586,
+            578,
+            800
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white and green toy(621,615),(715,753)",
+        "filter_answer": [
+            621,
+            615,
+            715,
+            753
+        ],
+        "iou": 0.4991966949736057,
+        "groundtruth": [
+            604,
+            637,
+            696,
+            780
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A bird(581,261),(684,363).",
+        "filter_answer": [
+            581,
+            261,
+            684,
+            363
+        ],
+        "iou": 0.41956976965543497,
+        "groundtruth": [
+            582,
+            271,
+            658,
+            329
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Two ducks(505,195),(645,255).",
+        "filter_answer": [
+            505,
+            195,
+            645,
+            255
+        ],
+        "iou": 0.38348323793949307,
+        "groundtruth": [
+            497,
+            170,
+            639,
+            230
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "green and white shaker(234,398),(354,598) changed to blue water bottle(348,398),(468,598)",
+        "filter_answer": [
+            234,
+            398,
+            354,
+            598
+        ],
+        "iou": 0.03933394519470303,
+        "groundtruth": [
+            342,
+            250,
+            446,
+            629
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a bicycle(661,591),(871,843)",
+        "filter_answer": [
+            661,
+            591,
+            871,
+            843
+        ],
+        "iou": 0.5720682058764627,
+        "groundtruth": [
+            637,
+            646,
+            864,
+            897
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a computer monitor(819,51),(996,456) is on the desk",
+        "filter_answer": [
+            819,
+            51,
+            996,
+            456
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            265,
+            797,
+            511,
+            995
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(461,409),(601,669) is walking in the corridor",
+        "filter_answer": [
+            461,
+            409,
+            601,
+            669
+        ],
+        "iou": 0.8409849749582637,
+        "groundtruth": [
+            457,
+            405,
+            585,
+            672
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a bottle(551,339),(641,459)",
+        "filter_answer": [
+            551,
+            339,
+            641,
+            459
+        ],
+        "iou": 0.32829908393166624,
+        "groundtruth": [
+            547,
+            277,
+            629,
+            407
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A person(519,488),(659,728) is running on the road.",
+        "filter_answer": [
+            519,
+            488,
+            659,
+            728
+        ],
+        "iou": 0.47923728813559324,
+        "groundtruth": [
+            499,
+            520,
+            606,
+            728
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(384,594),(458,720)",
+        "filter_answer": [
+            384,
+            594,
+            458,
+            720
+        ],
+        "iou": 0.6312741312741312,
+        "groundtruth": [
+            395,
+            601,
+            449,
+            710
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(621,498),(714,634) is walking on the road",
+        "filter_answer": [
+            621,
+            498,
+            714,
+            634
+        ],
+        "iou": 0.6879977246871445,
+        "groundtruth": [
+            609,
+            508,
+            703,
+            626
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a green bottle(85,390),(189,603)",
+        "filter_answer": [
+            85,
+            390,
+            189,
+            603
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            515,
+            596,
+            643,
+            780
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a man(83,345),(283,993)",
+        "filter_answer": [
+            83,
+            345,
+            283,
+            993
+        ],
+        "iou": 0.9076013513513513,
+        "groundtruth": [
+            84,
+            332,
+            297,
+            996
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white plastic bag(385,579),(489,711)",
+        "filter_answer": [
+            385,
+            579,
+            489,
+            711
+        ],
+        "iou": 0.0005366086334366802,
+        "groundtruth": [
+            309,
+            710,
+            403,
+            921
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a red plastic bag(346,273),(566,357)",
+        "filter_answer": [
+            346,
+            273,
+            566,
+            357
+        ],
+        "iou": 0.22648944487881156,
+        "groundtruth": [
+            424,
+            306,
+            657,
+            395
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the bottle(375,411),(445,741)",
+        "filter_answer": [
+            375,
+            411,
+            445,
+            741
+        ],
+        "iou": 0.08032128514056225,
+        "groundtruth": [
+            284,
+            663,
+            415,
+            807
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white remote(31,586),(341,810)",
+        "filter_answer": [
+            31,
+            586,
+            341,
+            810
+        ],
+        "iou": 0.48237241828528005,
+        "groundtruth": [
+            8,
+            638,
+            367,
+            901
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a green toy(584,258),(694,453)",
+        "filter_answer": [
+            584,
+            258,
+            694,
+            453
+        ],
+        "iou": 0.2227342549923195,
+        "groundtruth": [
+            532,
+            210,
+            629,
+            432
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white bottle(31,156),(105,480)",
+        "filter_answer": [
+            31,
+            156,
+            105,
+            480
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            265,
+            364,
+            365,
+            551
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the red box(101,451),(451,798)",
+        "filter_answer": [
+            101,
+            451,
+            451,
+            798
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            938,
+            394,
+            999,
+            530
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a pen(629,948),(769,993)",
+        "filter_answer": [
+            629,
+            948,
+            769,
+            993
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            232,
+            414,
+            524,
+            535
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white cup(783,571),(996,852)",
+        "filter_answer": [
+            783,
+            571,
+            996,
+            852
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            538,
+            644,
+            724,
+            724
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the black remote(0,624),(149,759)",
+        "filter_answer": [
+            0,
+            624,
+            149,
+            759
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            456,
+            252,
+            588,
+            418
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a black laptop(849,258),(996,711)",
+        "filter_answer": [
+            849,
+            258,
+            996,
+            711
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            500,
+            516,
+            625,
+            667
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a crumpled piece of paper(329,441),(403,561)",
+        "filter_answer": [
+            329,
+            441,
+            403,
+            561
+        ],
+        "iou": 0.5006273525721455,
+        "groundtruth": [
+            337,
+            429,
+            394,
+            525
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a blue plastic file organizer(0,271),(333,918)",
+        "filter_answer": [
+            0,
+            271,
+            333,
+            918
+        ],
+        "iou": 0.03664870434576772,
+        "groundtruth": [
+            216,
+            666,
+            272,
+            807
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the books(0,458),(303,758) are missing",
+        "filter_answer": [
+            0,
+            458,
+            303,
+            758
+        ],
+        "iou": 0.019535437760571768,
+        "groundtruth": [
+            134,
+            746,
+            298,
+            818
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The difference is that the black object on the right side of the image has moved. In the second image, it is located at (638,758),(819,998).",
+        "filter_answer": [
+            638,
+            758,
+            819,
+            998
+        ],
+        "iou": 0.1365885622613372,
+        "groundtruth": [
+            726,
+            750,
+            820,
+            823
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white book(494,469),(954,799)",
+        "filter_answer": [
+            494,
+            469,
+            954,
+            799
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            465,
+            111,
+            600,
+            239
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The difference is that the glass of water in the second image is empty.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            306,
+            664,
+            369,
+            742
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the window is open(499,498),(563,588)",
+        "filter_answer": [
+            499,
+            498,
+            563,
+            588
+        ],
+        "iou": 0.16435745762038986,
+        "groundtruth": [
+            454,
+            361,
+            545,
+            620
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The white cup(499,459),(559,525) is missing in the second image.",
+        "filter_answer": [
+            499,
+            459,
+            559,
+            525
+        ],
+        "iou": 0.10456273764258556,
+        "groundtruth": [
+            537,
+            363,
+            601,
+            519
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the bottle(589,664),(629,879) is blue",
+        "filter_answer": [
+            589,
+            664,
+            629,
+            879
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            381,
+            698,
+            436,
+            874
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a piece of paper(321,555),(405,660)",
+        "filter_answer": [
+            321,
+            555,
+            405,
+            660
+        ],
+        "iou": 0.47796024200518583,
+        "groundtruth": [
+            320,
+            581,
+            450,
+            671
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a bottle(271,645),(335,843)",
+        "filter_answer": [
+            271,
+            645,
+            335,
+            843
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            352,
+            772,
+            407,
+            889
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(285,478),(357,531)",
+        "filter_answer": [
+            285,
+            478,
+            357,
+            531
+        ],
+        "iou": 0.019682785299806577,
+        "groundtruth": [
+            148,
+            100,
+            383,
+            925
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(333,384),(483,685)",
+        "filter_answer": [
+            333,
+            384,
+            483,
+            685
+        ],
+        "iou": 0.03359911406423034,
+        "groundtruth": [
+            346,
+            432,
+            383,
+            473
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(507,513),(557,723)",
+        "filter_answer": [
+            507,
+            513,
+            557,
+            723
+        ],
+        "iou": 0.7624633431085044,
+        "groundtruth": [
+            504,
+            515,
+            552,
+            747
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(634,428),(675,465)",
+        "filter_answer": [
+            634,
+            428,
+            675,
+            465
+        ],
+        "iou": 0.19886363636363635,
+        "groundtruth": [
+            626,
+            445,
+            655,
+            480
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(191,471),(255,615)",
+        "filter_answer": [
+            191,
+            471,
+            255,
+            615
+        ],
+        "iou": 0.7431693989071039,
+        "groundtruth": [
+            187,
+            479,
+            257,
+            639
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The person(519,758),(593,886) is sitting on the ground.",
+        "filter_answer": [
+            519,
+            758,
+            593,
+            886
+        ],
+        "iou": 0.2728803047754053,
+        "groundtruth": [
+            537,
+            828,
+            626,
+            883
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(625,1),(645,46) walking on the sidewalk",
+        "filter_answer": [
+            625,
+            1,
+            645,
+            46
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            436,
+            656,
+            509,
+            721
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(759,555),(903,996) is walking on the sidewalk",
+        "filter_answer": [
+            759,
+            555,
+            903,
+            996
+        ],
+        "iou": 0.5759581121372991,
+        "groundtruth": [
+            751,
+            556,
+            999,
+            999
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a woman(551,533),(801,957)",
+        "filter_answer": [
+            551,
+            533,
+            801,
+            957
+        ],
+        "iou": 0.7899661987778277,
+        "groundtruth": [
+            528,
+            539,
+            778,
+            975
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a black computer mouse(469,681),(629,801)",
+        "filter_answer": [
+            469,
+            681,
+            629,
+            801
+        ],
+        "iou": 0.47338914061900006,
+        "groundtruth": [
+            461,
+            709,
+            603,
+            844
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A bird(305,279),(395,414).",
+        "filter_answer": [
+            305,
+            279,
+            395,
+            414
+        ],
+        "iou": 0.8100965107646622,
+        "groundtruth": [
+            306,
+            264,
+            394,
+            403
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a man(25,429),(225,992)",
+        "filter_answer": [
+            25,
+            429,
+            225,
+            992
+        ],
+        "iou": 0.9597622716266784,
+        "groundtruth": [
+            28,
+            433,
+            223,
+            997
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(283,141),(357,216) is standing in the second image",
+        "filter_answer": [
+            283,
+            141,
+            357,
+            216
+        ],
+        "iou": 0.5412549724111382,
+        "groundtruth": [
+            271,
+            127,
+            362,
+            198
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(781,618),(884,834) on a scooter",
+        "filter_answer": [
+            781,
+            618,
+            884,
+            834
+        ],
+        "iou": 0.4909717364835108,
+        "groundtruth": [
+            780,
+            650,
+            895,
+            957
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(654,593),(814,883) is walking in the second image",
+        "filter_answer": [
+            654,
+            593,
+            814,
+            883
+        ],
+        "iou": 0.45098039215686275,
+        "groundtruth": [
+            634,
+            648,
+            754,
+            878
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(875,552),(925,645)",
+        "filter_answer": [
+            875,
+            552,
+            925,
+            645
+        ],
+        "iou": 0.6704152249134948,
+        "groundtruth": [
+            870,
+            550,
+            938,
+            652
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The difference is in the bottom right corner of the image. The coordinates of the difference in the second image are:(694,798),(999,999).",
+        "filter_answer": [
+            694,
+            798,
+            999,
+            999
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            394,
+            539,
+            496,
+            615
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(839,540),(933,900) is walking on the sidewalk",
+        "filter_answer": [
+            839,
+            540,
+            933,
+            900
+        ],
+        "iou": 0.896908315565032,
+        "groundtruth": [
+            832,
+            542,
+            934,
+            908
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(619,471),(653,603)",
+        "filter_answer": [
+            619,
+            471,
+            653,
+            603
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            470,
+            603,
+            583,
+            807
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a blue cone(329,603),(479,993)",
+        "filter_answer": [
+            329,
+            603,
+            479,
+            993
+        ],
+        "iou": 0.03129971146778423,
+        "groundtruth": [
+            470,
+            641,
+            582,
+            958
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The difference is that the white plastic bag in the second image has a red sticker on it, while the white plastic bag in the first image does not have a red sticker. The coordinates of the difference are: (300,200),(630,425).",
+        "filter_answer": [
+            300,
+            200,
+            630,
+            425
+        ],
+        "iou": 0.7845346576401415,
+        "groundtruth": [
+            317,
+            210,
+            682,
+            424
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(499,786),(609,996) is riding a bike",
+        "filter_answer": [
+            499,
+            786,
+            609,
+            996
+        ],
+        "iou": 0.7942242398809751,
+        "groundtruth": [
+            484,
+            805,
+            608,
+            998
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white object(609,378),(693,501)",
+        "filter_answer": [
+            609,
+            378,
+            693,
+            501
+        ],
+        "iou": 0.3771760154738878,
+        "groundtruth": [
+            578,
+            384,
+            654,
+            501
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a can(483,795),(547,861)",
+        "filter_answer": [
+            483,
+            795,
+            547,
+            861
+        ],
+        "iou": 0.3991002570694087,
+        "groundtruth": [
+            461,
+            815,
+            537,
+            874
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A bird(321,465),(495,639).",
+        "filter_answer": [
+            321,
+            465,
+            495,
+            639
+        ],
+        "iou": 0.6119038182058396,
+        "groundtruth": [
+            325,
+            488,
+            482,
+            606
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The person(405,624),(455,714) is wearing a different color.",
+        "filter_answer": [
+            405,
+            624,
+            455,
+            714
+        ],
+        "iou": 0.32314897413024085,
+        "groundtruth": [
+            409,
+            560,
+            467,
+            687
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A bird(385,516),(515,633).",
+        "filter_answer": [
+            385,
+            516,
+            515,
+            633
+        ],
+        "iou": 0.8905325443786982,
+        "groundtruth": [
+            385,
+            518,
+            514,
+            623
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a black car(859,375),(999,688)",
+        "filter_answer": [
+            859,
+            375,
+            999,
+            688
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            342,
+            349,
+            472,
+            770
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The bicycle(475,229),(975,505) in the second image is in a different position than the one in the first image.",
+        "filter_answer": [
+            475,
+            229,
+            975,
+            505
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            263,
+            867,
+            381,
+            921
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a car(1,348),(348,535)",
+        "filter_answer": [
+            1,
+            348,
+            348,
+            535
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            471,
+            736,
+            534,
+            793
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The difference is located at the bottom right corner of the image.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            323,
+            549,
+            424,
+            665
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The difference is that the cup in the second image is filled with water, while in the first image it is empty. The coordinates of the difference are: (799,498),(999,954).",
+        "filter_answer": [
+            799,
+            498,
+            999,
+            954
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            436,
+            245,
+            565,
+            377
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a black pipe(671,119),(721,259)",
+        "filter_answer": [
+            671,
+            119,
+            721,
+            259
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            357,
+            272,
+            453,
+            671
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a black object(359,665),(453,725) on the ground",
+        "filter_answer": [
+            359,
+            665,
+            453,
+            725
+        ],
+        "iou": 0.39928607853136155,
+        "groundtruth": [
+            317,
+            667,
+            440,
+            755
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(358,187),(420,361)",
+        "filter_answer": [
+            358,
+            187,
+            420,
+            361
+        ],
+        "iou": 0.14516129032258066,
+        "groundtruth": [
+            390,
+            274,
+            417,
+            332
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a person(691,539),(884,779) is riding a yellow bicycle",
+        "filter_answer": [
+            691,
+            539,
+            884,
+            779
+        ],
+        "iou": 0.5015735511815341,
+        "groundtruth": [
+            620,
+            535,
+            996,
+            776
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "紧急呼救(1,597),(128,987)",
+        "filter_answer": [
+            1,
+            597,
+            128,
+            987
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            423,
+            351,
+            474,
+            431
+        ]
+    },
+    {
+        "view_diff": {
+            "IOU@0.7": 14,
+            "IOU@0.5": 33,
+            "IOU@0.3": 50,
+            "AVE_IOU": 31.88088744477446,
+            "TOTAL": 94
+        }
+    }
+]

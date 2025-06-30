@@ -1,0 +1,1757 @@
+[
+    {
+        "task": "reasoning",
+        "question": "At their time, what might the people in image-1 need for sailing? Find it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The people in image-1 might need a map or compass for navigation, which could be found in the classroom setting of image-2. However, there is no map or compass visible in the classroom.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            442,
+            471,
+            555,
+            645
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "See the object in Image-1? Which object in Image-2 can terminate this state? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "alarm clock(665,546),(785,765)",
+        "filter_answer": [
+            665,
+            546,
+            785,
+            765
+        ],
+        "iou": 0.7333333333333333,
+        "groundtruth": [
+            670,
+            559,
+            780,
+            807
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "For the complex things in Image-1, which object in Image-2 can make processing them so much easier? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(148,535),(430,708)",
+        "filter_answer": [
+            148,
+            535,
+            430,
+            708
+        ],
+        "iou": 0.6368509313050249,
+        "groundtruth": [
+            152,
+            504,
+            481,
+            688
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object in Image-2 can be used in the scene presented in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The calculator at(151,538),(431,715) can be used in the scene presented in Image-1.",
+        "filter_answer": [
+            151,
+            538,
+            431,
+            715
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            686,
+            73,
+            932,
+            498
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "How magnificent the view is in Image-1! Which object in Image-2 can capture this scene? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a camera(125,333),(335,543)",
+        "filter_answer": [
+            125,
+            333,
+            335,
+            543
+        ],
+        "iou": 0.717948717948718,
+        "groundtruth": [
+            113,
+            302,
+            338,
+            575
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the tool that can draw the symbol of Image-1 in the second image. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "ruler(31,728),(151,831)",
+        "filter_answer": [
+            31,
+            728,
+            151,
+            831
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            248,
+            821,
+            462,
+            913
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "For the main object in Image-1, which object on the desk of Image-2 may best reflect his feature presented in the first image? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "blue pen(375,583),(439,996)",
+        "filter_answer": [
+            375,
+            583,
+            439,
+            996
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            121,
+            116,
+            322,
+            402
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object in Image-2 can effectively diminish the tense and uncomfortable state presented in Image-1? Find it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "perfume(549,783),(872,999)",
+        "filter_answer": [
+            549,
+            783,
+            872,
+            999
+        ],
+        "iou": 0.922620892224363,
+        "groundtruth": [
+            540,
+            776,
+            873,
+            995
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "See the blue object in Image-1? Which object on the desk of Image-2 may open and start it? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "blue object(21,219),(851,897)",
+        "filter_answer": [
+            21,
+            219,
+            851,
+            897
+        ],
+        "iou": 0.05654476312328962,
+        "groundtruth": [
+            212,
+            654,
+            360,
+            869
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the object in Image-2 that can ease the tense situation presented in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a cup of coffee(291,24),(545,384)",
+        "filter_answer": [
+            291,
+            24,
+            545,
+            384
+        ],
+        "iou": 0.05783323430382254,
+        "groundtruth": [
+            472,
+            11,
+            991,
+            761
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "How messy Image-1 is! Bob wants to clear it up. Which object in Image-2 can help him do it? Find it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a blue chair(531,469),(731,883)",
+        "filter_answer": [
+            531,
+            469,
+            731,
+            883
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            207,
+            65,
+            354,
+            237
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the object in Image-2 that can help the person in Image-1, to get the nail into the wall. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Hammer(715,187),(999,451)",
+        "filter_answer": [
+            715,
+            187,
+            999,
+            451
+        ],
+        "iou": 0.7810294117647059,
+        "groundtruth": [
+            711,
+            167,
+            997,
+            413
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "For the people in Image-1, at their time, which object on the table of Image-2 may help them travelling around the world? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,3),(1000,999)",
+        "filter_answer": [
+            0,
+            3,
+            1000,
+            999
+        ],
+        "iou": 0.06012550200803213,
+        "groundtruth": [
+            0,
+            197,
+            203,
+            492
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Carefully look at the texture of the object in Image-1, which is the real appropriate object to get it into the wood? Find it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "screw(435,117),(545,557)",
+        "filter_answer": [
+            435,
+            117,
+            545,
+            557
+        ],
+        "iou": 4.3689744560626805e-05,
+        "groundtruth": [
+            198,
+            556,
+            441,
+            922
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Look at the guy in Image-1! How sweaty he is! Which object on the table of Image-2 can help him? Locate it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "hammer(1,488),(251,698)",
+        "filter_answer": [
+            1,
+            488,
+            251,
+            698
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            538,
+            530,
+            999,
+            741
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "For the people working hard in the harzardous construction site, locate the object on the table of Image-2 to keep him safer. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "yellow hard hat(0,498),(193,798)",
+        "filter_answer": [
+            0,
+            498,
+            193,
+            798
+        ],
+        "iou": 0.6827033357076457,
+        "groundtruth": [
+            0,
+            505,
+            194,
+            925
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "There is potential risk for the person in Image-1. Find the object in Image-2 that can effectively protect him. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "yellow hard hat(0,513),(189,810)",
+        "filter_answer": [
+            0,
+            513,
+            189,
+            810
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            809,
+            2,
+            989,
+            275
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Ground the object in Image-2 that is mostly required by the person in Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "gloves(58,458),(328,788)",
+        "filter_answer": [
+            58,
+            458,
+            328,
+            788
+        ],
+        "iou": 0.5154208900211393,
+        "groundtruth": [
+            15,
+            362,
+            317,
+            715
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "See the creative girl in Image-1? Which object in Image-2 can best reflect her characteristics presented in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "scissors(555,559),(625,662)",
+        "filter_answer": [
+            555,
+            559,
+            625,
+            662
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            481,
+            1,
+            797,
+            236
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object in Image-2 can effectively solve the messy state of Image-1? Locate it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "stapler(678,538),(932,745)",
+        "filter_answer": [
+            678,
+            538,
+            932,
+            745
+        ],
+        "iou": 0.6566504308729861,
+        "groundtruth": [
+            672,
+            500,
+            986,
+            755
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "What may the person in Image-1 mostly need? Locate it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "The person in Image-1 may mostly need a pen to write on the white paper they are holding. In Image-2, there is a pen holder with several pens, located at [0.38, 0.43, 0.5, 0.65].",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            355,
+            406,
+            498,
+            683
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the object in Image-2 that the person of Image-1 may mostly in favour of, given his image context. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "soccer ball(231,624),(315,723)",
+        "filter_answer": [
+            231,
+            624,
+            315,
+            723
+        ],
+        "iou": 0.5991620111731844,
+        "groundtruth": [
+            227,
+            590,
+            309,
+            712
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Find the object on Image-2's table that the phone in Image-1 mostly requires. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "power bank(313,654),(397,819)",
+        "filter_answer": [
+            313,
+            654,
+            397,
+            819
+        ],
+        "iou": 0.574430823117338,
+        "groundtruth": [
+            280,
+            655,
+            391,
+            846
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the object in Image-2 that is mostly related to Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "guitar(239,276),(339,606)",
+        "filter_answer": [
+            239,
+            276,
+            339,
+            606
+        ],
+        "iou": 0.8960279735562476,
+        "groundtruth": [
+            237,
+            270,
+            346,
+            604
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object in Image-2 mostly helps this child of Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "coffee cup(441,447),(551,603)",
+        "filter_answer": [
+            441,
+            447,
+            551,
+            603
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            353,
+            232,
+            495,
+            437
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object in Image-2 can effectively solve the state of Image-1 if I want to read here? Locate it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "lamp(703,100),(853,650)",
+        "filter_answer": [
+            703,
+            100,
+            853,
+            650
+        ],
+        "iou": 0.7318501170960188,
+        "groundtruth": [
+            693,
+            84,
+            861,
+            755
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Tell me the location of the most helpful object in Image-2 for the person of Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "white cup(259,568),(423,888)",
+        "filter_answer": [
+            259,
+            568,
+            423,
+            888
+        ],
+        "iou": 0.8749387324209177,
+        "groundtruth": [
+            258,
+            569,
+            424,
+            852
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "How marvellous the object in Image-1 is! Which thing is the first step to make an equally amazing artcraft? Locate it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "scissors(421,375),(561,575)",
+        "filter_answer": [
+            421,
+            375,
+            561,
+            575
+        ],
+        "iou": 0.6041835905767668,
+        "groundtruth": [
+            410,
+            333,
+            576,
+            545
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object may the little girls need most? Locate it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "glasses(693,251),(853,351)",
+        "filter_answer": [
+            693,
+            251,
+            853,
+            351
+        ],
+        "iou": 0.14201450540190796,
+        "groundtruth": [
+            710,
+            160,
+            887,
+            284
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object may prevent the huge influence of Image-1 on in-studying students? Locate it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "headphone(258,0),(508,453)",
+        "filter_answer": [
+            258,
+            0,
+            508,
+            453
+        ],
+        "iou": 0.3341257263602747,
+        "groundtruth": [
+            256,
+            0,
+            488,
+            165
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the stuff in Image-2 that can rotate the things in Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(30,10),(759,283)",
+        "filter_answer": [
+            30,
+            10,
+            759,
+            283
+        ],
+        "iou": 0.7957574173931634,
+        "groundtruth": [
+            12,
+            42,
+            725,
+            293
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the stuff in Image-2 that can pump the things in Image-1 into thick wood or wall. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "drill(551,339),(731,533)",
+        "filter_answer": [
+            551,
+            339,
+            731,
+            533
+        ],
+        "iou": 0.6705069124423964,
+        "groundtruth": [
+            517,
+            320,
+            734,
+            560
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object in Image-2 may best contain/hold the thing of Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "red plate(531,339),(795,585)",
+        "filter_answer": [
+            531,
+            339,
+            795,
+            585
+        ],
+        "iou": 0.8978102189781022,
+        "groundtruth": [
+            521,
+            339,
+            795,
+            603
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Find the object on Image-2's table that shares the same color of the flowers in Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "pink flowers(619,589),(994,854)",
+        "filter_answer": [
+            619,
+            589,
+            994,
+            854
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            611,
+            294,
+            758,
+            499
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Precisely locate the right charging port for image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "right charging port(691,488),(851,691)",
+        "filter_answer": [
+            691,
+            488,
+            851,
+            691
+        ],
+        "iou": 0.05119354540870319,
+        "groundtruth": [
+            453,
+            227,
+            744,
+            624
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Find the object in Image-2 that can send the nail of image-1 full into the wall. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "hammer(635,306),(799,654)",
+        "filter_answer": [
+            635,
+            306,
+            799,
+            654
+        ],
+        "iou": 0.8105633178743391,
+        "groundtruth": [
+            616,
+            283,
+            795,
+            649
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object on the white table of Image-2 can add to the diversity of the dishes on Image-1's table? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a spam can(348,471),(451,644)",
+        "filter_answer": [
+            348,
+            471,
+            451,
+            644
+        ],
+        "iou": 0.614558033414293,
+        "groundtruth": [
+            351,
+            477,
+            486,
+            670
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "How messy the plates of Image-1 are! Locate the object in Image-2 that can mostly effectively clean them. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a sponge(679,341),(779,487)",
+        "filter_answer": [
+            679,
+            341,
+            779,
+            487
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            419,
+            395,
+            569,
+            535
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "As the saying goes, eat which object of image-2 everyday can keep the people of image-1 away? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "apple(725,324),(791,468)",
+        "filter_answer": [
+            725,
+            324,
+            791,
+            468
+        ],
+        "iou": 0.6432160804020101,
+        "groundtruth": [
+            699,
+            314,
+            789,
+            470
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Considering the feature presented in Image-1, which object on the table of Image-2 may the child mostly skilled at? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Rubik's cube(455,509),(559,681)",
+        "filter_answer": [
+            455,
+            509,
+            559,
+            681
+        ],
+        "iou": 0.9228374471870135,
+        "groundtruth": [
+            459,
+            515,
+            559,
+            682
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "How much oil there is in Image-1! Which stuff on the table can clean it effectively? Find it in image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "oil(1,10),(996,993)",
+        "filter_answer": [
+            1,
+            10,
+            996,
+            993
+        ],
+        "iou": 0.10795483010167828,
+        "groundtruth": [
+            333,
+            151,
+            664,
+            470
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the one appropriate object in Image-2 that can rotate the object of Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Screwdriver(106,278),(426,658)",
+        "filter_answer": [
+            106,
+            278,
+            426,
+            658
+        ],
+        "iou": 0.3229807375908067,
+        "groundtruth": [
+            39,
+            230,
+            847,
+            597
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "On which object of Image-2 can we place the orange LEGO toy? Locate it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "orange LEGO toy(41,34),(951,958)",
+        "filter_answer": [
+            41,
+            34,
+            951,
+            958
+        ],
+        "iou": 0.04957899243613529,
+        "groundtruth": [
+            318,
+            434,
+            534,
+            627
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object of Image-2 is the most suitable for women in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Trash Bags(499,398),(779,628)",
+        "filter_answer": [
+            499,
+            398,
+            779,
+            628
+        ],
+        "iou": 0.05365280444813849,
+        "groundtruth": [
+            500,
+            329,
+            578,
+            446
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "How plain the house in Image-1 is! Which tool in Image-2 can we use to furnish the house? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "paintbrush(261,538),(521,638)",
+        "filter_answer": [
+            261,
+            538,
+            521,
+            638
+        ],
+        "iou": 0.6270499710592321,
+        "groundtruth": [
+            245,
+            522,
+            529,
+            668
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object-B on Image-2's table can break the object-A in Image-1 into pieces effectively? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "scissors(548,111),(758,207)",
+        "filter_answer": [
+            548,
+            111,
+            758,
+            207
+        ],
+        "iou": 0.6508264462809917,
+        "groundtruth": [
+            536,
+            93,
+            778,
+            221
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Focus on the barefoot of Image-1, which object on the table may the person primarily need? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "sock(535,285),(675,561)",
+        "filter_answer": [
+            535,
+            285,
+            675,
+            561
+        ],
+        "iou": 0.6381503691635758,
+        "groundtruth": [
+            527,
+            270,
+            728,
+            548
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object on Image-2's table can concat and fix the items in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(456,306),(799,644)",
+        "filter_answer": [
+            456,
+            306,
+            799,
+            644
+        ],
+        "iou": 0.1075353218210361,
+        "groundtruth": [
+            466,
+            401,
+            557,
+            538
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "On which item of Image-2 can the objects in Image-1 be perfectly inserted in? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a box(475,345),(655,516)",
+        "filter_answer": [
+            475,
+            345,
+            655,
+            516
+        ],
+        "iou": 0.04544758990053558,
+        "groundtruth": [
+            325,
+            450,
+            529,
+            701
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the item in Image-2 that can cook, bake and process the stuff in Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Toaster(658,375),(999,798)",
+        "filter_answer": [
+            658,
+            375,
+            999,
+            798
+        ],
+        "iou": 0.8582949086489302,
+        "groundtruth": [
+            630,
+            384,
+            990,
+            786
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the item in Image-2 that can cook, bake and process the stuff in Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a toaster(419,438),(739,838)",
+        "filter_answer": [
+            419,
+            438,
+            739,
+            838
+        ],
+        "iou": 0.55513599422884,
+        "groundtruth": [
+            346,
+            444,
+            669,
+            902
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "As the saying goes, eat which object of image-2 everyday can keep the people of image-1 away? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "orange(721,475),(945,858)",
+        "filter_answer": [
+            721,
+            475,
+            945,
+            858
+        ],
+        "iou": 0.005371854955089748,
+        "groundtruth": [
+            477,
+            350,
+            724,
+            846
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the item in Image-2 that can cook, bake and process the stuff in Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "item in Image-2 that can cook, bake and process the stuff in Image-1(379,375),(686,758)",
+        "filter_answer": [
+            379,
+            375,
+            686,
+            758
+        ],
+        "iou": 0.7480849493561358,
+        "groundtruth": [
+            366,
+            325,
+            699,
+            797
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "As the saying goes, eat which object of image-2 everyday can keep the people of image-1 away? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "lemon(351,500),(454,699)",
+        "filter_answer": [
+            351,
+            500,
+            454,
+            699
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            617,
+            411,
+            866,
+            737
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the object on Image-2's table that can unlock and start the object in Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the car key(393,450),(673,810)",
+        "filter_answer": [
+            393,
+            450,
+            673,
+            810
+        ],
+        "iou": 0.39004155799933443,
+        "groundtruth": [
+            338,
+            207,
+            712,
+            898
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Ground the specific item on Image-2's table that can divide and split the item in Image-1 into pieces. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "scissors(699,244),(971,699)",
+        "filter_answer": [
+            699,
+            244,
+            971,
+            699
+        ],
+        "iou": 0.6056275997063861,
+        "groundtruth": [
+            680,
+            209,
+            985,
+            879
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which tiny object on Image-2's table can contribute to the sweater worn by the women in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a tiny black sock(639,431),(845,527)",
+        "filter_answer": [
+            639,
+            431,
+            845,
+            527
+        ],
+        "iou": 0.14419743782969102,
+        "groundtruth": [
+            656,
+            355,
+            745,
+            474
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which item may the man in Image-1 mostly want to get on, considering his state? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a bed(395,357),(865,747)",
+        "filter_answer": [
+            395,
+            357,
+            865,
+            747
+        ],
+        "iou": 0.7278261907604154,
+        "groundtruth": [
+            372,
+            260,
+            864,
+            770
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "See how fancy and well-dressed the man in Image-1 is! Which item in Image-2 is a must for his appearance? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a must for his appearance(539,261),(613,483)",
+        "filter_answer": [
+            539,
+            261,
+            613,
+            483
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            0,
+            1,
+            232,
+            999
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "On which stuff in Image-2 can the object-A in Image-1 be appropriately utilized? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object-A in Image-1 can be appropriately utilized(357,2),(945,316)",
+        "filter_answer": [
+            357,
+            2,
+            945,
+            316
+        ],
+        "iou": 0.008539663784306354,
+        "groundtruth": [
+            521,
+            307,
+            733,
+            499
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the object-B in Image2 that the man in Image-1 desperately want. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a sandwich(511,593),(701,828)",
+        "filter_answer": [
+            511,
+            593,
+            701,
+            828
+        ],
+        "iou": 0.42749482401656314,
+        "groundtruth": [
+            523,
+            683,
+            718,
+            896
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "One day Bob's view of the world become what shows in Image-1. What does he need from your opinion? Ground this needed item in Image-2.(if there are multiple candidates, select the most sturdy one) Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Bob needs a pair of glasses from Image-2.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            216,
+            318,
+            283,
+            442
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which item on Image-2's table is a match for the scene in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(15,583),(465,999)",
+        "filter_answer": [
+            15,
+            583,
+            465,
+            999
+        ],
+        "iou": 0.04877136752136752,
+        "groundtruth": [
+            135,
+            736,
+            245,
+            819
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which things can display the view in Image-1? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "which things can display the view(1,1),(996,994) in Image-1",
+        "filter_answer": [
+            1,
+            1,
+            996,
+            994
+        ],
+        "iou": 0.29898940826994996,
+        "groundtruth": [
+            147,
+            129,
+            823,
+            566
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Assume Bob is in Image-2, interacting with the man in Image-1, which object may Bob most likely to use? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "phone(15,519),(135,663)",
+        "filter_answer": [
+            15,
+            519,
+            135,
+            663
+        ],
+        "iou": 0.6233766233766234,
+        "groundtruth": [
+            10,
+            504,
+            178,
+            669
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the thing of Image-2 that can display the landscape of Image-1. Find it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "thing of Image-2 that can display the landscape of Image-1(169,100),(830,450)",
+        "filter_answer": [
+            169,
+            100,
+            830,
+            450
+        ],
+        "iou": 0.4356081103336643,
+        "groundtruth": [
+            81,
+            74,
+            698,
+            688
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "One day Bob's view of the world become what shows in Image-1. What does he need from your opinion? Ground this needed item in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Bob needs glasses from Image-2. The glasses are located at (100,608),(200,681).",
+        "filter_answer": [
+            100,
+            608,
+            200,
+            681
+        ],
+        "iou": 0.38843184407037085,
+        "groundtruth": [
+            77,
+            619,
+            199,
+            739
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "See the poor woman in Image-1? Locate the object on Image2's table that can release her of her current state. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "A cup(399,357),(559,627)",
+        "filter_answer": [
+            399,
+            357,
+            559,
+            627
+        ],
+        "iou": 0.04569433669511249,
+        "groundtruth": [
+            162,
+            570,
+            461,
+            696
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which stuff of Image2 can the object-A in Image-1 be applied to in order to fully realizing object-A's function? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "papers(583,453),(913,783)",
+        "filter_answer": [
+            583,
+            453,
+            913,
+            783
+        ],
+        "iou": 0.33171385491707156,
+        "groundtruth": [
+            479,
+            184,
+            996,
+            819
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which item on the table can contain the thing in Image-1? Find it and gorund it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "cup(419,333),(569,555)",
+        "filter_answer": [
+            419,
+            333,
+            569,
+            555
+        ],
+        "iou": 0.5564839572192514,
+        "groundtruth": [
+            406,
+            269,
+            582,
+            609
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Assume Bob is in Image-2, interacting with the woman in Image-1, which object may Bob most likely to use? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Bob(400,38),(944,993) most likely to use the white computer keyboard(425,831),(715,933).",
+        "filter_answer": [
+            400,
+            38,
+            944,
+            993
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            53,
+            732,
+            166,
+            812
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "For the students in Image-1, they are clearly hosting an activity. Which object in Image-2 can help them gain better sense of time? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "clock(685,105),(735,168)",
+        "filter_answer": [
+            685,
+            105,
+            735,
+            168
+        ],
+        "iou": 0.08081896551724138,
+        "groundtruth": [
+            629,
+            88,
+            803,
+            312
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object can capture the view of Image-1? Ground the most appropriate one in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "camera(511,0),(715,106)",
+        "filter_answer": [
+            511,
+            0,
+            715,
+            106
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            0,
+            584,
+            197,
+            905
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "One day Bob feels watching TV on that giant television is great waste of electricity. Are there any alternatives on Image2's table to help him enjoy TV in a greener manner? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "tablet(369,178),(684,628)",
+        "filter_answer": [
+            369,
+            178,
+            684,
+            628
+        ],
+        "iou": 0.9365679061443627,
+        "groundtruth": [
+            370,
+            171,
+            697,
+            631
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Poor Bob's parents run into the situation in Image-1 again! Which item on Image-2's table can help him literally turn bind to this situation? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Motivation book(725,11),(985,421)",
+        "filter_answer": [
+            725,
+            11,
+            985,
+            421
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            11,
+            4,
+            262,
+            321
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "For the prominent part in Image-1, which item in Image2 can clean that? Locate this helpful item in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "blue microfiber cloth(143,25),(977,698)",
+        "filter_answer": [
+            143,
+            25,
+            977,
+            698
+        ],
+        "iou": 0.9243108542068079,
+        "groundtruth": [
+            163,
+            35,
+            996,
+            710
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "When I am justing working hard, which object on Image-2's table can remind me of the scene in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "baseball(683,389),(833,539)",
+        "filter_answer": [
+            683,
+            389,
+            833,
+            539
+        ],
+        "iou": 0.6841343734272773,
+        "groundtruth": [
+            660,
+            368,
+            847,
+            534
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "See the giant sun in Image-1? That't today's whether. So for today, which object in Image-2 is particularly essesntial? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a ceiling fan(213,15),(523,201)",
+        "filter_answer": [
+            213,
+            15,
+            523,
+            201
+        ],
+        "iou": 0.7063527991549721,
+        "groundtruth": [
+            212,
+            3,
+            552,
+            166
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Bob is in Image-1, enjoying the view. Laterly when he walks on the sticky sand beach, which object in his living room(Image-2) may he really need? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a towel(255,559),(375,633)(255,535),(375,597)",
+        "filter_answer": [
+            255,
+            559,
+            375,
+            633
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            122,
+            696,
+            207,
+            814
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Bob have just come home after enjoying the thing in Image-1. And he has brought a souvenir with a similar shape of Image-1. Locate this object in Image2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a souvenir with a similar shape(585,553),(735,843)",
+        "filter_answer": [
+            585,
+            553,
+            735,
+            843
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            118,
+            230,
+            179,
+            330
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "There is this object in Image-2, if it is alive, it will have a lot of fun in Image-2. Please help me find the object in the setting of Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "There is this object in Image-2(639,153),(749,327)",
+        "filter_answer": [
+            639,
+            153,
+            749,
+            327
+        ],
+        "iou": 0.3625,
+        "groundtruth": [
+            634,
+            99,
+            688,
+            338
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object in Image-2 can contribute to the activity the people of Image-1 conducting? Find it and gorund it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "exercise ball(511,787),(671,996)",
+        "filter_answer": [
+            511,
+            787,
+            671,
+            996
+        ],
+        "iou": 0.6133664667510932,
+        "groundtruth": [
+            520,
+            826,
+            717,
+            999
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Just when we are about to enjoy the object-A in Image-1, we are short of a heater that keeps object-A hot. Please find this object in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a heater that keeps object-A hot(765,591),(835,705)",
+        "filter_answer": [
+            765,
+            591,
+            835,
+            705
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            258,
+            756,
+            396,
+            888
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which item in Image-2 can be worn on Image-1? Please find this object in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "watch(455,651),(535,795)",
+        "filter_answer": [
+            455,
+            651,
+            535,
+            795
+        ],
+        "iou": 0.2631338510735496,
+        "groundtruth": [
+            444,
+            601,
+            554,
+            999
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which item in Image-2 has the similat texture of the object-A in Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a white blanket(291,498),(771,834)(291,498),(771,834)",
+        "filter_answer": [
+            291,
+            498,
+            771,
+            834
+        ],
+        "iou": 0.6485266790549509,
+        "groundtruth": [
+            422,
+            495,
+            822,
+            837
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "See the poor state of the man! Which object in Image-2 may cause him to get in this state? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Ground it in Image-2(119,465),(629,907)",
+        "filter_answer": [
+            119,
+            465,
+            629,
+            907
+        ],
+        "iou": 0.8634226129625844,
+        "groundtruth": [
+            120,
+            446,
+            612,
+            877
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "See the poor state of the man! Which object in Image-2 may cause him to get in this state? Ground it in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a bottle(665,102),(799,633)",
+        "filter_answer": [
+            665,
+            102,
+            799,
+            633
+        ],
+        "iou": 0.8242802198468837,
+        "groundtruth": [
+            658,
+            98,
+            813,
+            609
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "For the students in Image-1, they are clearly hosting an activity. Which object in Image-2 can help them gain better sense of time? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "clock(621,111),(715,246)",
+        "filter_answer": [
+            621,
+            111,
+            715,
+            246
+        ],
+        "iou": 0.7411667061892341,
+        "groundtruth": [
+            602,
+            105,
+            722,
+            244
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which object in Image-2 may mostly be the work of the man in Image-1? Please find this object in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "painting(141,103),(445,674)",
+        "filter_answer": [
+            141,
+            103,
+            445,
+            674
+        ],
+        "iou": 0.9338406855797117,
+        "groundtruth": [
+            135,
+            90,
+            441,
+            682
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Assume you get the chance to let the woman in Image-1 autograpg on your paper, which object-A in Image-1 should she need? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "pen(541,498),(631,858)",
+        "filter_answer": [
+            541,
+            498,
+            631,
+            858
+        ],
+        "iou": 0.3243905734303526,
+        "groundtruth": [
+            582,
+            443,
+            673,
+            841
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "How many things there are in Image-1! Theoritically, which object in Image-1 can contain the content of all these things? Please locate this object in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "There are 14 things in Image-1. In Image-2, the object that can contain the content of all these things is the box, located at (250,250),(750,750).",
+        "filter_answer": [
+            250,
+            250,
+            750,
+            750
+        ],
+        "iou": 0.48822123591669514,
+        "groundtruth": [
+            361,
+            182,
+            647,
+            832
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which item in Image-2 can be worn on Image-1? Please find this object in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "Watch(25,257),(975,857)",
+        "filter_answer": [
+            25,
+            257,
+            975,
+            857
+        ],
+        "iou": 0.6788201163854076,
+        "groundtruth": [
+            1,
+            308,
+            747,
+            858
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which item in Image-2 share the similar feature of Image-1? Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "a computer monitor(399,384),(613,568)",
+        "filter_answer": [
+            399,
+            384,
+            613,
+            568
+        ],
+        "iou": 0.6967442096708655,
+        "groundtruth": [
+            418,
+            391,
+            595,
+            546
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "For the complex things in Image-1, which object in Image-2 can make processing them so much easier? Please find this object in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "laptop(303,345),(617,669)",
+        "filter_answer": [
+            303,
+            345,
+            617,
+            669
+        ],
+        "iou": 0.5354639045032527,
+        "groundtruth": [
+            180,
+            327,
+            626,
+            753
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Locate the object in Image-2 that is mostly related to Image-1. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "guitar(135,0),(305,333)",
+        "filter_answer": [
+            135,
+            0,
+            305,
+            333
+        ],
+        "iou": 0.7492101105845181,
+        "groundtruth": [
+            129,
+            0,
+            296,
+            271
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Which furniture in Image-2 can deal with the object-A in Image-1? Please locate this object in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "dresser(451,333),(621,666)",
+        "filter_answer": [
+            451,
+            333,
+            621,
+            666
+        ],
+        "iou": 0.3153516667701285,
+        "groundtruth": [
+            435,
+            188,
+            578,
+            533
+        ]
+    },
+    {
+        "task": "reasoning",
+        "question": "Given the general state of the man in Image-1, which item of Image-2 does he need most, from your opinion? Please locate this object in Image-2. Find it and locate it in the second image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "toilet paper(105,851),(148,904)",
+        "filter_answer": [
+            105,
+            851,
+            148,
+            904
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            554,
+            286,
+            916,
+            917
+        ]
+    },
+    {
+        "reasoning": {
+            "IOU@0.7": 22,
+            "IOU@0.5": 45,
+            "IOU@0.3": 56,
+            "AVE_IOU": 38.15776706882143,
+            "TOTAL": 97
+        }
+    }
+]

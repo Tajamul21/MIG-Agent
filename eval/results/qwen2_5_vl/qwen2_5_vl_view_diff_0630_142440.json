@@ -1,0 +1,1703 @@
+[
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[390,486,570,530]",
+        "filter_answer": [
+            390,
+            486,
+            570,
+            530
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            383,
+            722,
+            603,
+            816
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[758,364,1007,473]",
+        "filter_answer": [
+            758,
+            364,
+            1007,
+            473
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            580,
+            391,
+            643,
+            461
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[0,215,324,506]",
+        "filter_answer": [
+            0,
+            215,
+            324,
+            506
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            521,
+            325,
+            608,
+            428
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[590,234,896,627]",
+        "filter_answer": [
+            590,
+            234,
+            896,
+            627
+        ],
+        "iou": 0.6352352661859382,
+        "groundtruth": [
+            601,
+            237,
+            914,
+            799
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[430,385,586,470]",
+        "filter_answer": [
+            430,
+            385,
+            586,
+            470
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            391,
+            737,
+            493,
+            888
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[768,169,924,503]",
+        "filter_answer": [
+            768,
+            169,
+            924,
+            503
+        ],
+        "iou": 0.27165180216702295,
+        "groundtruth": [
+            767,
+            314,
+            955,
+            771
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[439,196,550,302]",
+        "filter_answer": [
+            439,
+            196,
+            550,
+            302
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            447,
+            304,
+            558,
+            457
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[308,697,450,770]",
+        "filter_answer": [
+            308,
+            697,
+            450,
+            770
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            431,
+            390,
+            542,
+            456
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[897,305,916,324]",
+        "filter_answer": [
+            897,
+            305,
+            916,
+            324
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            862,
+            137,
+            979,
+            200
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[415,708,509,736]",
+        "filter_answer": [
+            415,
+            708,
+            509,
+            736
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            600,
+            619,
+            753,
+            669
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "bbox_2d[369,148,672,1007]",
+        "filter_answer": [
+            369,
+            148,
+            672,
+            1007
+        ],
+        "iou": 0.027499515652956795,
+        "groundtruth": [
+            545,
+            480,
+            724,
+            537
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[627,465,755,589]",
+        "filter_answer": [
+            627,
+            465,
+            755,
+            589
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            50,
+            413,
+            100,
+            503
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "bbox_2d[608,579,643,604]",
+        "filter_answer": [
+            608,
+            579,
+            643,
+            604
+        ],
+        "iou": 0.04948162111215834,
+        "groundtruth": [
+            591,
+            486,
+            686,
+            594
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[349,126,587,200]",
+        "filter_answer": [
+            349,
+            126,
+            587,
+            200
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            510,
+            347,
+            819,
+            472
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            509,
+            285,
+            588,
+            457
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            485,
+            160,
+            692,
+            348
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[163,784,250,910]",
+        "filter_answer": [
+            163,
+            784,
+            250,
+            910
+        ],
+        "iou": 0.022136083615975636,
+        "groundtruth": [
+            237,
+            636,
+            469,
+            907
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[397,504,436,548]",
+        "filter_answer": [
+            397,
+            504,
+            436,
+            548
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            499,
+            417,
+            555,
+            500
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[846,459,905,553]",
+        "filter_answer": [
+            846,
+            459,
+            905,
+            553
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            667,
+            589,
+            857,
+            786
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[509,508,663,547]",
+        "filter_answer": [
+            509,
+            508,
+            663,
+            547
+        ],
+        "iou": 0.3613979348689436,
+        "groundtruth": [
+            506,
+            512,
+            652,
+            600
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[307,556,540,875]",
+        "filter_answer": [
+            307,
+            556,
+            540,
+            875
+        ],
+        "iou": 0.03988794636120897,
+        "groundtruth": [
+            502,
+            411,
+            778,
+            716
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[543,508,576,553]",
+        "filter_answer": [
+            543,
+            508,
+            576,
+            553
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            508,
+            586,
+            578,
+            800
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[635,480,827,639]",
+        "filter_answer": [
+            635,
+            480,
+            827,
+            639
+        ],
+        "iou": 0.002800606032780864,
+        "groundtruth": [
+            604,
+            637,
+            696,
+            780
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[367,12,570,184]",
+        "filter_answer": [
+            367,
+            12,
+            570,
+            184
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            582,
+            271,
+            658,
+            329
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[500,390,687,469]",
+        "filter_answer": [
+            500,
+            390,
+            687,
+            469
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            497,
+            170,
+            639,
+            230
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[250,316,354,512]",
+        "filter_answer": [
+            250,
+            316,
+            354,
+            512
+        ],
+        "iou": 0.04094137306781785,
+        "groundtruth": [
+            342,
+            250,
+            446,
+            629
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[648,639,750,668]",
+        "filter_answer": [
+            648,
+            639,
+            750,
+            668
+        ],
+        "iou": 0.03889688166265102,
+        "groundtruth": [
+            637,
+            646,
+            864,
+            897
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[587,116,714,260]",
+        "filter_answer": [
+            587,
+            116,
+            714,
+            260
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            265,
+            797,
+            511,
+            995
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[309,687,405,748]",
+        "filter_answer": [
+            309,
+            687,
+            405,
+            748
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            457,
+            405,
+            585,
+            672
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[950,314,1007,368]",
+        "filter_answer": [
+            950,
+            314,
+            1007,
+            368
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            547,
+            277,
+            629,
+            407
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[345,157,672,704]",
+        "filter_answer": [
+            345,
+            157,
+            672,
+            704
+        ],
+        "iou": 0.10851149434790038,
+        "groundtruth": [
+            499,
+            520,
+            606,
+            728
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[275,796,483,870]",
+        "filter_answer": [
+            275,
+            796,
+            483,
+            870
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            395,
+            601,
+            449,
+            710
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[409,735,672,800]",
+        "filter_answer": [
+            409,
+            735,
+            672,
+            800
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            609,
+            508,
+            703,
+            626
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[875,654,999,672]",
+        "filter_answer": [
+            875,
+            654,
+            999,
+            672
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            515,
+            596,
+            643,
+            780
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[83,426,305,644]",
+        "filter_answer": [
+            83,
+            426,
+            305,
+            644
+        ],
+        "iou": 0.32382108037993224,
+        "groundtruth": [
+            84,
+            332,
+            297,
+            996
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "<points x1=\"384\" y1=\"560\" alt=\"real difference\">real difference</points>",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            309,
+            710,
+            403,
+            921
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[345,607,452,810]",
+        "filter_answer": [
+            345,
+            607,
+            452,
+            810
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            424,
+            306,
+            657,
+            395
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[340,516,398,537]",
+        "filter_answer": [
+            340,
+            516,
+            398,
+            537
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            284,
+            663,
+            415,
+            807
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[39,400,345,537]",
+        "filter_answer": [
+            39,
+            400,
+            345,
+            537
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            8,
+            638,
+            367,
+            901
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[554,243,698,407]",
+        "filter_answer": [
+            554,
+            243,
+            698,
+            407
+        ],
+        "iou": 0.3744292237442922,
+        "groundtruth": [
+            532,
+            210,
+            629,
+            432
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[598,456,703,491]",
+        "filter_answer": [
+            598,
+            456,
+            703,
+            491
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            265,
+            364,
+            365,
+            551
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[468,125,653,407]",
+        "filter_answer": [
+            468,
+            125,
+            653,
+            407
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            938,
+            394,
+            999,
+            530
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[803,567,934,617]",
+        "filter_answer": [
+            803,
+            567,
+            934,
+            617
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            232,
+            414,
+            524,
+            535
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            538,
+            644,
+            724,
+            724
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[425,306,527,512]",
+        "filter_answer": [
+            425,
+            306,
+            527,
+            512
+        ],
+        "iou": 0.22738190552441953,
+        "groundtruth": [
+            456,
+            252,
+            588,
+            418
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[870,394,916,503]",
+        "filter_answer": [
+            870,
+            394,
+            916,
+            503
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            500,
+            516,
+            625,
+            667
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[314,658,530,672]",
+        "filter_answer": [
+            314,
+            658,
+            530,
+            672
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            337,
+            429,
+            394,
+            525
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[690,473,735,605]",
+        "filter_answer": [
+            690,
+            473,
+            735,
+            605
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            216,
+            666,
+            272,
+            807
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[486,305,672,701]",
+        "filter_answer": [
+            486,
+            305,
+            672,
+            701
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            134,
+            746,
+            298,
+            818
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[469,450,647,672]",
+        "filter_answer": [
+            469,
+            450,
+            647,
+            672
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            726,
+            750,
+            820,
+            823
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[503,334,942,600]",
+        "filter_answer": [
+            503,
+            334,
+            942,
+            600
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            465,
+            111,
+            600,
+            239
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[340,189,430,496]",
+        "filter_answer": [
+            340,
+            189,
+            430,
+            496
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            306,
+            664,
+            369,
+            742
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[504,387,526,419]",
+        "filter_answer": [
+            504,
+            387,
+            526,
+            419
+        ],
+        "iou": 0.02986974415545844,
+        "groundtruth": [
+            454,
+            361,
+            545,
+            620
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[580,329,614,375]",
+        "filter_answer": [
+            580,
+            329,
+            614,
+            375
+        ],
+        "iou": 0.022308781869688384,
+        "groundtruth": [
+            537,
+            363,
+            601,
+            519
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[530,557,600,598]",
+        "filter_answer": [
+            530,
+            557,
+            600,
+            598
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            381,
+            698,
+            436,
+            874
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[330,378,425,439]",
+        "filter_answer": [
+            330,
+            378,
+            425,
+            439
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            320,
+            581,
+            450,
+            671
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[380,254,674,569]",
+        "filter_answer": [
+            380,
+            254,
+            674,
+            569
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            352,
+            772,
+            407,
+            889
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[136,140,327,563]",
+        "filter_answer": [
+            136,
+            140,
+            327,
+            563
+        ],
+        "iou": 0.38058114812189936,
+        "groundtruth": [
+            148,
+            100,
+            383,
+            925
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[280,439,307,501]",
+        "filter_answer": [
+            280,
+            439,
+            307,
+            501
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            346,
+            432,
+            383,
+            473
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[530,487,560,579]",
+        "filter_answer": [
+            530,
+            487,
+            560,
+            579
+        ],
+        "iou": 0.11274823830877642,
+        "groundtruth": [
+            504,
+            515,
+            552,
+            747
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[438,450,456,470]",
+        "filter_answer": [
+            438,
+            450,
+            456,
+            470
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            626,
+            445,
+            655,
+            480
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[194,487,306,659]",
+        "filter_answer": [
+            194,
+            487,
+            306,
+            659
+        ],
+        "iou": 0.4584450402144772,
+        "groundtruth": [
+            187,
+            479,
+            257,
+            639
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[340,781,392,895]",
+        "filter_answer": [
+            340,
+            781,
+            392,
+            895
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            537,
+            828,
+            626,
+            883
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            436,
+            656,
+            509,
+            721
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[508,730,672,994]",
+        "filter_answer": [
+            508,
+            730,
+            672,
+            994
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            751,
+            556,
+            999,
+            999
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[329,708,645,940]",
+        "filter_answer": [
+            329,
+            708,
+            645,
+            940
+        ],
+        "iou": 0.17493297587131368,
+        "groundtruth": [
+            528,
+            539,
+            778,
+            975
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[465,578,603,649]",
+        "filter_answer": [
+            465,
+            578,
+            603,
+            649
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            461,
+            709,
+            603,
+            844
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[309,371,406,458]",
+        "filter_answer": [
+            309,
+            371,
+            406,
+            458
+        ],
+        "iou": 0.15152359200044566,
+        "groundtruth": [
+            306,
+            264,
+            394,
+            403
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[37,465,190,560]",
+        "filter_answer": [
+            37,
+            465,
+            190,
+            560
+        ],
+        "iou": 0.13216039279869068,
+        "groundtruth": [
+            28,
+            433,
+            223,
+            997
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[169,470,203,508]",
+        "filter_answer": [
+            169,
+            470,
+            203,
+            508
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            271,
+            127,
+            362,
+            198
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[743,560,834,579]",
+        "filter_answer": [
+            743,
+            560,
+            834,
+            579
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            780,
+            650,
+            895,
+            957
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[430,795,508,860]",
+        "filter_answer": [
+            430,
+            795,
+            508,
+            860
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            634,
+            648,
+            754,
+            878
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[589,146,603,157]",
+        "filter_answer": [
+            589,
+            146,
+            603,
+            157
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            870,
+            550,
+            938,
+            652
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[53,864,179,1007]",
+        "filter_answer": [
+            53,
+            864,
+            179,
+            1007
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            394,
+            539,
+            496,
+            615
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[849,536,937,660]",
+        "filter_answer": [
+            849,
+            536,
+            937,
+            660
+        ],
+        "iou": 0.2624692521065578,
+        "groundtruth": [
+            832,
+            542,
+            934,
+            908
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            470,
+            603,
+            583,
+            807
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            470,
+            641,
+            582,
+            958
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[320,64,457,148]",
+        "filter_answer": [
+            320,
+            64,
+            457,
+            148
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            317,
+            210,
+            682,
+            424
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[940,557,1008,672]",
+        "filter_answer": [
+            940,
+            557,
+            1008,
+            672
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            484,
+            805,
+            608,
+            998
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[587,489,630,522]",
+        "filter_answer": [
+            587,
+            489,
+            630,
+            522
+        ],
+        "iou": 0.052679938744257276,
+        "groundtruth": [
+            578,
+            384,
+            654,
+            501
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[340,835,367,859]",
+        "filter_answer": [
+            340,
+            835,
+            367,
+            859
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            461,
+            815,
+            537,
+            874
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[364,508,479,555]",
+        "filter_answer": [
+            364,
+            508,
+            479,
+            555
+        ],
+        "iou": 0.291752132138616,
+        "groundtruth": [
+            325,
+            488,
+            482,
+            606
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[403,422,462,500]",
+        "filter_answer": [
+            403,
+            422,
+            462,
+            500
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            409,
+            560,
+            467,
+            687
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[394,526,517,568]",
+        "filter_answer": [
+            394,
+            526,
+            517,
+            568
+        ],
+        "iou": 0.3686635944700461,
+        "groundtruth": [
+            385,
+            518,
+            514,
+            623
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            342,
+            349,
+            472,
+            770
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            263,
+            867,
+            381,
+            921
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            471,
+            736,
+            534,
+            793
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[823,346,907,410]",
+        "filter_answer": [
+            823,
+            346,
+            907,
+            410
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            323,
+            549,
+            424,
+            665
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[430,130,562,551]",
+        "filter_answer": [
+            430,
+            130,
+            562,
+            551
+        ],
+        "iou": 0.2971698113207547,
+        "groundtruth": [
+            436,
+            245,
+            565,
+            377
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[659,0,734,21]",
+        "filter_answer": [
+            659,
+            0,
+            734,
+            21
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            357,
+            272,
+            453,
+            671
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[493,576,558,613]",
+        "filter_answer": [
+            493,
+            576,
+            558,
+            613
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            317,
+            667,
+            440,
+            755
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[345,109,418,206]",
+        "filter_answer": [
+            345,
+            109,
+            418,
+            206
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            390,
+            274,
+            417,
+            332
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[403,145,560,879]",
+        "filter_answer": [
+            403,
+            145,
+            560,
+            879
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            620,
+            535,
+            996,
+            776
+        ]
+    },
+    {
+        "task": "view_diff",
+        "question": "Compare these two images carefully and give me the coordinates of their real difference in the second image.  Find it and locate it in the second image. ",
+        "answer": "[423,219,465,260]",
+        "filter_answer": [
+            423,
+            219,
+            465,
+            260
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            423,
+            351,
+            474,
+            431
+        ]
+    },
+    {
+        "view_diff": {
+            "IOU@0.7": 0,
+            "IOU@0.5": 1,
+            "IOU@0.3": 7,
+            "AVE_IOU": 5.259377376844981,
+            "TOTAL": 94
+        }
+    }
+]

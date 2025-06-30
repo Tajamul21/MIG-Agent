@@ -1,0 +1,2117 @@
+[
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(393,645),(606,978)",
+        "filter_answer": [
+            393,
+            645,
+            606,
+            978
+        ],
+        "iou": 0.08666016064859995,
+        "groundtruth": [
+            32,
+            640,
+            445,
+            994
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(384,238),(458,331)",
+        "filter_answer": [
+            384,
+            238,
+            458,
+            331
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            308,
+            504,
+            409,
+            661
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(295,525),(595,593)",
+        "filter_answer": [
+            295,
+            525,
+            595,
+            593
+        ],
+        "iou": 0.15804806991988346,
+        "groundtruth": [
+            539,
+            531,
+            611,
+            601
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(225,341),(307,899)",
+        "filter_answer": [
+            225,
+            341,
+            307,
+            899
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            854,
+            184,
+            999,
+            418
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(235,425),(385,615)",
+        "filter_answer": [
+            235,
+            425,
+            385,
+            615
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            673,
+            800,
+            879,
+            976
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(414,453),(919,995)",
+        "filter_answer": [
+            414,
+            453,
+            919,
+            995
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            165,
+            635,
+            252,
+            720
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(431,211),(595,315)",
+        "filter_answer": [
+            431,
+            211,
+            595,
+            315
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            452,
+            444,
+            564,
+            605
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(300,10),(715,310)",
+        "filter_answer": [
+            300,
+            10,
+            715,
+            310
+        ],
+        "iou": 0.8617791767258504,
+        "groundtruth": [
+            330,
+            0,
+            706,
+            317
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(138,200),(380,962)",
+        "filter_answer": [
+            138,
+            200,
+            380,
+            962
+        ],
+        "iou": 0.47650375939849626,
+        "groundtruth": [
+            224,
+            233,
+            385,
+            805
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(531,384),(671,607)",
+        "filter_answer": [
+            531,
+            384,
+            671,
+            607
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            920,
+            577,
+            1000,
+            724
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(150,805),(425,951)",
+        "filter_answer": [
+            150,
+            805,
+            425,
+            951
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            261,
+            22,
+            476,
+            379
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(233,219),(437,429)",
+        "filter_answer": [
+            233,
+            219,
+            437,
+            429
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            554,
+            91,
+            792,
+            432
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(459,300),(599,501)",
+        "filter_answer": [
+            459,
+            300,
+            599,
+            501
+        ],
+        "iou": 0.07774636510500808,
+        "groundtruth": [
+            432,
+            468,
+            608,
+            672
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(279,393),(769,651)",
+        "filter_answer": [
+            279,
+            393,
+            769,
+            651
+        ],
+        "iou": 0.908816425120773,
+        "groundtruth": [
+            272,
+            379,
+            776,
+            655
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(281,200),(691,999)",
+        "filter_answer": [
+            281,
+            200,
+            691,
+            999
+        ],
+        "iou": 0.03476717541012503,
+        "groundtruth": [
+            267,
+            324,
+            391,
+            428
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(15,425),(999,944)",
+        "filter_answer": [
+            15,
+            425,
+            999,
+            944
+        ],
+        "iou": 0.13920864825108123,
+        "groundtruth": [
+            2,
+            395,
+            245,
+            741
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(255,450),(357,533)",
+        "filter_answer": [
+            255,
+            450,
+            357,
+            533
+        ],
+        "iou": 0.12944954128440367,
+        "groundtruth": [
+            158,
+            235,
+            376,
+            535
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(285,25),(500,200)",
+        "filter_answer": [
+            285,
+            25,
+            500,
+            200
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            283,
+            505,
+            396,
+            622
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(255,438),(357,591)",
+        "filter_answer": [
+            255,
+            438,
+            357,
+            591
+        ],
+        "iou": 0.08960777220815462,
+        "groundtruth": [
+            244,
+            374,
+            577,
+            897
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(439,234),(529,417)",
+        "filter_answer": [
+            439,
+            234,
+            529,
+            417
+        ],
+        "iou": 0.316147113022113,
+        "groundtruth": [
+            428,
+            182,
+            576,
+            534
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(227,83),(631,457)",
+        "filter_answer": [
+            227,
+            83,
+            631,
+            457
+        ],
+        "iou": 0.7114566881302393,
+        "groundtruth": [
+            211,
+            61,
+            593,
+            403
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(495,498),(681,738)",
+        "filter_answer": [
+            495,
+            498,
+            681,
+            738
+        ],
+        "iou": 0.12357743383042984,
+        "groundtruth": [
+            364,
+            238,
+            845,
+            989
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(100,798),(200,898)",
+        "filter_answer": [
+            100,
+            798,
+            200,
+            898
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            508,
+            443,
+            663,
+            610
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(441,83),(734,999)",
+        "filter_answer": [
+            441,
+            83,
+            734,
+            999
+        ],
+        "iou": 0.16047484965158507,
+        "groundtruth": [
+            418,
+            100,
+            606,
+            367
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(258,187),(562,838)",
+        "filter_answer": [
+            258,
+            187,
+            562,
+            838
+        ],
+        "iou": 0.3226950647122388,
+        "groundtruth": [
+            322,
+            170,
+            680,
+            513
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(543,187),(673,374)",
+        "filter_answer": [
+            543,
+            187,
+            673,
+            374
+        ],
+        "iou": 0.0924092409240924,
+        "groundtruth": [
+            605,
+            171,
+            680,
+            222
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(578,384),(642,456)",
+        "filter_answer": [
+            578,
+            384,
+            642,
+            456
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            372,
+            225,
+            473,
+            478
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(753,408),(840,882)",
+        "filter_answer": [
+            753,
+            408,
+            840,
+            882
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            198,
+            432,
+            469,
+            1000
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(437,638),(467,696)",
+        "filter_answer": [
+            437,
+            638,
+            467,
+            696
+        ],
+        "iou": 0.12592270950933565,
+        "groundtruth": [
+            429,
+            617,
+            527,
+            758
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(384,20),(734,988)",
+        "filter_answer": [
+            384,
+            20,
+            734,
+            988
+        ],
+        "iou": 0.04225433861512566,
+        "groundtruth": [
+            362,
+            0,
+            475,
+            180
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(515,591),(630,999)",
+        "filter_answer": [
+            515,
+            591,
+            630,
+            999
+        ],
+        "iou": 0.7259658580413297,
+        "groundtruth": [
+            497,
+            570,
+            616,
+            999
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(148,240),(624,630)",
+        "filter_answer": [
+            148,
+            240,
+            624,
+            630
+        ],
+        "iou": 0.03317535545023697,
+        "groundtruth": [
+            442,
+            582,
+            589,
+            814
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(735,562),(881,893)",
+        "filter_answer": [
+            735,
+            562,
+            881,
+            893
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            221,
+            676,
+            721,
+            952
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(299,498),(451,698)",
+        "filter_answer": [
+            299,
+            498,
+            451,
+            698
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            585,
+            265,
+            784,
+            373
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(533,468),(643,594)",
+        "filter_answer": [
+            533,
+            468,
+            643,
+            594
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            562,
+            380,
+            633,
+            467
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(458,462),(666,874)",
+        "filter_answer": [
+            458,
+            462,
+            666,
+            874
+        ],
+        "iou": 0.3560825698712745,
+        "groundtruth": [
+            551,
+            596,
+            668,
+            863
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(400,62),(962,335)",
+        "filter_answer": [
+            400,
+            62,
+            962,
+            335
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            170,
+            273,
+            273,
+            439
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(555,111),(685,258)",
+        "filter_answer": [
+            555,
+            111,
+            685,
+            258
+        ],
+        "iou": 0.10045074050225371,
+        "groundtruth": [
+            331,
+            150,
+            780,
+            450
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(150,425),(910,999)",
+        "filter_answer": [
+            150,
+            425,
+            910,
+            999
+        ],
+        "iou": 0.25962246598705374,
+        "groundtruth": [
+            363,
+            258,
+            686,
+            819
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(500,478),(821,848)",
+        "filter_answer": [
+            500,
+            478,
+            821,
+            848
+        ],
+        "iou": 0.7053185424485724,
+        "groundtruth": [
+            447,
+            445,
+            835,
+            879
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(398,30),(524,453)",
+        "filter_answer": [
+            398,
+            30,
+            524,
+            453
+        ],
+        "iou": 0.03405548005436086,
+        "groundtruth": [
+            121,
+            311,
+            919,
+            925
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(333,625),(555,921)",
+        "filter_answer": [
+            333,
+            625,
+            555,
+            921
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            261,
+            122,
+            898,
+            535
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(78,681),(357,924)",
+        "filter_answer": [
+            78,
+            681,
+            357,
+            924
+        ],
+        "iou": 0.343972602739726,
+        "groundtruth": [
+            42,
+            417,
+            407,
+            957
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(161,258),(291,435)",
+        "filter_answer": [
+            161,
+            258,
+            291,
+            435
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            505,
+            315,
+            934,
+            524
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(515,398),(725,894)",
+        "filter_answer": [
+            515,
+            398,
+            725,
+            894
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            70,
+            3,
+            272,
+            245
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(238,351),(331,946)",
+        "filter_answer": [
+            238,
+            351,
+            331,
+            946
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            502,
+            8,
+            839,
+            392
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(178,658),(368,986)",
+        "filter_answer": [
+            178,
+            658,
+            368,
+            986
+        ],
+        "iou": 0.07959893987291247,
+        "groundtruth": [
+            24,
+            191,
+            999,
+            994
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(138,741),(258,899)",
+        "filter_answer": [
+            138,
+            741,
+            258,
+            899
+        ],
+        "iou": 0.10449735449735449,
+        "groundtruth": [
+            26,
+            546,
+            458,
+            966
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(250,125),(375,213)",
+        "filter_answer": [
+            250,
+            125,
+            375,
+            213
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            293,
+            884,
+            604,
+            999
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(219,719),(365,836)",
+        "filter_answer": [
+            219,
+            719,
+            365,
+            836
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            592,
+            614,
+            864,
+            886
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(513,599),(964,874)",
+        "filter_answer": [
+            513,
+            599,
+            964,
+            874
+        ],
+        "iou": 0.5460433446815578,
+        "groundtruth": [
+            650,
+            600,
+            914,
+            906
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(139,105),(339,828)",
+        "filter_answer": [
+            139,
+            105,
+            339,
+            828
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            438,
+            422,
+            541,
+            509
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(100,375),(285,999)",
+        "filter_answer": [
+            100,
+            375,
+            285,
+            999
+        ],
+        "iou": 0.3377166766288105,
+        "groundtruth": [
+            82,
+            773,
+            304,
+            999
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,285),(136,635)",
+        "filter_answer": [
+            0,
+            285,
+            136,
+            635
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            400,
+            551,
+            631,
+            763
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(461,462),(607,592)",
+        "filter_answer": [
+            461,
+            462,
+            607,
+            592
+        ],
+        "iou": 0.6358192705498095,
+        "groundtruth": [
+            438,
+            440,
+            632,
+            590
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(251,51),(415,591)",
+        "filter_answer": [
+            251,
+            51,
+            415,
+            591
+        ],
+        "iou": 0.03460303873314787,
+        "groundtruth": [
+            382,
+            346,
+            465,
+            444
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(799,171),(959,874)",
+        "filter_answer": [
+            799,
+            171,
+            959,
+            874
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            2,
+            66,
+            306,
+            399
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(265,345),(355,999)",
+        "filter_answer": [
+            265,
+            345,
+            355,
+            999
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            211,
+            136,
+            261,
+            205
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(398,83),(550,233)",
+        "filter_answer": [
+            398,
+            83,
+            550,
+            233
+        ],
+        "iou": 0.05977662419380211,
+        "groundtruth": [
+            118,
+            42,
+            898,
+            531
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(645,231),(981,662)",
+        "filter_answer": [
+            645,
+            231,
+            981,
+            662
+        ],
+        "iou": 0.8308714283960168,
+        "groundtruth": [
+            667,
+            225,
+            992,
+            697
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(429,399),(563,723)",
+        "filter_answer": [
+            429,
+            399,
+            563,
+            723
+        ],
+        "iou": 0.24985413125650066,
+        "groundtruth": [
+            324,
+            334,
+            584,
+            546
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(875,416),(958,519)",
+        "filter_answer": [
+            875,
+            416,
+            958,
+            519
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            561,
+            110,
+            695,
+            391
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(200,115),(562,489)",
+        "filter_answer": [
+            200,
+            115,
+            562,
+            489
+        ],
+        "iou": 0.9045827793330616,
+        "groundtruth": [
+            194,
+            95,
+            571,
+            492
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(569,519),(679,749)",
+        "filter_answer": [
+            569,
+            519,
+            679,
+            749
+        ],
+        "iou": 0.007142857142857143,
+        "groundtruth": [
+            668,
+            460,
+            702,
+            537
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(691,416),(916,658)",
+        "filter_answer": [
+            691,
+            416,
+            916,
+            658
+        ],
+        "iou": 0.07477732887347337,
+        "groundtruth": [
+            440,
+            388,
+            731,
+            679
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(428,625),(569,954)",
+        "filter_answer": [
+            428,
+            625,
+            569,
+            954
+        ],
+        "iou": 0.09146229024525171,
+        "groundtruth": [
+            402,
+            707,
+            476,
+            800
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(106,238),(421,714)",
+        "filter_answer": [
+            106,
+            238,
+            421,
+            714
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            456,
+            325,
+            855,
+            673
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(500,100),(550,162)",
+        "filter_answer": [
+            500,
+            100,
+            550,
+            162
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            632,
+            313,
+            710,
+            433
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,694),(251,998)",
+        "filter_answer": [
+            0,
+            694,
+            251,
+            998
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            769,
+            107,
+            995,
+            870
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(451,285),(715,731)",
+        "filter_answer": [
+            451,
+            285,
+            715,
+            731
+        ],
+        "iou": 0.05347545073137544,
+        "groundtruth": [
+            340,
+            569,
+            505,
+            700
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(638,248),(802,841)",
+        "filter_answer": [
+            638,
+            248,
+            802,
+            841
+        ],
+        "iou": 0.550863655670395,
+        "groundtruth": [
+            600,
+            244,
+            796,
+            642
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(345,469),(548,669)",
+        "filter_answer": [
+            345,
+            469,
+            548,
+            669
+        ],
+        "iou": 0.08503703703703704,
+        "groundtruth": [
+            408,
+            628,
+            612,
+            788
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(50,617),(481,962)",
+        "filter_answer": [
+            50,
+            617,
+            481,
+            962
+        ],
+        "iou": 0.04357698600861522,
+        "groundtruth": [
+            14,
+            448,
+            185,
+            675
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(525,78),(859,955)",
+        "filter_answer": [
+            525,
+            78,
+            859,
+            955
+        ],
+        "iou": 0.2021882789206664,
+        "groundtruth": [
+            613,
+            497,
+            743,
+            967
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(200,150),(799,350)",
+        "filter_answer": [
+            200,
+            150,
+            799,
+            350
+        ],
+        "iou": 0.5673758865248227,
+        "groundtruth": [
+            275,
+            103,
+            675,
+            356
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,662),(765,849)",
+        "filter_answer": [
+            0,
+            662,
+            765,
+            849
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            478,
+            374,
+            579,
+            515
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(27,137),(200,375)",
+        "filter_answer": [
+            27,
+            137,
+            200,
+            375
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            517,
+            20,
+            767,
+            376
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(245,121),(454,303)",
+        "filter_answer": [
+            245,
+            121,
+            454,
+            303
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            542,
+            128,
+            730,
+            229
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(293,48),(654,846)",
+        "filter_answer": [
+            293,
+            48,
+            654,
+            846
+        ],
+        "iou": 0.15841122382296555,
+        "groundtruth": [
+            400,
+            616,
+            773,
+            989
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(369,137),(525,307)",
+        "filter_answer": [
+            369,
+            137,
+            525,
+            307
+        ],
+        "iou": 0.18539849706543798,
+        "groundtruth": [
+            339,
+            242,
+            636,
+            371
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(128,117),(531,957)",
+        "filter_answer": [
+            128,
+            117,
+            531,
+            957
+        ],
+        "iou": 0.2584973920904818,
+        "groundtruth": [
+            76,
+            5,
+            954,
+            520
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(341,384),(444,517)",
+        "filter_answer": [
+            341,
+            384,
+            444,
+            517
+        ],
+        "iou": 0.15993788819875776,
+        "groundtruth": [
+            328,
+            352,
+            765,
+            548
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(200,102),(880,987)",
+        "filter_answer": [
+            200,
+            102,
+            880,
+            987
+        ],
+        "iou": 0.14190797302657676,
+        "groundtruth": [
+            289,
+            669,
+            559,
+            999
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(487,111),(512,238)",
+        "filter_answer": [
+            487,
+            111,
+            512,
+            238
+        ],
+        "iou": 0.19284499514091352,
+        "groundtruth": [
+            457,
+            78,
+            541,
+            274
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(687,271),(824,762)",
+        "filter_answer": [
+            687,
+            271,
+            824,
+            762
+        ],
+        "iou": 0.7147275388797781,
+        "groundtruth": [
+            670,
+            288,
+            846,
+            791
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(63,798),(247,968)",
+        "filter_answer": [
+            63,
+            798,
+            247,
+            968
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            464,
+            843,
+            582,
+            958
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(441,496),(611,699)",
+        "filter_answer": [
+            441,
+            496,
+            611,
+            699
+        ],
+        "iou": 0.586974639838076,
+        "groundtruth": [
+            417,
+            474,
+            644,
+            733
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(125,25),(245,487)",
+        "filter_answer": [
+            125,
+            25,
+            245,
+            487
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            441,
+            832,
+            611,
+            975
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(87,49),(567,980)",
+        "filter_answer": [
+            87,
+            49,
+            567,
+            980
+        ],
+        "iou": 0.11527106670988824,
+        "groundtruth": [
+            49,
+            684,
+            266,
+            987
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(512,187),(694,799)",
+        "filter_answer": [
+            512,
+            187,
+            694,
+            799
+        ],
+        "iou": 0.008227722115320815,
+        "groundtruth": [
+            464,
+            90,
+            528,
+            249
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(666,398),(911,787)",
+        "filter_answer": [
+            666,
+            398,
+            911,
+            787
+        ],
+        "iou": 0.7988014416226636,
+        "groundtruth": [
+            633,
+            385,
+            924,
+            795
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(193,96),(383,501)",
+        "filter_answer": [
+            193,
+            96,
+            383,
+            501
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            532,
+            225,
+            724,
+            541
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(75,308),(344,699)",
+        "filter_answer": [
+            75,
+            308,
+            344,
+            699
+        ],
+        "iou": 0.2561352799307767,
+        "groundtruth": [
+            68,
+            298,
+            340,
+            413
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(285,198),(457,348)",
+        "filter_answer": [
+            285,
+            198,
+            457,
+            348
+        ],
+        "iou": 0.1271005549734156,
+        "groundtruth": [
+            357,
+            73,
+            710,
+            329
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(464,519),(694,999)",
+        "filter_answer": [
+            464,
+            519,
+            694,
+            999
+        ],
+        "iou": 0.2351802538262586,
+        "groundtruth": [
+            312,
+            425,
+            723,
+            706
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(158,250),(460,749)",
+        "filter_answer": [
+            158,
+            250,
+            460,
+            749
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            598,
+            659,
+            803,
+            839
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(445,285),(495,687)",
+        "filter_answer": [
+            445,
+            285,
+            495,
+            687
+        ],
+        "iou": 0.39604174786713436,
+        "groundtruth": [
+            435,
+            284,
+            476,
+            580
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(491,291),(691,432)",
+        "filter_answer": [
+            491,
+            291,
+            691,
+            432
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            263,
+            491,
+            484,
+            768
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(413,245),(586,410)",
+        "filter_answer": [
+            413,
+            245,
+            586,
+            410
+        ],
+        "iou": 0.026643850267379678,
+        "groundtruth": [
+            405,
+            356,
+            951,
+            963
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(250,195),(330,345)",
+        "filter_answer": [
+            250,
+            195,
+            330,
+            345
+        ],
+        "iou": 0.0045465817971397865,
+        "groundtruth": [
+            305,
+            323,
+            675,
+            619
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(150,599),(253,899)",
+        "filter_answer": [
+            150,
+            599,
+            253,
+            899
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            236,
+            64,
+            400,
+            183
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(578,583),(990,983)",
+        "filter_answer": [
+            578,
+            583,
+            990,
+            983
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            687,
+            11,
+            982,
+            261
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(691,187),(951,457)",
+        "filter_answer": [
+            691,
+            187,
+            951,
+            457
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            460,
+            482,
+            547,
+            551
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(100,125),(200,275)",
+        "filter_answer": [
+            100,
+            125,
+            200,
+            275
+        ],
+        "iou": 0.507854821235103,
+        "groundtruth": [
+            62,
+            106,
+            204,
+            314
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(343,500),(984,974)",
+        "filter_answer": [
+            343,
+            500,
+            984,
+            974
+        ],
+        "iou": 0.044593131949227593,
+        "groundtruth": [
+            469,
+            768,
+            535,
+            990
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,0),(1000,1000)",
+        "filter_answer": [
+            0,
+            0,
+            1000,
+            1000
+        ],
+        "iou": 0.01463,
+        "groundtruth": [
+            0,
+            552,
+            133,
+            662
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(375,305),(587,345)",
+        "filter_answer": [
+            375,
+            305,
+            587,
+            345
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            345,
+            786,
+            574,
+            982
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(551,154),(601,228)",
+        "filter_answer": [
+            551,
+            154,
+            601,
+            228
+        ],
+        "iou": 0.45662100456621,
+        "groundtruth": [
+            545,
+            118,
+            618,
+            229
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(325,384),(527,527)",
+        "filter_answer": [
+            325,
+            384,
+            527,
+            527
+        ],
+        "iou": 0.5206149545772187,
+        "groundtruth": [
+            279,
+            397,
+            474,
+            539
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(519,119),(804,487)",
+        "filter_answer": [
+            519,
+            119,
+            804,
+            487
+        ],
+        "iou": 0.05090834555967895,
+        "groundtruth": [
+            683,
+            409,
+            940,
+            759
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(141,25),(864,500)",
+        "filter_answer": [
+            141,
+            25,
+            864,
+            500
+        ],
+        "iou": 0.876327831344991,
+        "groundtruth": [
+            139,
+            0,
+            874,
+            470
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(450,100),(549,198)",
+        "filter_answer": [
+            450,
+            100,
+            549,
+            198
+        ],
+        "iou": 0.18020022246941045,
+        "groundtruth": [
+            460,
+            20,
+            541,
+            136
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(329,396),(459,556)",
+        "filter_answer": [
+            329,
+            396,
+            459,
+            556
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            694,
+            492,
+            782,
+            596
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(484,275),(822,999)",
+        "filter_answer": [
+            484,
+            275,
+            822,
+            999
+        ],
+        "iou": 0.05763375810011965,
+        "groundtruth": [
+            453,
+            244,
+            623,
+            380
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(471,125),(671,398)",
+        "filter_answer": [
+            471,
+            125,
+            671,
+            398
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            362,
+            590,
+            591,
+            906
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(398,445),(531,548)",
+        "filter_answer": [
+            398,
+            445,
+            531,
+            548
+        ],
+        "iou": 0.24404539219354035,
+        "groundtruth": [
+            365,
+            398,
+            662,
+            587
+        ]
+    },
+    {
+        "task": "correspondence",
+        "question": "You are now presented with two objects. For the area marked by the red bounding box in the first image, identify and locate the corresponding area in the second image that serves a similar function or shares a similar meaning. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(299,583),(489,730)",
+        "filter_answer": [
+            299,
+            583,
+            489,
+            730
+        ],
+        "iou": 0.5621414913957935,
+        "groundtruth": [
+            363,
+            573,
+            496,
+            750
+        ]
+    },
+    {
+        "correspondence": {
+            "IOU@0.7": 10,
+            "IOU@0.5": 18,
+            "IOU@0.3": 26,
+            "AVE_IOU": 20.757651107424067,
+            "TOTAL": 117
+        }
+    }
+]

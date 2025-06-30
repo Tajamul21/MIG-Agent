@@ -12,7 +12,7 @@ from PIL import Image
 import string
 from decord import VideoReader, cpu 
 import warnings
-
+import os
 from utils import *
 ### required by Migician ###
 from transformers import Qwen2VLForConditionalGeneration
@@ -40,9 +40,8 @@ warnings.filterwarnings("ignore")
 ################# correct version for your target.                                                                           #################
 
 PROMPT_TEMPLATE = {
-    'mibench': 'Please only strictly answer from the choice list: ',
-    'muirbench': ' Please only answer with the single letter.',
-    'format_qwen': 'Format:<|box_start|>(x1,y1),(x2,y2)<|box_start|>. Don\'t generate addtional words.', # For more efficient evaluation
+    'format_univg': ' First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.',
+    'format_qwen': 'Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don\'t generate addtional words.', # For more efficient evaluation
     'format_internvl2': 'Format:<box>[[x1,y1,x2,y2]]</box>. Don\'t generate addtional words.',
     'format_minicpm': 'Format:<box>x1 y1 x2 y2</box>. Don\'t generate addtional words.',
     'format_mantis': ' Format:<box>[x1, y1, x2, y2]</box>. Don\'t generate addtional words.',
@@ -85,12 +84,21 @@ def qwen2_process(obj):
     messages[0]["content"].append({"type": "text", "text": obj['question']})
     return messages
 
+def univgr1_process(obj):
+    messages = [{"role": "user","content": []}]
+    for path in obj['images']:
+        messages[0]["content"].append({"type": "image","image": path})
+    
+    obj['question'] += PROMPT_TEMPLATE['format_univg']
+    messages[0]["content"].append({"type": "text", "text": obj['question']})
+    return messages
+
 def qwen2_respond(model, processor, messages, device):
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     image_inputs, video_inputs = process_vision_info(messages)
     inputs = processor(text=[text], images=image_inputs, videos=video_inputs, padding=True,return_tensors="pt")
     inputs = inputs.to(device)
-    generated_ids = model.generate(**inputs, max_new_tokens=128)
+    generated_ids = model.generate(**inputs, max_new_tokens=256)
     generated_ids_trimmed = [out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
     response = processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)
     return response
@@ -227,6 +235,22 @@ def qwen2_vl_eval(model, test_data, processor, device, output_path):
             
     post_processing(acc, output_path, output)
 
+def univgr1_eval(model, test_data, processor, device, output_path):
+    current_time = datetime.datetime.now().strftime("%m%d_%H%M%S")
+    output_path = os.path.join(output_path, f"univgr1_{test_data[0]['task']}_{current_time}.json")
+    output, acc = [], {}
+
+    for obj in tqdm(test_data, desc=f"Evaluating {test_data[0]['task']}"):
+        messages = univgr1_process(obj)
+        response = qwen2_respond(model, processor, messages, device)
+        prediction = extract_bbox(response[0]) # 正则匹配生成的bbox
+        iou, acc = compute_iou(obj['answer'], prediction, acc, obj['task'])
+        
+        # print(f"GroundTruth: {obj['answer']} | Prediction: {prediction} ——> {iou:.4f}")
+        output.append({'task':obj['task'], 'question':obj['question'], 'answer':response[0], 'filter_answer':prediction, 'iou':iou, 'groundtruth':obj['answer']})
+            
+    post_processing(acc, output_path, output)
+
 def migician_eval(model, test_data, processor, device, output_path):
     current_time = datetime.datetime.now().strftime("%m%d_%H%M%S")
     output_path = os.path.join(output_path, f"Migician_{test_data[0]['task']}_{current_time}.json")
@@ -238,8 +262,8 @@ def migician_eval(model, test_data, processor, device, output_path):
         prediction = extract_bbox(response[0])
         ### We have implemented linear scaling on the y axis for Migician
         try:
-            prediction[1] = round(min(prediction[1]*1.05, 0.999), 3)
-            prediction[3] = round(min(prediction[3]*1.10, 0.999), 3)
+            prediction[1] = int(round(min(prediction[1] /1000 *1.05, 0.999), 3) * 1000)
+            prediction[3] = int(round(min(prediction[3]/ 1000*1.10, 0.999), 3) * 1000)
         except:
             pass
         iou, acc = compute_iou(obj['answer'], prediction, acc, obj['task'])
@@ -369,14 +393,19 @@ def cogvlm_eval(model, tokenizer, test_data, device, output_path):
     post_processing(acc, output_path, output)
 
 def model_selection(model_type, model_path, test_data, device, output_path):
-    if model_type=='migician':
+    if model_type=='univg-r1':
         model = Qwen2VLForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2").to(device)
-        processor = AutoProcessor.from_pretrained(model_path)
+        processor = AutoProcessor.from_pretrained(model_path, min_pixels=3136, max_pixels=401408)
+        univgr1_eval(model, test_data, processor, device, output_path)
+    
+    elif model_type=='migician':
+        model = Qwen2VLForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2").to(device)
+        processor = AutoProcessor.from_pretrained(model_path, min_pixels=3136, max_pixels=401408)
         migician_eval(model, test_data, processor, device, output_path)
         
     elif model_type=='qwen2_vl':
         model = Qwen2VLForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2").to(device)
-        processor = AutoProcessor.from_pretrained(model_path)
+        processor = AutoProcessor.from_pretrained(model_path, min_pixels=3136, max_pixels=401408)
         qwen2_vl_eval(model, test_data, processor, device, output_path)
     
     elif model_type=='internvl2_8b':
@@ -461,246 +490,6 @@ def reasoning(model_type, model_path, test_data, device, output_path):
     test_data = [item for item in test_data if item['task'] == 'reasoning']
     model_selection(model_type, model_path, test_data, device, output_path)
 
-def mibench_eval(model_type, model_path, test_data, device, output_path):
-    result = {
-        'general_comparison': 0, 'subtle_difference': 0, 'visual_referring': 0, 'temporal_reasoning': 0, 'logical_reasoning': 0,
-        'fine_grained_visual_recognition': 0, 'text_rich_images': 0, 'vision_linked_textual_knowledge': 0, 'text_linked_visual_knowledge': 0
-    }
-    image_prefix = './MIBench/' # don't forget to download images from huggingface~
-    
-    if model_type=='migician' or model_type=='qwen2_vl':
-        
-        # instanize the model
-        model = Qwen2VLForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2").to(device)
-        processor = AutoProcessor.from_pretrained(model_path)
-        
-        for obj in tqdm(test_data, desc=f'Evaluating MIBench'):
-            
-            messages = [{"role": "user","content": []}]
-            for image_path in obj['image']:
-                messages[0]["content"].append({"type": "image","image": image_prefix + image_path})
-                
-            answer_list = ' | '.join(obj['options'])
-            question = obj['question'] + PROMPT_TEMPLATE['mibench'] + answer_list
-            messages[0]["content"].append({"type": "text", "text": question})
-            response = qwen2_respond(model, processor, messages, device)
-            
-            if obj['answer'].strip().strip('.') in response:
-                result[obj['task']] += 1
-                
-    elif model_type=='minicpm':
-        
-        # instanize the model
-        model = AutoModel.from_pretrained(model_path, trust_remote_code=True, attn_implementation='sdpa', torch_dtype=torch.bfloat16).eval().cuda()
-        tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-        
-        for obj in tqdm(test_data, desc=f'Evaluating MIBench'):
-            messages = [{"role": "user","content": []}]
-            for image_path in obj['image']:
-                image = Image.open(image_prefix + image_path).convert('RGB')
-                messages[0]["content"].append(image)
-            answer_list = ' | '.join(obj['options'])
-
-            replace_image.counter = 0  # 初始化计数器
-            obj['question'] = re.sub(r'<image>', replace_image, obj['question'])
-            question = obj['question'] + PROMPT_TEMPLATE['mibench'] + answer_list
-            messages[0]["content"].append(question)
-            response = model.chat(image=None, msgs=messages, tokenizer=tokenizer)
-            
-            if obj['answer'].strip().strip('.') in response:
-                result[obj['task']] += 1
-                
-    elif model_type=='llava_onevision':
-        
-        # instanize the model
-        conv_template = "qwen_1_5"
-        tokenizer, model, image_processor, max_length = load_pretrained_model(model_path, None, "llava_qwen", device_map="auto")
-        model.eval()
-        
-        for obj in tqdm(test_data, desc=f'Evaluating MIBench'):
-            images = []
-            
-            for idx, image_path in enumerate(obj['image']):
-                image = resize(image_prefix + image_path)
-                images.append(image)
-                
-            answer_list = ' | '.join(obj['options'])
-            question = obj['question'] + PROMPT_TEMPLATE['mibench'] + answer_list
-            image_tensor = process_images(images, image_processor, model.config)
-            image_tensor = [_image.to(dtype=torch.float16, device=device) for _image in image_tensor]
-            conv = copy.deepcopy(conv_templates[conv_template])
-            conv.append_message(conv.roles[0], question)
-            conv.append_message(conv.roles[1], None)
-            prompt_question = conv.get_prompt()
-            input_ids = tokenizer_image_token(prompt_question, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to(device)
-            image_sizes = [image.size for image in images]
-
-            cont = model.generate(input_ids, images=image_tensor, image_sizes=image_sizes, do_sample=False, temperature=0, max_new_tokens=128)
-            response = tokenizer.batch_decode(cont, skip_special_tokens=True)
-            
-            if obj['answer'].strip().strip('.') in response:
-                result[obj['task']] += 1
-    
-    elif model_type=='internvl2_8b':
-        
-        # instanize the model
-        model = AutoModel.from_pretrained(model_path, torch_dtype=torch.bfloat16, low_cpu_mem_usage=True, use_flash_attn=True, trust_remote_code=True).eval().cuda()
-        tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True, use_fast=False)
-        generation_config = dict(max_new_tokens=64, do_sample=True)
-        
-        for obj in tqdm(test_data, desc=f'Evaluating MIBench'):
-            prefix, num_patches_list, first = '', [], True
-            for idx, image_path in enumerate(obj['image']):
-                temp = load_image_intenvl2(image_prefix + image_path, max_num=12).to(torch.bfloat16).cuda()
-                num_patches_list.append(temp.size(0))
-                prefix += f'Image-{idx+1}: <image>\n'
-                if first == True:
-                    pixel_values = temp
-                else:
-                    pixel_values = torch.cat((pixel_values, temp), dim=0)
-                first = False
-            
-            answer_list = ' | '.join(obj['options'])
-            question = obj['question'] + PROMPT_TEMPLATE['mibench'] + answer_list + 'Don\'t generate additional words.'
-            pixel_values = pixel_values.to(device)  # 确保输入在同一设备上
-            response, _ = model.chat(tokenizer, pixel_values, question, generation_config, num_patches_list=num_patches_list, history=None, return_history=True)
-            
-            if obj['answer'].strip().strip('.') in response:
-                result[obj['task']] += 1
-    else:
-        raise NotImplementedError
-        
-    total_acc, total_tasks = 0, 0
-    for task, acc in result.items():
-        total_acc += acc
-        total_tasks += 1
-        print(f'{task}:{acc / 10}%') # 1000 examples for each sub-task
-    average_acc = 0.1 * total_acc / total_tasks
-    print(f'✅ Average ACC: {average_acc:.2f}%')
-
-def mibench_MII(model_type, model_path, test_data, device, output_path):
-    with open('./others/MIBench/multi_image_instruction.json') as file:
-        test_data = json.load(file)
-    mibench_eval(model_type, model_path, test_data, device, output_path)
-    
-def mibench_MKS(model_type, model_path, test_data, device, output_path):
-    with open('./others/MIBench/multimodal_knowledge_seeking.json') as file:
-        test_data = json.load(file)
-    mibench_eval(model_type, model_path, test_data, device, output_path)
-
-def mmiubench_eval(test_data, model_type, model_path, output_path, device):
-    
-    with open('./MMIU-Benchmark/test.json') as file:
-        file = json.load(file)
-    image_prefix = 'YOUR_IMAGE_PATH' # don't forget to download images from huggingface~
-    total = 0
-    result, total_count = {}, {}
-
-    if model_type=='migician' or model_type=='qwen2_vl':
-        model = Qwen2VLForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2").to(device)
-        processor = AutoProcessor.from_pretrained(model_path)
-        
-        for obj in tqdm(test_data, desc='Evaluating mmiubench_eval'):
-            total += 1
-            total_count[obj['task']] = total_count.get(obj['task'], 0) + 1
-            
-            messages = [{"role": "user", "content": []}]
-            
-            # fix OOM issue for overly long image context, still, 80G-GPU may be required for evaluation
-            for image_path in obj['input_image_path']:
-                img = resize(image_path.replace('./', image_prefix))
-                messages[0]["content"].append({"type": "image", "image": img})
-            
-            # question construction
-            question = 'Question:\n' + obj['question'] +'\nSpecifically:\n' + obj['context']
-            messages[0]["content"].append({"type": "text", "text": question})
-            
-            response = qwen2_respond(model, processor, messages, device)[0]
-            result, total_count = calculate(response, result, total_count, obj)
-                
-    elif model_type=='mplug_owl3':
-        config = AutoConfig.from_pretrained(model_path, trust_remote_code=True)
-        model = AutoModel.from_pretrained(model_path, attn_implementation='flash_attention_2', torch_dtype=torch.bfloat16, trust_remote_code=True).eval().cuda()
-        tokenizer = AutoTokenizer.from_pretrained(model_path)
-        processor = model.init_processor(tokenizer)
-        
-        for obj in tqdm(test_data, desc='Evaluating mmiubench_eval'):
-            total += 1
-            total_count[obj['task']] = total_count.get(obj['task'], 0) + 1
-            
-            prefix, images = '', []
-            # fix OOM issue for overly long image context, still, 80G-GPU may be required for evaluation
-            for idx, image_path in enumerate(obj['input_image_path']):
-                image = resize(image_path.replace('./', image_prefix)).convert('RGB')
-                prefix += f'Image-{idx+1}:<|image|>\n'
-                images.append(image)
-            
-            # question construction
-            question = 'Question:\n' + prefix + obj['question'] +'\nSpecifically:\n' + obj['context']
-            messages = [{"role": "user", "content": question},{"role": "assistant", "content": ""}]
-            inputs = processor(messages, images=images, videos=None).to(device)
-            inputs.update({'tokenizer': tokenizer, 'max_new_tokens': 256, 'decode_text': True})
-            
-            response = model.generate(**inputs)
-            result, total_count = calculate(response, result, total_count, obj)
-    
-    elif model_type=='minicpm':
-        model = AutoModel.from_pretrained(model_path, trust_remote_code=True, attn_implementation='sdpa', torch_dtype=torch.bfloat16).eval().cuda()
-        tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-        
-        for obj in tqdm(test_data, desc='Evaluating mmiubench_eval'):
-            messages = [{"role": "user","content": []}]
-            for image_path in obj['input_image_path']:
-                # fix OOM issue for overly long image context, still, 80G-GPU may be required for evaluation
-                image = resize(image_path.replace('./', image_prefix)).convert('RGB')
-                messages[0]["content"].append(image)
-                
-            # question construction
-            question = 'Question:\n' + obj['question'] +'\nSpecifically:\n' + obj['context'] + '\nPlease only answer with the single letter.'
-            messages[0]["content"].append(question)
-            
-            response = model.chat(image=None, msgs=messages, tokenizer=tokenizer)
-            result, total_count = calculate(response, result, total_count, obj)
-                
-    elif model_type=='llava_onevision':
-        tokenizer, model, image_processor, max_length = load_pretrained_model(model_path, None, "llava_qwen", device_map="auto")
-        model.eval()
-        
-        for obj in tqdm(test_data, desc='Evaluating Mibench_MKS'):
-            conv_template = 'qwen_1_5'
-            images = []
-            prefix = ''
-            for idx, image_path in enumerate(obj['input_image_path']):
-                # fix OOM issue for overly long image context, still, 80G-GPU may be required for evaluation
-                image = resize(image_path.replace('./', image_prefix)).convert('RGB')
-                prefix += f'image{idx+1}:<image>\n'
-                images.append(image)
-                
-            # question construction
-            question = 'Question:\n' + prefix + obj['question'] +'\nSpecifically:\n' + obj['context']
-            image_tensor = process_images(images, image_processor, model.config)
-            image_tensor = [_image.to(dtype=torch.float16, device=device) for _image in image_tensor]
-            conv = copy.deepcopy(conv_templates[conv_template])
-            conv.append_message(conv.roles[0], question)
-            conv.append_message(conv.roles[1], None)
-            prompt_question = conv.get_prompt()
-            input_ids = tokenizer_image_token(prompt_question, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to(device)
-            image_sizes = [image.size for image in images]
-            cont = model.generate(input_ids, images=image_tensor, image_sizes=image_sizes, do_sample=False, temperature=0, max_new_tokens=100)
-            
-            response = tokenizer.batch_decode(cont, skip_special_tokens=True)[0]
-            result, total_count = calculate(response, result, total_count, obj)
-    
-    print("✅ ACC for MMIUBench(partial):")
-    total_acc = 0
-    total_tasks = len(result)
-    for task, correct_count in result.items():
-        task_acc = (correct_count / total_count[task]) * 100
-        total_acc += task_acc
-        print(f'{task}: {task_acc:.2f}%  ✨')
-    average_acc = total_acc / total_tasks
-    print(f'✅ Average ACC: {average_acc:.2f}%')
-
 def worker(gpu_id, task_queue, model_type, test_data, model_path, output_path):
     os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_id)
     device = torch.device(f"cuda:{str(gpu_id)}")
@@ -718,17 +507,19 @@ if __name__ == "__main__":
 
     mp.set_start_method("spawn")
     
-    with open('./MIG-Bench/MIG_data.json') as file:
+    with open('/home/tajamul/UniVG-R1/eval/MIG_bench/revised_MIG_bench.json') as file:
         test_data = json.load(file)
         
-    output_path = f'./eval_output' # log information output
+    output_path = f'./results/migician' # log information output
     os.makedirs(output_path, exist_ok=True)
     
     ############################################## supported models ###############################################
-    ### migician, qwen2_vl, internvl2_8b, llava_onevision, minicpm, mantis, cogvlm, mplug_owl3(transformers==4.37.2)
+    ### univg-r1, migician, qwen2_vl, internvl2_8b, llava_onevision, minicpm, mantis, cogvlm, mplug_owl3(transformers==4.37.2)
     ### we support multi-processing parallel for migician, qwen2_vl, minicpm on MIG-Bench
-    num_gpus, model_type = 6, 'migician'
-    model_path = "/home/liyou/training_data/zLLaMA-Factory-Qwen2-VL/saves/1113_pretrain_v4/merged_v3-final+v4-1k"
+    num_gpus, model_type = 4, 'migician'
+    model_path ="/share/data/drive_4/tj/Migician"
+    # model_path = "/share/data/drive_4/tj/UniVG-R1"
+    # model_path ="/share/data/drive_4/tj/Qwen2-VL-7B-Instruct"
     print(f'😊 In case you forget~ The model you are evaluating is: {model_type} ❤️\n📂 From path: {model_path}')
     ###############################################################################################################
     
@@ -736,10 +527,10 @@ if __name__ == "__main__":
     ### MIG-Bench ###
     ### MIG_all, common_object, view_diff, correspondence, diff, group_grounding
     ### multi_view, region, refer_grounding, object_tracking, reasoning
-    
-    ### Multi-image Understanding Benchmarks ###
-    ### mibench_MII, mibench_MKS, mmiubench_eval
     tasks = [common_object, view_diff, correspondence, diff, group_grounding, multi_view, region, refer_grounding, object_tracking, reasoning]
+    # tasks = [view_diff]
+  
+  
     ###############################################################################################################
     
     processes = []

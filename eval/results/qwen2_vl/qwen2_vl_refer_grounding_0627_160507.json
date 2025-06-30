@@ -1,0 +1,1793 @@
+[
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(265,453),(515,993)",
+        "filter_answer": [
+            265,
+            453,
+            515,
+            993
+        ],
+        "iou": 0.5426011581746003,
+        "groundtruth": [
+            260,
+            473,
+            428,
+            930
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "basketball(675,178),(838,335)",
+        "filter_answer": [
+            675,
+            178,
+            838,
+            335
+        ],
+        "iou": 0.44582950773359703,
+        "groundtruth": [
+            713,
+            179,
+            865,
+            280
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(33,46),(953,937)",
+        "filter_answer": [
+            33,
+            46,
+            953,
+            937
+        ],
+        "iou": 0.23364075537988582,
+        "groundtruth": [
+            324,
+            307,
+            894,
+            643
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(139,295),(835,695)",
+        "filter_answer": [
+            139,
+            295,
+            835,
+            695
+        ],
+        "iou": 0.8982267764499393,
+        "groundtruth": [
+            114,
+            279,
+            845,
+            703
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(593,662),(843,978)",
+        "filter_answer": [
+            593,
+            662,
+            843,
+            978
+        ],
+        "iou": 0.8705234159779615,
+        "groundtruth": [
+            582,
+            653,
+            857,
+            983
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(53,259),(273,583)",
+        "filter_answer": [
+            53,
+            259,
+            273,
+            583
+        ],
+        "iou": 0.09843445205822038,
+        "groundtruth": [
+            0,
+            353,
+            101,
+            517
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(29,379),(984,948)",
+        "filter_answer": [
+            29,
+            379,
+            984,
+            948
+        ],
+        "iou": 0.070725230199217,
+        "groundtruth": [
+            478,
+            793,
+            728,
+            966
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(49,198),(979,898)",
+        "filter_answer": [
+            49,
+            198,
+            979,
+            898
+        ],
+        "iou": 0.11282626999719338,
+        "groundtruth": [
+            773,
+            496,
+            959,
+            961
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(361,375),(471,621)",
+        "filter_answer": [
+            361,
+            375,
+            471,
+            621
+        ],
+        "iou": 0.7507418397626113,
+        "groundtruth": [
+            353,
+            365,
+            473,
+            582
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(55,189),(945,876)",
+        "filter_answer": [
+            55,
+            189,
+            945,
+            876
+        ],
+        "iou": 0.21551475829797231,
+        "groundtruth": [
+            334,
+            515,
+            705,
+            903
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(51,353),(966,866)",
+        "filter_answer": [
+            51,
+            353,
+            966,
+            866
+        ],
+        "iou": 0.042516638908899215,
+        "groundtruth": [
+            568,
+            782,
+            809,
+            894
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(297,33),(648,712)",
+        "filter_answer": [
+            297,
+            33,
+            648,
+            712
+        ],
+        "iou": 0.3187310340749064,
+        "groundtruth": [
+            265,
+            12,
+            424,
+            757
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(29,66),(984,741)",
+        "filter_answer": [
+            29,
+            66,
+            984,
+            741
+        ],
+        "iou": 0.9506690633113641,
+        "groundtruth": [
+            21,
+            54,
+            981,
+            756
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(10,691),(996,996)",
+        "filter_answer": [
+            10,
+            691,
+            996,
+            996
+        ],
+        "iou": 0.10093294191783349,
+        "groundtruth": [
+            57,
+            542,
+            222,
+            890
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(106,362),(326,798)",
+        "filter_answer": [
+            106,
+            362,
+            326,
+            798
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            675,
+            276,
+            996,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(583,648),(783,987)",
+        "filter_answer": [
+            583,
+            648,
+            783,
+            987
+        ],
+        "iou": 0.5418200946870069,
+        "groundtruth": [
+            559,
+            660,
+            799,
+            866
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(144,121),(894,898)",
+        "filter_answer": [
+            144,
+            121,
+            894,
+            898
+        ],
+        "iou": 0.062194766194766195,
+        "groundtruth": [
+            350,
+            513,
+            571,
+            677
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(31,38),(984,964)",
+        "filter_answer": [
+            31,
+            38,
+            984,
+            964
+        ],
+        "iou": 0.1869089087773293,
+        "groundtruth": [
+            126,
+            490,
+            495,
+            937
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(2,69),(733,987)",
+        "filter_answer": [
+            2,
+            69,
+            733,
+            987
+        ],
+        "iou": 0.16281452418847392,
+        "groundtruth": [
+            3,
+            58,
+            400,
+            346
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(346,6),(653,987)",
+        "filter_answer": [
+            346,
+            6,
+            653,
+            987
+        ],
+        "iou": 0.110928488180976,
+        "groundtruth": [
+            515,
+            339,
+            643,
+            600
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(528,551),(959,931)",
+        "filter_answer": [
+            528,
+            551,
+            959,
+            931
+        ],
+        "iou": 0.7623631488791242,
+        "groundtruth": [
+            523,
+            521,
+            987,
+            984
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(404,300),(448,589)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358,398),(402,599)(358",
+        "filter_answer": [
+            404,
+            300,
+            448,
+            589
+        ],
+        "iou": 0.32754623666992944,
+        "groundtruth": [
+            343,
+            275,
+            461,
+            604
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(166,558),(506,937)",
+        "filter_answer": [
+            166,
+            558,
+            506,
+            937
+        ],
+        "iou": 0.5642247263188886,
+        "groundtruth": [
+            157,
+            566,
+            580,
+            814
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(151,138),(802,798)",
+        "filter_answer": [
+            151,
+            138,
+            802,
+            798
+        ],
+        "iou": 0.033697347893915756,
+        "groundtruth": [
+            402,
+            2,
+            542,
+            246
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(10,62),(992,935)",
+        "filter_answer": [
+            10,
+            62,
+            992,
+            935
+        ],
+        "iou": 0.05774035736032083,
+        "groundtruth": [
+            420,
+            112,
+            645,
+            332
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(573,393),(986,949)",
+        "filter_answer": [
+            573,
+            393,
+            986,
+            949
+        ],
+        "iou": 0.47528345205156886,
+        "groundtruth": [
+            237,
+            422,
+            956,
+            974
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(293,166),(493,899)",
+        "filter_answer": [
+            293,
+            166,
+            493,
+            899
+        ],
+        "iou": 0.24975576604510896,
+        "groundtruth": [
+            325,
+            549,
+            695,
+            948
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(250,10),(750,902)",
+        "filter_answer": [
+            250,
+            10,
+            750,
+            902
+        ],
+        "iou": 0.2468944099378882,
+        "groundtruth": [
+            474,
+            94,
+            816,
+            518
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(206,798),(257,894)",
+        "filter_answer": [
+            206,
+            798,
+            257,
+            894
+        ],
+        "iou": 0.4931506849315068,
+        "groundtruth": [
+            194,
+            796,
+            267,
+            932
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(513,655),(863,993)",
+        "filter_answer": [
+            513,
+            655,
+            863,
+            993
+        ],
+        "iou": 0.9470854051602663,
+        "groundtruth": [
+            505,
+            649,
+            859,
+            994
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(29,13),(951,995)",
+        "filter_answer": [
+            29,
+            13,
+            951,
+            995
+        ],
+        "iou": 0.16301120825620385,
+        "groundtruth": [
+            492,
+            463,
+            771,
+            992
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(64,78),(934,933)",
+        "filter_answer": [
+            64,
+            78,
+            934,
+            933
+        ],
+        "iou": 0.04385292733750084,
+        "groundtruth": [
+            349,
+            686,
+            489,
+            919
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(489,258),(719,408)",
+        "filter_answer": [
+            489,
+            258,
+            719,
+            408
+        ],
+        "iou": 0.4935997930016286,
+        "groundtruth": [
+            428,
+            202,
+            751,
+            399
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(39,33),(909,965)",
+        "filter_answer": [
+            39,
+            33,
+            909,
+            965
+        ],
+        "iou": 0.022230033052143456,
+        "groundtruth": [
+            442,
+            115,
+            545,
+            290
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(238,358),(728,838)",
+        "filter_answer": [
+            238,
+            358,
+            728,
+            838
+        ],
+        "iou": 0.8183967332903503,
+        "groundtruth": [
+            236,
+            351,
+            714,
+            921
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(251,699),(781,995)",
+        "filter_answer": [
+            251,
+            699,
+            781,
+            995
+        ],
+        "iou": 0.7378484151405611,
+        "groundtruth": [
+            240,
+            760,
+            815,
+            993
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(355,558),(644,996)",
+        "filter_answer": [
+            355,
+            558,
+            644,
+            996
+        ],
+        "iou": 0.6355327662222031,
+        "groundtruth": [
+            335,
+            560,
+            770,
+            970
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(25,297),(155,819)",
+        "filter_answer": [
+            25,
+            297,
+            155,
+            819
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            55,
+            870,
+            211,
+            982
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(384,71),(615,919)",
+        "filter_answer": [
+            384,
+            71,
+            615,
+            919
+        ],
+        "iou": 0.04898204529238709,
+        "groundtruth": [
+            350,
+            407,
+            423,
+            664
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(94,121),(948,989)",
+        "filter_answer": [
+            94,
+            121,
+            948,
+            989
+        ],
+        "iou": 0.267645344758739,
+        "groundtruth": [
+            416,
+            232,
+            870,
+            669
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(166,348),(830,678)",
+        "filter_answer": [
+            166,
+            348,
+            830,
+            678
+        ],
+        "iou": 0.6179713826990596,
+        "groundtruth": [
+            136,
+            390,
+            836,
+            601
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(13,10),(996,988)",
+        "filter_answer": [
+            13,
+            10,
+            996,
+            988
+        ],
+        "iou": 0.161057928313286,
+        "groundtruth": [
+            0,
+            503,
+            337,
+            984
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(385,396),(485,531)",
+        "filter_answer": [
+            385,
+            396,
+            485,
+            531
+        ],
+        "iou": 0.1792452830188679,
+        "groundtruth": [
+            454,
+            385,
+            532,
+            510
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(41,166),(999,899)",
+        "filter_answer": [
+            41,
+            166,
+            999,
+            899
+        ],
+        "iou": 0.7792496304545338,
+        "groundtruth": [
+            58,
+            186,
+            858,
+            870
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(37,1),(401,999)",
+        "filter_answer": [
+            37,
+            1,
+            401,
+            999
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            471,
+            308,
+            586,
+            680
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(157,189),(807,992)",
+        "filter_answer": [
+            157,
+            189,
+            807,
+            992
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            0,
+            622,
+            131,
+            877
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(231,1),(581,999)",
+        "filter_answer": [
+            231,
+            1,
+            581,
+            999
+        ],
+        "iou": 0.22524782167744467,
+        "groundtruth": [
+            213,
+            5,
+            316,
+            977
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(213,733),(403,883)",
+        "filter_answer": [
+            213,
+            733,
+            403,
+            883
+        ],
+        "iou": 0.8886715566422168,
+        "groundtruth": [
+            198,
+            735,
+            401,
+            880
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(451,669),(505,723)",
+        "filter_answer": [
+            451,
+            669,
+            505,
+            723
+        ],
+        "iou": 0.059132180499155904,
+        "groundtruth": [
+            440,
+            675,
+            630,
+            904
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(359,10),(729,999)",
+        "filter_answer": [
+            359,
+            10,
+            729,
+            999
+        ],
+        "iou": 0.42696690623889816,
+        "groundtruth": [
+            439,
+            130,
+            619,
+            998
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(115,312),(284,953)",
+        "filter_answer": [
+            115,
+            312,
+            284,
+            953
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            850,
+            290,
+            903,
+            431
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(248,15),(692,986)",
+        "filter_answer": [
+            248,
+            15,
+            692,
+            986
+        ],
+        "iou": 0.028745790074317365,
+        "groundtruth": [
+            394,
+            387,
+            445,
+            630
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(251,45),(745,939)",
+        "filter_answer": [
+            251,
+            45,
+            745,
+            939
+        ],
+        "iou": 0.4705216178521618,
+        "groundtruth": [
+            308,
+            332,
+            911,
+            911
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(15,25),(966,978)",
+        "filter_answer": [
+            15,
+            25,
+            966,
+            978
+        ],
+        "iou": 0.003459108046646651,
+        "groundtruth": [
+            533,
+            398,
+            628,
+            431
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(283,128),(697,901)",
+        "filter_answer": [
+            283,
+            128,
+            697,
+            901
+        ],
+        "iou": 0.21049667331013078,
+        "groundtruth": [
+            4,
+            405,
+            497,
+            994
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(104,25),(914,964)",
+        "filter_answer": [
+            104,
+            25,
+            914,
+            964
+        ],
+        "iou": 0.1739281347375064,
+        "groundtruth": [
+            247,
+            133,
+            663,
+            451
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(779,278),(997,658)",
+        "filter_answer": [
+            779,
+            278,
+            997,
+            658
+        ],
+        "iou": 0.8650793650793651,
+        "groundtruth": [
+            770,
+            257,
+            998,
+            677
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(451,75),(548,258)",
+        "filter_answer": [
+            451,
+            75,
+            548,
+            258
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            594,
+            27,
+            803,
+            269
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(3,291),(996,715)",
+        "filter_answer": [
+            3,
+            291,
+            996,
+            715
+        ],
+        "iou": 0.06099203587022355,
+        "groundtruth": [
+            478,
+            637,
+            824,
+            777
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(189,528),(703,742)",
+        "filter_answer": [
+            189,
+            528,
+            703,
+            742
+        ],
+        "iou": 0.886845598471849,
+        "groundtruth": [
+            188,
+            528,
+            701,
+            768
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(1,2),(999,999)",
+        "filter_answer": [
+            1,
+            2,
+            999,
+            999
+        ],
+        "iou": 0.004341682361714402,
+        "groundtruth": [
+            211,
+            611,
+            256,
+            707
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(156,318),(910,898)",
+        "filter_answer": [
+            156,
+            318,
+            910,
+            898
+        ],
+        "iou": 0.0585383700722583,
+        "groundtruth": [
+            157,
+            805,
+            557,
+            869
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(300,45),(703,993)",
+        "filter_answer": [
+            300,
+            45,
+            703,
+            993
+        ],
+        "iou": 0.017042517684934946,
+        "groundtruth": [
+            691,
+            191,
+            745,
+            768
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(341,477),(451,587)",
+        "filter_answer": [
+            341,
+            477,
+            451,
+            587
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            474,
+            227,
+            523,
+            646
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(693,399),(999,719)",
+        "filter_answer": [
+            693,
+            399,
+            999,
+            719
+        ],
+        "iou": 0.5864175350341359,
+        "groundtruth": [
+            669,
+            237,
+            999,
+            743
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(699,453),(839,729)",
+        "filter_answer": [
+            699,
+            453,
+            839,
+            729
+        ],
+        "iou": 0.2715466351829988,
+        "groundtruth": [
+            696,
+            412,
+            938,
+            1000
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(184,193),(784,995)",
+        "filter_answer": [
+            184,
+            193,
+            784,
+            995
+        ],
+        "iou": 0.3090281187600249,
+        "groundtruth": [
+            209,
+            169,
+            525,
+            671
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(333,0),(844,629)",
+        "filter_answer": [
+            333,
+            0,
+            844,
+            629
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            386,
+            636,
+            600,
+            946
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(338,72),(661,938)",
+        "filter_answer": [
+            338,
+            72,
+            661,
+            938
+        ],
+        "iou": 0.34942769961478454,
+        "groundtruth": [
+            357,
+            290,
+            691,
+            623
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(81,78),(849,925)",
+        "filter_answer": [
+            81,
+            78,
+            849,
+            925
+        ],
+        "iou": 0.3935976304397357,
+        "groundtruth": [
+            302,
+            12,
+            687,
+            769
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(159,10),(817,905)",
+        "filter_answer": [
+            159,
+            10,
+            817,
+            905
+        ],
+        "iou": 0.34575272091562875,
+        "groundtruth": [
+            108,
+            6,
+            415,
+            866
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(1,0),(999,999)",
+        "filter_answer": [
+            1,
+            0,
+            999,
+            999
+        ],
+        "iou": 0.030385094513351026,
+        "groundtruth": [
+            283,
+            144,
+            445,
+            331
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(539,278),(942,792)",
+        "filter_answer": [
+            539,
+            278,
+            942,
+            792
+        ],
+        "iou": 0.9128530366577942,
+        "groundtruth": [
+            523,
+            257,
+            940,
+            796
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(521,249),(655,557)",
+        "filter_answer": [
+            521,
+            249,
+            655,
+            557
+        ],
+        "iou": 0.7936895113698953,
+        "groundtruth": [
+            524,
+            217,
+            660,
+            584
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "object(131,152),(566,857)",
+        "filter_answer": [
+            131,
+            152,
+            566,
+            857
+        ],
+        "iou": 0.21211694612735363,
+        "groundtruth": [
+            279,
+            416,
+            996,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(27,178),(944,838)",
+        "filter_answer": [
+            27,
+            178,
+            944,
+            838
+        ],
+        "iou": 0.15321370741218068,
+        "groundtruth": [
+            510,
+            560,
+            856,
+            828
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(309,398),(469,578)",
+        "filter_answer": [
+            309,
+            398,
+            469,
+            578
+        ],
+        "iou": 0.7991767127315496,
+        "groundtruth": [
+            318,
+            391,
+            476,
+            596
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(125,458),(919,989)",
+        "filter_answer": [
+            125,
+            458,
+            919,
+            989
+        ],
+        "iou": 0.2297756823033361,
+        "groundtruth": [
+            383,
+            388,
+            838,
+            687
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(155,69),(739,858)",
+        "filter_answer": [
+            155,
+            69,
+            739,
+            858
+        ],
+        "iou": 0.29034932374950084,
+        "groundtruth": [
+            255,
+            300,
+            698,
+            602
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(35,219),(959,858)",
+        "filter_answer": [
+            35,
+            219,
+            959,
+            858
+        ],
+        "iou": 0.1189007661745833,
+        "groundtruth": [
+            638,
+            617,
+            1000,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(859,187),(999,602)",
+        "filter_answer": [
+            859,
+            187,
+            999,
+            602
+        ],
+        "iou": 0.6689913250552815,
+        "groundtruth": [
+            859,
+            5,
+            992,
+            601
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(10,319),(684,995)",
+        "filter_answer": [
+            10,
+            319,
+            684,
+            995
+        ],
+        "iou": 0.004163129698751873,
+        "groundtruth": [
+            674,
+            56,
+            757,
+            524
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(139,267),(223,999)",
+        "filter_answer": [
+            139,
+            267,
+            223,
+            999
+        ],
+        "iou": 0.047612422083704364,
+        "groundtruth": [
+            51,
+            552,
+            168,
+            670
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(213,668),(413,918)",
+        "filter_answer": [
+            213,
+            668,
+            413,
+            918
+        ],
+        "iou": 0.5597599749227531,
+        "groundtruth": [
+            187,
+            655,
+            513,
+            929
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "zebra in image-2(365,443),(695,773)",
+        "filter_answer": [
+            365,
+            443,
+            695,
+            773
+        ],
+        "iou": 0.7893020221787345,
+        "groundtruth": [
+            341,
+            398,
+            706,
+            776
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(333,357),(643,993)",
+        "filter_answer": [
+            333,
+            357,
+            643,
+            993
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            812,
+            573,
+            890,
+            792
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(101,498),(306,679)",
+        "filter_answer": [
+            101,
+            498,
+            306,
+            679
+        ],
+        "iou": 0.8661001488309569,
+        "groundtruth": [
+            89,
+            503,
+            316,
+            682
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(199,521),(839,728)",
+        "filter_answer": [
+            199,
+            521,
+            839,
+            728
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            63,
+            483,
+            126,
+            563
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(375,855),(416,996)",
+        "filter_answer": [
+            375,
+            855,
+            416,
+            996
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            173,
+            509,
+            408,
+            747
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(603,578),(823,995)",
+        "filter_answer": [
+            603,
+            578,
+            823,
+            995
+        ],
+        "iou": 0.10394192451201868,
+        "groundtruth": [
+            643,
+            332,
+            887,
+            669
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(284,435),(348,703)",
+        "filter_answer": [
+            284,
+            435,
+            348,
+            703
+        ],
+        "iou": 0.4962819362865658,
+        "groundtruth": [
+            260,
+            416,
+            367,
+            739
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(187,308),(238,358)",
+        "filter_answer": [
+            187,
+            308,
+            238,
+            358
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            527,
+            398,
+            817,
+            899
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(875,15),(955,261)",
+        "filter_answer": [
+            875,
+            15,
+            955,
+            261
+        ],
+        "iou": 0.7569230769230769,
+        "groundtruth": [
+            870,
+            13,
+            970,
+            273
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(451,558),(495,698)",
+        "filter_answer": [
+            451,
+            558,
+            495,
+            698
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            447,
+            62,
+            536,
+            455
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object in image-1(78,2),(628,987)",
+        "filter_answer": [
+            78,
+            2,
+            628,
+            987
+        ],
+        "iou": 0.42099123211813566,
+        "groundtruth": [
+            363,
+            99,
+            621,
+            983
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(749,511),(996,996)",
+        "filter_answer": [
+            749,
+            511,
+            996,
+            996
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            319,
+            31,
+            689,
+            432
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(195,307),(520,720)",
+        "filter_answer": [
+            195,
+            307,
+            520,
+            720
+        ],
+        "iou": 0.8313204508856683,
+        "groundtruth": [
+            182,
+            285,
+            527,
+            753
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(384,283),(488,458)",
+        "filter_answer": [
+            384,
+            283,
+            488,
+            458
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            816,
+            348,
+            922,
+            666
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "the object(451,690),(541,840)",
+        "filter_answer": [
+            451,
+            690,
+            541,
+            840
+        ],
+        "iou": 0.08862603925602126,
+        "groundtruth": [
+            494,
+            579,
+            633,
+            756
+        ]
+    },
+    {
+        "refer_grounding": {
+            "IOU@0.7": 19,
+            "IOU@0.5": 27,
+            "IOU@0.3": 41,
+            "AVE_IOU": 31.65319981271609,
+            "TOTAL": 99
+        }
+    }
+]

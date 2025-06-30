@@ -34,11 +34,10 @@ def extract_bbox(text):
         matches = re.findall(r'<box>(\d+)\s+(\d+)\s+(\d+)\s+(\d+)</box>', text)
     try:
         if len(matches) == 1:
-            boxes = [list(map(float, match)) for match in matches][0]
-            boxes = [val/1000 if val>=1 else val for val in boxes]
-            
+            boxes = [list(map(int, match)) for match in matches][0]
         else:
-            boxes = [[float(val) / 1000 if float(val) > 1 else float(val) for val in match] for match in matches] 
+            matches = matches[:-1]
+            boxes = [list(map(int, match)) for match in matches][0]
         return boxes
     except:
         return [0.0, 0.0, 0.0, 0.0]

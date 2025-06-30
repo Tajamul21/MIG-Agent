@@ -1,0 +1,1793 @@
+[
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[224,15,603,807]",
+        "filter_answer": [
+            224,
+            15,
+            603,
+            807
+        ],
+        "iou": 0.1748952722920407,
+        "groundtruth": [
+            260,
+            473,
+            428,
+            930
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[435,263,530,357]",
+        "filter_answer": [
+            435,
+            263,
+            530,
+            357
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            713,
+            179,
+            865,
+            280
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[330,457,746,686]",
+        "filter_answer": [
+            330,
+            457,
+            746,
+            686
+        ],
+        "iou": 0.3694987775061125,
+        "groundtruth": [
+            324,
+            307,
+            894,
+            643
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            114,
+            279,
+            845,
+            703
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[368,540,500,687]",
+        "filter_answer": [
+            368,
+            540,
+            500,
+            687
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            582,
+            653,
+            857,
+            983
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[0,345,86,497]",
+        "filter_answer": [
+            0,
+            345,
+            86,
+            497
+        ],
+        "iou": 0.717829816832831,
+        "groundtruth": [
+            0,
+            353,
+            101,
+            517
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            478,
+            793,
+            728,
+            966
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[68,290,784,1073]",
+        "filter_answer": [
+            68,
+            290,
+            784,
+            1073
+        ],
+        "iou": 0.007967252489474348,
+        "groundtruth": [
+            773,
+            496,
+            959,
+            961
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[249,15,578,503]",
+        "filter_answer": [
+            249,
+            15,
+            578,
+            503
+        ],
+        "iou": 0.09739343182459773,
+        "groundtruth": [
+            353,
+            365,
+            473,
+            582
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            334,
+            515,
+            705,
+            903
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            568,
+            782,
+            809,
+            894
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[280,43,517,846]",
+        "filter_answer": [
+            280,
+            43,
+            517,
+            846
+        ],
+        "iou": 0.49922796795338675,
+        "groundtruth": [
+            265,
+            12,
+            424,
+            757
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            21,
+            54,
+            981,
+            756
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            57,
+            542,
+            222,
+            890
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[308,146,325,176]",
+        "filter_answer": [
+            308,
+            146,
+            325,
+            176
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            675,
+            276,
+            996,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[375,540,468,609]",
+        "filter_answer": [
+            375,
+            540,
+            468,
+            609
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            559,
+            660,
+            799,
+            866
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[305,594,417,685]",
+        "filter_answer": [
+            305,
+            594,
+            417,
+            685
+        ],
+        "iou": 0.13604892966360857,
+        "groundtruth": [
+            350,
+            513,
+            571,
+            677
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            126,
+            490,
+            495,
+            937
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[0,139,295,416]",
+        "filter_answer": [
+            0,
+            139,
+            295,
+            416
+        ],
+        "iou": 0.4457292027697685,
+        "groundtruth": [
+            3,
+            58,
+            400,
+            346
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[504,369,607,533]",
+        "filter_answer": [
+            504,
+            369,
+            607,
+            533
+        ],
+        "iou": 0.42849028740202205,
+        "groundtruth": [
+            515,
+            339,
+            643,
+            600
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[309,48,506,370]",
+        "filter_answer": [
+            309,
+            48,
+            506,
+            370
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            523,
+            521,
+            987,
+            984
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            343,
+            275,
+            461,
+            604
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            157,
+            566,
+            580,
+            814
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[405,73,486,194]",
+        "filter_answer": [
+            405,
+            73,
+            486,
+            194
+        ],
+        "iou": 0.28691451990632316,
+        "groundtruth": [
+            402,
+            2,
+            542,
+            246
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[270,274,436,375]",
+        "filter_answer": [
+            270,
+            274,
+            436,
+            375
+        ],
+        "iou": 0.014203067127858213,
+        "groundtruth": [
+            420,
+            112,
+            645,
+            332
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[498,57,979,460]",
+        "filter_answer": [
+            498,
+            57,
+            979,
+            460
+        ],
+        "iou": 0.030356149283044406,
+        "groundtruth": [
+            237,
+            422,
+            956,
+            974
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            325,
+            549,
+            695,
+            948
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[408,153,473,336]",
+        "filter_answer": [
+            408,
+            153,
+            473,
+            336
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            474,
+            94,
+            816,
+            518
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[178,95,803,884]",
+        "filter_answer": [
+            178,
+            95,
+            803,
+            884
+        ],
+        "iou": 0.012935209180293538,
+        "groundtruth": [
+            194,
+            796,
+            267,
+            932
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[483,405,722,504]",
+        "filter_answer": [
+            483,
+            405,
+            722,
+            504
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            505,
+            649,
+            859,
+            994
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[357,469,489,570]",
+        "filter_answer": [
+            357,
+            469,
+            489,
+            570
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            492,
+            463,
+            771,
+            992
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[364,705,568,659]",
+        "filter_answer": [
+            364,
+            705,
+            568,
+            659
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            349,
+            686,
+            489,
+            919
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            428,
+            202,
+            751,
+            399
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[384,257,609,494]",
+        "filter_answer": [
+            384,
+            257,
+            609,
+            494
+        ],
+        "iou": 0.05002133890597636,
+        "groundtruth": [
+            442,
+            115,
+            545,
+            290
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            236,
+            351,
+            714,
+            921
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            240,
+            760,
+            815,
+            993
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[198,304,456,415]",
+        "filter_answer": [
+            198,
+            304,
+            456,
+            415
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            335,
+            560,
+            770,
+            970
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[3,340,105,419]",
+        "filter_answer": [
+            3,
+            340,
+            105,
+            419
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            55,
+            870,
+            211,
+            982
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            350,
+            407,
+            423,
+            664
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            416,
+            232,
+            870,
+            669
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[168,490,1053,647]",
+        "filter_answer": [
+            168,
+            490,
+            1053,
+            647
+        ],
+        "iou": 0.34893669087092993,
+        "groundtruth": [
+            136,
+            390,
+            836,
+            601
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[89,50,463,284]",
+        "filter_answer": [
+            89,
+            50,
+            463,
+            284
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            0,
+            503,
+            337,
+            984
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            454,
+            385,
+            532,
+            510
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            58,
+            186,
+            858,
+            870
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            471,
+            308,
+            586,
+            680
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            0,
+            622,
+            131,
+            877
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[108,93,176,500]",
+        "filter_answer": [
+            108,
+            93,
+            176,
+            500
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            213,
+            5,
+            316,
+            977
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[134,350,207,364]",
+        "filter_answer": [
+            134,
+            350,
+            207,
+            364
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            198,
+            735,
+            401,
+            880
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[405,396,487,451]",
+        "filter_answer": [
+            405,
+            396,
+            487,
+            451
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            440,
+            675,
+            630,
+            904
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[109,0,647,1203]",
+        "filter_answer": [
+            109,
+            0,
+            647,
+            1203
+        ],
+        "iou": 0.2414039251314094,
+        "groundtruth": [
+            439,
+            130,
+            619,
+            998
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            850,
+            290,
+            903,
+            431
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            394,
+            387,
+            445,
+            630
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[304,56,987,700]",
+        "filter_answer": [
+            304,
+            56,
+            987,
+            700
+        ],
+        "iou": 0.3913064179091318,
+        "groundtruth": [
+            308,
+            332,
+            911,
+            911
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[567,300,684,490]",
+        "filter_answer": [
+            567,
+            300,
+            684,
+            490
+        ],
+        "iou": 0.08620246659815005,
+        "groundtruth": [
+            533,
+            398,
+            628,
+            431
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            4,
+            405,
+            497,
+            994
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            247,
+            133,
+            663,
+            451
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[539,340,896,574]",
+        "filter_answer": [
+            539,
+            340,
+            896,
+            574
+        ],
+        "iou": 0.1968040370058873,
+        "groundtruth": [
+            770,
+            257,
+            998,
+            677
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[738,560,846,790]",
+        "filter_answer": [
+            738,
+            560,
+            846,
+            790
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            594,
+            27,
+            803,
+            269
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[365,138,784,609]",
+        "filter_answer": [
+            365,
+            138,
+            784,
+            609
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            478,
+            637,
+            824,
+            777
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[116,405,458,476]",
+        "filter_answer": [
+            116,
+            405,
+            458,
+            476
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            188,
+            528,
+            701,
+            768
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[204,395,226,478]",
+        "filter_answer": [
+            204,
+            395,
+            226,
+            478
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            211,
+            611,
+            256,
+            707
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            157,
+            805,
+            557,
+            869
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[807,34,865,729]",
+        "filter_answer": [
+            807,
+            34,
+            865,
+            729
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            691,
+            191,
+            745,
+            768
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[450,390,476,438]",
+        "filter_answer": [
+            450,
+            390,
+            476,
+            438
+        ],
+        "iou": 0.004427431628464696,
+        "groundtruth": [
+            474,
+            227,
+            523,
+            646
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[594,273,608,286]",
+        "filter_answer": [
+            594,
+            273,
+            608,
+            286
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            669,
+            237,
+            999,
+            743
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[405,336,532,547]",
+        "filter_answer": [
+            405,
+            336,
+            532,
+            547
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            696,
+            412,
+            938,
+            1000
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            209,
+            169,
+            525,
+            671
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[409,0,1037,528]",
+        "filter_answer": [
+            409,
+            0,
+            1037,
+            528
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            386,
+            636,
+            600,
+            946
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[208,234,305,397]",
+        "filter_answer": [
+            208,
+            234,
+            305,
+            397
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            357,
+            290,
+            691,
+            623
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[98,40,673,518]",
+        "filter_answer": [
+            98,
+            40,
+            673,
+            518
+        ],
+        "iou": 0.45593214674115645,
+        "groundtruth": [
+            302,
+            12,
+            687,
+            769
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[95,30,534,806]",
+        "filter_answer": [
+            95,
+            30,
+            534,
+            806
+        ],
+        "iou": 0.6501042428476308,
+        "groundtruth": [
+            108,
+            6,
+            415,
+            866
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[359,174,680,670]",
+        "filter_answer": [
+            359,
+            174,
+            680,
+            670
+        ],
+        "iou": 0.07671242216262897,
+        "groundtruth": [
+            283,
+            144,
+            445,
+            331
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            523,
+            257,
+            940,
+            796
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            524,
+            217,
+            660,
+            584
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            279,
+            416,
+            996,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            510,
+            560,
+            856,
+            828
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[268,357,409,428]",
+        "filter_answer": [
+            268,
+            357,
+            409,
+            428
+        ],
+        "iou": 0.08625813393451863,
+        "groundtruth": [
+            318,
+            391,
+            476,
+            596
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[340,418,827,659]",
+        "filter_answer": [
+            340,
+            418,
+            827,
+            659
+        ],
+        "iou": 0.7308617015463635,
+        "groundtruth": [
+            383,
+            388,
+            838,
+            687
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            255,
+            300,
+            698,
+            602
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[549,387,1036,728]",
+        "filter_answer": [
+            549,
+            387,
+            1036,
+            728
+        ],
+        "iou": 0.15252519501224165,
+        "groundtruth": [
+            638,
+            617,
+            1000,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[30,289,105,492]",
+        "filter_answer": [
+            30,
+            289,
+            105,
+            492
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            859,
+            5,
+            992,
+            601
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[480,463,507,727]",
+        "filter_answer": [
+            480,
+            463,
+            507,
+            727
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            674,
+            56,
+            757,
+            524
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[60,123,134,475]",
+        "filter_answer": [
+            60,
+            123,
+            134,
+            475
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            51,
+            552,
+            168,
+            670
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            187,
+            655,
+            513,
+            929
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            341,
+            398,
+            706,
+            776
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[439,380,457,436]",
+        "filter_answer": [
+            439,
+            380,
+            457,
+            436
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            812,
+            573,
+            890,
+            792
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[8,123,496,450]",
+        "filter_answer": [
+            8,
+            123,
+            496,
+            450
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            89,
+            503,
+            316,
+            682
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[70,598,94,623]",
+        "filter_answer": [
+            70,
+            598,
+            94,
+            623
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            63,
+            483,
+            126,
+            563
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[174,508,309,616]",
+        "filter_answer": [
+            174,
+            508,
+            309,
+            616
+        ],
+        "iou": 0.25764737358423256,
+        "groundtruth": [
+            173,
+            509,
+            408,
+            747
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            643,
+            332,
+            887,
+            669
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[243,568,370,619]",
+        "filter_answer": [
+            243,
+            568,
+            370,
+            619
+        ],
+        "iou": 0.1533683707596751,
+        "groundtruth": [
+            260,
+            416,
+            367,
+            739
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            527,
+            398,
+            817,
+            899
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[890,67,1003,314]",
+        "filter_answer": [
+            890,
+            67,
+            1003,
+            314
+        ],
+        "iou": 0.4402767759343859,
+        "groundtruth": [
+            870,
+            13,
+            970,
+            273
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            447,
+            62,
+            536,
+            455
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[39,0,486,576]",
+        "filter_answer": [
+            39,
+            0,
+            486,
+            576
+        ],
+        "iou": 0.13744368934085782,
+        "groundtruth": [
+            363,
+            99,
+            621,
+            983
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[308,456,749,728]",
+        "filter_answer": [
+            308,
+            456,
+            749,
+            728
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            319,
+            31,
+            689,
+            432
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[50,34,546,362]",
+        "filter_answer": [
+            50,
+            34,
+            546,
+            362
+        ],
+        "iou": 0.0892692122869922,
+        "groundtruth": [
+            182,
+            285,
+            527,
+            753
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "There are none.",
+        "filter_answer": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            816,
+            348,
+            922,
+            666
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2.",
+        "answer": "[450,396,879,560]",
+        "filter_answer": [
+            450,
+            396,
+            879,
+            560
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            494,
+            579,
+            633,
+            756
+        ]
+    },
+    {
+        "refer_grounding": {
+            "IOU@0.7": 2,
+            "IOU@0.5": 3,
+            "IOU@0.3": 11,
+            "AVE_IOU": 7.770991456431994,
+            "TOTAL": 99
+        }
+    }
+]

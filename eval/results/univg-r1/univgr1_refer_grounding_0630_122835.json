@@ -1,0 +1,1793 @@
+[
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the broom in image-1 and then locate it in image-2. The broom in image-1 has a blue handle and black bristles. In image-2, there is a person holding a broom with a similar appearance. The broom is positioned on the floor, with the bristles pointing downwards. Therefore, the object in image-1 is located at the coordinates where the broom is placed in image-2.</think>\n<answer>(271,439),(493,933)</answer>",
+        "filter_answer": [
+            271,
+            439,
+            493,
+            933
+        ],
+        "iou": 0.6255634508914948,
+        "groundtruth": [
+            260,
+            473,
+            428,
+            930
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the basketball in image-2. The basketball is being held by a player wearing a white jersey with the number 23 on it. The player is attempting to shoot the ball into the hoop. By examining the position of the basketball relative to the player and the hoop, I can determine its location in the image.</think>\n<answer>(710,190),(855,290)</answer>",
+        "filter_answer": [
+            710,
+            190,
+            855,
+            290
+        ],
+        "iou": 0.7485941893158388,
+        "groundtruth": [
+            713,
+            179,
+            865,
+            280
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the location of the object in image-1 within image-2, I need to identify the badminton racket in both images. In image-1, the racket is clearly visible with a green handle and a black frame. In image-2, there is a person holding a racket that matches this description. The racket in image-2 has a similar color scheme and design as the one in image-1. Therefore, the object in image-1 is located at the coordinates where the person is holding the racket in image-2.</think>\n<answer>(333,318),(833,618)</answer>",
+        "filter_answer": [
+            333,
+            318,
+            833,
+            618
+        ],
+        "iou": 0.7832080200501254,
+        "groundtruth": [
+            324,
+            307,
+            894,
+            643
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the location of the object in image-1 within image-2, I need to identify the umbrella in both images. In image-1, there is a black umbrella with a handle and ribs. In image-2, there is a colorful umbrella held by a child. The handle and ribs of the umbrella in image-2 match the ones in image-1. Therefore, the object in image-1 is located at the coordinates where the colorful umbrella is held by the child.</think>\n<answer>(120,280),(840,704)</answer>",
+        "filter_answer": [
+            120,
+            280,
+            840,
+            704
+        ],
+        "iou": 0.9803517626760745,
+        "groundtruth": [
+            114,
+            279,
+            845,
+            703
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the suitcase in image-1 and then locate it in image-2. The suitcase in image-1 is a black, metallic-looking luggage with wheels and a handle. In image-2, there are two people walking, and one of them is pulling a suitcase. The suitcase they are pulling matches the description of the one in image-1. Therefore, the object in image-1 is located at the coordinates where the suitcase is being pulled by the person on the right in image-2.</think>\n<answer>(589,662),(847,980)</answer>",
+        "filter_answer": [
+            589,
+            662,
+            847,
+            980
+        ],
+        "iou": 0.9040661157024793,
+        "groundtruth": [
+            582,
+            653,
+            857,
+            983
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the object in image-1 and then locate it in image-2. The object in image-1 is a stainless steel tea kettle with a blue handle. In image-2, there is a kitchen setting with various objects. I should look for the tea kettle among these objects. After examining the kitchen area in image-2, I can see the tea kettle on the left side of the countertop.</think>\n<answer>(0,366),(103,530)</answer>",
+        "filter_answer": [
+            0,
+            366,
+            103,
+            530
+        ],
+        "iou": 0.8377368854710244,
+        "groundtruth": [
+            0,
+            353,
+            101,
+            517
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a red Formula 1 car with the number 28 on it. In image-2, there are multiple cars racing on a track. I should look for a car that matches the color and number of the car in image-1. After examining the cars in image-2, I notice a red car with the number 28 on it, which matches the description of the car in image-1.</think>\n<answer>(486,785),(720,958)</answer>",
+        "filter_answer": [
+            486,
+            785,
+            720,
+            958
+        ],
+        "iou": 0.855680156021453,
+        "groundtruth": [
+            478,
+            793,
+            728,
+            966
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the blue boxing glove in image-1 and then locate it in image-2. In image-2, there are two boxers wearing gloves. The blue glove is on the right side of the image, worn by the boxer in the blue uniform. Therefore, the coordinates for the blue glove in image-2 should be around the right side of the image.</think>\n<answer>(770,490),(950,947)</answer>",
+        "filter_answer": [
+            770,
+            490,
+            950,
+            947
+        ],
+        "iou": 0.8977092540737492,
+        "groundtruth": [
+            773,
+            496,
+            959,
+            961
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the Starbucks cup with the green and white logo. In image-2, there is a woman holding a cup with the same logo. The cup is positioned in her hands, and she is looking at it. Therefore, the object in image-1 is the Starbucks cup held by the woman in image-2.</think>\n<answer>(360,368),(464,579)</answer>",
+        "filter_answer": [
+            360,
+            368,
+            464,
+            579
+        ],
+        "iou": 0.8427035330261137,
+        "groundtruth": [
+            353,
+            365,
+            473,
+            582
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the bicycle in image-1 and then locate it in image-2. The bicycle in image-1 is a road bike with a distinctive frame design. In image-2, there are two cyclists riding bicycles. I should compare the bicycles in image-2 to the one in image-1 to find the matching object. The bicycle on the right in image-2 has a similar frame design and wheel size as the one in image-1. Therefore, the object in image-1 is located at the coordinates where the bicycle on the right in image-2 is positioned.</think>\n<answer>(456,430),(710,905)</answer>",
+        "filter_answer": [
+            456,
+            430,
+            710,
+            905
+        ],
+        "iou": 0.5751193551843606,
+        "groundtruth": [
+            334,
+            515,
+            705,
+            903
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a wooden bench with a slatted back and seat. In image-2, I should look for a similar bench. After examining the benches in image-2, I notice one that matches the description: it has a slatted back and seat, and it is positioned on the grass near a path. This bench is located towards the bottom right of the image.</think>\n<answer>(570,786),(804,887)</answer>",
+        "filter_answer": [
+            570,
+            786,
+            804,
+            887
+        ],
+        "iou": 0.875592768227623,
+        "groundtruth": [
+            568,
+            782,
+            809,
+            894
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a tall tower with a pointed top and a unique structure. In image-2, I should look for a similar tower that matches these characteristics. After examining the background of image-2, I can see a tower that matches the description of the object in image-1.</think>\n<answer>(290,28),(398,671)</answer>",
+        "filter_answer": [
+            290,
+            28,
+            398,
+            671
+        ],
+        "iou": 0.5862479422565531,
+        "groundtruth": [
+            265,
+            12,
+            424,
+            757
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify a distinctive feature or object that is present in both images. In image-1, there are many airplanes flying over a field. One of the airplanes has a unique tail design with the letters \"HL\" on it. This tail design is a prominent feature that can be used for comparison. In image-2, there is a single fighter jet on the runway. The tail of this fighter jet also has the letters \"HL\" on it. Therefore, the object in image-1 located in image-2 is the fighter jet with the \"HL\" tail.</think>\n<answer>(27,58),(977,747)</answer>",
+        "filter_answer": [
+            27,
+            58,
+            977,
+            747
+        ],
+        "iou": 0.9712577160493827,
+        "groundtruth": [
+            21,
+            54,
+            981,
+            756
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the features of the panda in both images. In image-1, the panda is lying on a rock with its tongue out. In image-2, there are multiple pandas, but I should look for one that matches the position and appearance of the panda in image-1. The panda in image-1 is positioned on a rock, so I should look for a panda in image-2 that is also on a rock. After examining the pandas in image-2, I notice that the panda on the left side of the image is lying on a rock and has its tongue out, which matches the description of the panda in image-1.</think>\n<answer>(64,546),(218,889)</answer>",
+        "filter_answer": [
+            64,
+            546,
+            218,
+            889
+        ],
+        "iou": 0.9199233716475096,
+        "groundtruth": [
+            57,
+            542,
+            222,
+            890
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the specific part of the shirt that is being referred to. The question asks for the coordinates of the object in image-1 within image-2. In image-1, the shirt has a plaid pattern with blue and red stripes. In image-2, the person is wearing a similar shirt. To locate the object, I should focus on the area where the shirt is visible in image-2. The shirt covers most of the upper body of the person, so the coordinates should encompass this area.</think>\n<answer>(660,279),(999,999)</answer>",
+        "filter_answer": [
+            660,
+            279,
+            999,
+            999
+        ],
+        "iou": 0.9405614524797689,
+        "groundtruth": [
+            675,
+            276,
+            996,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a black gaming controller with a distinctive design, including buttons and analog sticks. In image-2, there are two people playing video games. One person is holding a similar-looking controller. By comparing the design and features of the controllers in both images, I can determine that the object in image-1 is located in the hands of the person on the right in image-2.</think>\n<answer>(579,668),(812,812)</answer>",
+        "filter_answer": [
+            579,
+            668,
+            812,
+            812
+        ],
+        "iou": 0.617399438727783,
+        "groundtruth": [
+            559,
+            660,
+            799,
+            866
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the ping pong paddle in image-2. The ping pong paddle in image-1 is red and black with a wooden handle. In image-2, there are two players playing table tennis. One player is wearing a red shirt and holding a ping pong paddle. The paddle in image-2 matches the description of the paddle in image-1. Therefore, the object in image-1 is located at the coordinates where the player in the red shirt is holding the paddle.</think>\n<answer>(380,525),(540,700)</answer>",
+        "filter_answer": [
+            380,
+            525,
+            540,
+            700
+        ],
+        "iou": 0.6091573990582106,
+        "groundtruth": [
+            350,
+            513,
+            571,
+            677
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the specific part of the newspaper that is being referred to. In image-1, there is a stack of newspapers. In image-2, there is a man holding a newspaper. The object in image-1 that corresponds to the newspaper in image-2 is the section of the newspaper that the man is holding. This section includes the top part of the newspaper with the visible text and images.</think>\n<answer>(139,489),(489,941)</answer>",
+        "filter_answer": [
+            139,
+            489,
+            489,
+            941
+        ],
+        "iou": 0.9385517088300048,
+        "groundtruth": [
+            126,
+            490,
+            495,
+            937
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the kite in image-1 and then locate it in image-2. The kite in image-1 is colorful with a rainbow pattern. In image-2, there are three people running in a field, and one of them is holding a kite. The kite in image-2 matches the description of the kite in image-1. Therefore, the object in image-1 is located at the coordinates where the kite is being flown by the person on the left in image-2.</think>\n<answer>(0,73),(400,315)</answer>",
+        "filter_answer": [
+            0,
+            73,
+            400,
+            315
+        ],
+        "iou": 0.8349759260224923,
+        "groundtruth": [
+            3,
+            58,
+            400,
+            346
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the microphone in image-1 and then locate it in image-2. The microphone in image-1 is a Shure SM58 with a distinctive design. In image-2, there are three people, and one of them is holding a microphone. By comparing the design of the microphone in image-1 with the microphones held by the people in image-2, I can determine which one matches. The person in the middle of image-2 is holding a microphone that matches the design of the Shure SM58 in image-1.</think>\n<answer>(533,340),(639,592)</answer>",
+        "filter_answer": [
+            533,
+            340,
+            639,
+            592
+        ],
+        "iou": 0.7995689655172413,
+        "groundtruth": [
+            515,
+            339,
+            643,
+            600
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the red dumbbells in image-1 and then locate them in image-2. In image-2, there is a person holding a dumbbell. The dumbbell in image-2 is silver and has a similar shape to the red dumbbells in image-1. Therefore, the object in image-1 that matches the reference in image-2 is the dumbbell being held by the person.</think>\n<answer>(528,554),(964,936)</answer>",
+        "filter_answer": [
+            528,
+            554,
+            964,
+            936
+        ],
+        "iou": 0.7752662545617041,
+        "groundtruth": [
+            523,
+            521,
+            987,
+            984
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the specific item from image-1 and then locate it in image-2. In image-1, there is a green bottle of Stella Artois beer next to a glass. The bottle has a distinctive label with the brand name \"Stella Artois\" and the word \"Belgium\" on it. In image-2, there are several people sitting on a couch, holding bottles of beer. I should look for a bottle that matches the description of the Stella Artois beer from image-1. After examining the bottles held by the people in image-2, I can see that one of the bottles has a similar green color and label design as the Stella Artois beer from image-1. Therefore, the object in image-1 located in image-2 is the bottle held by the person on the left side of the image.</think>\n<answer>(360,283),(440,600)</answer>",
+        "filter_answer": [
+            360,
+            283,
+            440,
+            600
+        ],
+        "iou": 0.653237854824584,
+        "groundtruth": [
+            343,
+            275,
+            461,
+            604
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a white cake with red cherries on top. In image-2, there is a person decorating a cake. The cake in image-2 has white frosting and some decorations on top. By comparing the two images, I can see that the cake in image-2 matches the description of the cake in image-1. Therefore, the object in image-1 is located at the coordinates where the cake is placed in image-2.</think>\n<answer>(250,590),(506,787)</answer>",
+        "filter_answer": [
+            250,
+            590,
+            506,
+            787
+        ],
+        "iou": 0.4807442995500648,
+        "groundtruth": [
+            157,
+            566,
+            580,
+            814
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the white chef's hat. In image-2, there is a chef wearing a white chef's hat. The hat is positioned on the chef's head and covers the top part of his head. By examining the position of the hat in relation to the chef's body, I can determine its coordinates.</think>\n<answer>(410,0),(540,236)</answer>",
+        "filter_answer": [
+            410,
+            0,
+            540,
+            236
+        ],
+        "iou": 0.8837884950610111,
+        "groundtruth": [
+            402,
+            2,
+            542,
+            246
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the white swimming cap with the Speedo logo. In image-2, there is a person wearing a white swimming cap with the word \"FOSTER\" and an American flag design. This matches the description of the object in image-1. Therefore, the coordinates for the object in image-2 should be where the person's head is positioned.</think>\n<answer>(430,120),(630,320)</answer>",
+        "filter_answer": [
+            430,
+            120,
+            630,
+            320
+        ],
+        "iou": 0.8080808080808081,
+        "groundtruth": [
+            420,
+            112,
+            645,
+            332
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the specific item from image-1 and then locate it in image-2. In image-1, there is a large yellow Mcdonald's logo prominently displayed. This logo is a distinctive feature that can be used to locate the corresponding area in image-2. By examining image-2, I can see the same large yellow Mcdonald's logo on the building. Therefore, the object in image-1 located in image-2 is the large yellow Mcdonald's logo.</think>\n<answer>(340,389),(786,597)</answer>",
+        "filter_answer": [
+            340,
+            389,
+            786,
+            597
+        ],
+        "iou": 0.18962308615520668,
+        "groundtruth": [
+            237,
+            422,
+            956,
+            974
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the snowboard in image-1 and then locate it in image-2. The snowboard in image-1 has a distinctive design with red and black patterns. In image-2, there is a person skiing, and the skis they are using have a similar design to the snowboard in image-1. Therefore, the object in image-1 is the skis being used by the person in image-2.</think>\n<answer>(330,555),(690,950)</answer>",
+        "filter_answer": [
+            330,
+            555,
+            690,
+            950
+        ],
+        "iou": 0.953690596562184,
+        "groundtruth": [
+            325,
+            549,
+            695,
+            948
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the red jacket in image-2. The jacket is worn by a person skiing down a snowy slope. The bounding box should encompass the entire jacket, which covers the upper body and arms of the skier.</think>\n<answer>(446,98),(836,540)</answer>",
+        "filter_answer": [
+            446,
+            98,
+            836,
+            540
+        ],
+        "iou": 0.8267145521099524,
+        "groundtruth": [
+            474,
+            94,
+            816,
+            518
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the clear glass cup. In image-2, there is a desk with various items on it. I should look for a clear glass cup among these items. After examining the desk, I can see a clear glass cup placed near the laptop and some papers.</think>\n<answer>(206,810),(264,922)</answer>",
+        "filter_answer": [
+            206,
+            810,
+            264,
+            922
+        ],
+        "iou": 0.6543110394842868,
+        "groundtruth": [
+            194,
+            796,
+            267,
+            932
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the specific object from image-1 and then locate it in image-2. In image-1, there is a laptop with a visible screen displaying some content. In image-2, there is a person sitting at a desk with a laptop in front of them. The laptop in image-2 matches the one in image-1 in terms of appearance and position on the desk. Therefore, the object in image-1 is located at the coordinates where the laptop is placed in image-2.</think>\n<answer>(510,664),(865,995)</answer>",
+        "filter_answer": [
+            510,
+            664,
+            865,
+            995
+        ],
+        "iou": 0.9253203711886876,
+        "groundtruth": [
+            505,
+            649,
+            859,
+            994
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the location of the object in image-1 within image-2, I need to identify the shopping cart in image-2. The shopping cart in image-1 is characterized by its metal frame and wheels. In image-2, there is a shopping cart with a similar design, located towards the right side of the image. This shopping cart has a red handlebar and is filled with various items. Therefore, the object in image-1 is located at the coordinates (504, 468) to (760, 999) in image-2.</think>\n<answer>(504,468),(760,999)</answer>",
+        "filter_answer": [
+            504,
+            468,
+            760,
+            999
+        ],
+        "iou": 0.897987053413039,
+        "groundtruth": [
+            492,
+            463,
+            771,
+            992
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the soccer ball in both images. In image-1, the soccer ball is prominently displayed with a black and white pattern. In image-2, there are two children playing with a soccer ball. The soccer ball in image-2 has the same black and white pattern as the one in image-1. Therefore, the object in image-1 is the soccer ball located at the coordinates where the children are playing.</think>\n<answer>(344,670),(490,912)</answer>",
+        "filter_answer": [
+            344,
+            670,
+            490,
+            912
+        ],
+        "iou": 0.8713372989645296,
+        "groundtruth": [
+            349,
+            686,
+            489,
+            919
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the sunglasses in image-2. The sunglasses are worn by the dog and are positioned on its face. By examining the image, I can see that the sunglasses cover the dog's eyes and are clearly visible. Therefore, the coordinates for the sunglasses in image-2 should be centered around the dog's face.</think>\n<answer>(486,256),(736,406)</answer>",
+        "filter_answer": [
+            486,
+            256,
+            736,
+            406
+        ],
+        "iou": 0.5467949404261176,
+        "groundtruth": [
+            428,
+            202,
+            751,
+            399
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the helmet in image-1 and then locate it in image-2. The helmet in image-1 is black with orange and gray accents. In image-2, there is a person riding a motorcycle wearing a helmet. The helmet on the rider's head matches the description of the helmet in image-1. Therefore, the object in image-1 is located at the coordinates where the helmet is worn by the rider in image-2.</think>\n<answer>(447,116),(539,275)</answer>",
+        "filter_answer": [
+            447,
+            116,
+            539,
+            275
+        ],
+        "iou": 0.8115395284327324,
+        "groundtruth": [
+            442,
+            115,
+            545,
+            290
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the features of the motorcycle in both images. In image-1, the motorcycle is white with black and blue accents. In image-2, there is a person riding a motorcycle. The motorcycle in image-2 has similar colors: white with black and blue accents. Therefore, the object in image-1 is the motorcycle being ridden by the person in image-2.</think>\n<answer>(246,340),(717,918)</answer>",
+        "filter_answer": [
+            246,
+            340,
+            717,
+            918
+        ],
+        "iou": 0.9499323410013532,
+        "groundtruth": [
+            236,
+            351,
+            714,
+            921
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the key features of the object in image-1 and then search for those features in image-2. The object in image-1 is a pizza with various toppings, including shrimp, vegetables, and cheese. In image-2, there is a person preparing a pizza on a wooden surface. The pizza in image-2 has tomato sauce and some white toppings that could be shrimp or another type of seafood. By comparing the toppings and the overall appearance of the pizzas, I can conclude that the object in image-1 is located at the coordinates where the pizza is being prepared in image-2.</think>\n<answer>(256,758),(780,999)</answer>",
+        "filter_answer": [
+            256,
+            758,
+            780,
+            999
+        ],
+        "iou": 0.8836552867182468,
+        "groundtruth": [
+            240,
+            760,
+            815,
+            993
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the pizza boxes. In image-1, there are three pizza boxes stacked on top of each other. In image-2, there is a person standing next to a counter with several objects on it. Among these objects, there are two white pizza boxes that match the description of the pizza boxes in image-1. Therefore, the object in image-1 is located at the coordinates where these two white pizza boxes are placed.</think>\n<answer>(330,568),(793,968)</answer>",
+        "filter_answer": [
+            330,
+            568,
+            793,
+            968
+        ],
+        "iou": 0.917963597995252,
+        "groundtruth": [
+            335,
+            560,
+            770,
+            970
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the rolling pin in image-2. The rolling pin is a long, cylindrical object used for flattening dough. In image-2, there is a person preparing pizzas, and on the counter, there is a rolling pin visible. It is placed near the pizzas and appears to be used for flattening dough.</think>\n<answer>(0,790),(219,999)</answer>",
+        "filter_answer": [
+            0,
+            790,
+            219,
+            999
+        ],
+        "iou": 0.38172642065936946,
+        "groundtruth": [
+            55,
+            870,
+            211,
+            982
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a glass bottle with a metal cap and a measuring scale on it. In image-2, there is a chef preparing pizza. I should look for a similar bottle in the chef's hand or nearby on the counter. After examining the image, I notice that the chef is holding a bottle that matches the description of the object in image-1.</think>\n<answer>(346,390),(406,625)</answer>",
+        "filter_answer": [
+            346,
+            390,
+            406,
+            625
+        ],
+        "iou": 0.5911005665036556,
+        "groundtruth": [
+            350,
+            407,
+            423,
+            664
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the object in image-1 and then locate it in image-2. Image-1 shows an open toaster oven with a rack inside. In image-2, there is a person holding a pizza and standing in front of a commercial oven. The commercial oven in image-2 has multiple compartments, which could potentially match the toaster oven from image-1. By comparing the shapes and sizes, I can conclude that the object in image-1 is located within the commercial oven in image-2.</think>\n<answer>(410,230),(870,662)</answer>",
+        "filter_answer": [
+            410,
+            230,
+            870,
+            662
+        ],
+        "iou": 0.9669238922624296,
+        "groundtruth": [
+            416,
+            232,
+            870,
+            669
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the features of the car in both images. The car in image-1 is black with gold rims and has a sleek design. In image-2, there are several cars visible, but I should look for one that matches the description from image-1. The car in the foreground of image-2 has similar characteristics: it is black with gold rims and has a similar sleek design. Therefore, this is likely the car from image-1.</think>\n<answer>(187,375),(850,610)</answer>",
+        "filter_answer": [
+            187,
+            375,
+            850,
+            610
+        ],
+        "iou": 0.8221305668623848,
+        "groundtruth": [
+            136,
+            390,
+            836,
+            601
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the location of the object in image-1 within image-2, I need to identify the fire truck in both images. In image-1, the fire truck is clearly visible with its distinctive red color and white stripes. In image-2, there is a fire truck on the left side of the image. The fire truck in image-2 has a similar design and color scheme as the one in image-1. Therefore, the object in image-1 located in image-2 is the fire truck on the left.</think>\n<answer>(0,0),(327,999)</answer>",
+        "filter_answer": [
+            0,
+            0,
+            327,
+            999
+        ],
+        "iou": 0.4744949213081817,
+        "groundtruth": [
+            0,
+            503,
+            337,
+            984
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the black boot in image-1 and then locate it in image-2. The boot is a distinctive object with a shiny, reflective surface and a zipper on the back. In image-2, I should look for a similar object that matches this description. After examining the image, I notice that the jockey is wearing a black boot that matches the description of the boot in image-1. Therefore, the object in image-1 is located at the coordinates where the jockey's boot is positioned.</think>\n<answer>(417,330),(530,510)</answer>",
+        "filter_answer": [
+            417,
+            330,
+            530,
+            510
+        ],
+        "iou": 0.46138902379796015,
+        "groundtruth": [
+            454,
+            385,
+            532,
+            510
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the horse in image-1 and then locate it in image-2. The horse in image-1 is a brown horse with a black mane and tail. In image-2, there is a horse running with a jockey on its back. This horse also has a brown coat and a black mane and tail, which matches the description of the horse in image-1. Therefore, the object in image-1 is the horse in image-2.</think>\n<answer>(39,177),(850,887)</answer>",
+        "filter_answer": [
+            39,
+            177,
+            850,
+            887
+        ],
+        "iou": 0.9319538537233218,
+        "groundtruth": [
+            58,
+            186,
+            858,
+            870
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the traffic lights and their positions. In image-1, there are three traffic lights visible. The first one is on the left side, the second one is in the middle, and the third one is on the right side. In image-2, I should look for similar traffic lights. The traffic lights in image-2 are located at the top of the image, near the center. Therefore, the object in image-1 that corresponds to the traffic lights in image-2 is located at the coordinates (540, 341) to (570, 375).</think>\n<answer>(540,341),(570,375)</answer>",
+        "filter_answer": [
+            540,
+            341,
+            570,
+            375
+        ],
+        "iou": 0.023842917251051893,
+        "groundtruth": [
+            471,
+            308,
+            586,
+            680
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the location of the object in image-1 within image-2, I need to identify the red car in both images. In image-1, the car is clearly visible and has a distinctive shape and color. In image-2, there are multiple cars on the street. I should look for a red car that matches the description of the one in image-1. After examining the cars in image-2, I can see a red car on the left side of the image, which appears to be the same as the one in image-1.</think>\n<answer>(0,630),(130,830)</answer>",
+        "filter_answer": [
+            0,
+            630,
+            130,
+            830
+        ],
+        "iou": 0.7783265978146984,
+        "groundtruth": [
+            0,
+            622,
+            131,
+            877
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the street lamp in image-1 and then locate it in image-2. The street lamp in image-1 is characterized by its tall, slender pole with a light fixture at the top. In image-2, I can see a similar street lamp on the left side of the street. It has a similar design and is positioned near the sidewalk.</think>\n<answer>(225,0),(325,999)</answer>",
+        "filter_answer": [
+            225,
+            0,
+            325,
+            999
+        ],
+        "iou": 0.7928363988383349,
+        "groundtruth": [
+            213,
+            5,
+            316,
+            977
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the location of the object in image-1 within image-2, I need to identify the white truck with a flatbed. In image-2, there are several vehicles on the street. I should look for a vehicle that matches the description of a white truck with a flatbed. After examining the vehicles, I notice a white truck with a flatbed parked on the left side of the street. This truck is located near the buildings and appears to be in front of the \"GLOBE\" sign.</think>\n<answer>(206,749),(406,870)</answer>",
+        "filter_answer": [
+            206,
+            749,
+            406,
+            870
+        ],
+        "iou": 0.7854527296937417,
+        "groundtruth": [
+            198,
+            735,
+            401,
+            880
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a yellow taxi with a \"TAXI\" sign on top. In image-2, I should look for a similar yellow taxi among the vehicles on the street. After examining the vehicles, I can see a yellow taxi parked on the right side of the street, which matches the description of the object in image-1.</think>\n<answer>(448,690),(644,885)</answer>",
+        "filter_answer": [
+            448,
+            690,
+            644,
+            885
+        ],
+        "iou": 0.7675173010380623,
+        "groundtruth": [
+            440,
+            675,
+            630,
+            904
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the distinctive features of the church in both images. The church in image-1 has a tall spire and a unique architectural design. In image-2, I should look for a similar structure with a tall spire and a similar architectural style. By examining the buildings in image-2, I can identify the church that matches these characteristics.</think>\n<answer>(446,150),(606,897)</answer>",
+        "filter_answer": [
+            446,
+            150,
+            606,
+            897
+        ],
+        "iou": 0.7649769585253456,
+        "groundtruth": [
+            439,
+            130,
+            619,
+            998
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a beige trench coat with a belt and buttons on the sleeves. In image-2, there are four people walking across a street. I should look for someone wearing a similar trench coat. The person on the left in image-2 is wearing a black outfit, which does not match the trench coat. The person on the right in image-2 is also wearing a black outfit, which does not match either. The person in the middle of image-2 is wearing a black outfit, but the style does not match the trench coat. The person on the far left in image-2 is wearing a black outfit, but the style does not match the trench coat. Therefore, the object in image-1 is not located in image-2.</think>\n<answer>(300,285),(476,945)</answer>",
+        "filter_answer": [
+            300,
+            285,
+            476,
+            945
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            850,
+            290,
+            903,
+            431
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a black electric violin with a distinctive shape and four strings. In image-2, there are four people walking on a street, each holding an instrument. I should look for the person holding an instrument that matches the description of the electric violin from image-1.</think>\n<answer>(130,360),(310,850)</answer>",
+        "filter_answer": [
+            130,
+            360,
+            310,
+            850
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            394,
+            387,
+            445,
+            630
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the piano in image-1 and then locate it in image-2. The piano in image-1 is a grand piano with a black finish and white keys. In image-2, there are multiple pianos on stage, but I should look for one that matches the description of the piano in image-1. The piano in image-2 that matches this description is located towards the center of the stage, with its lid open and surrounded by musicians.</think>\n<answer>(320,330),(908,849)</answer>",
+        "filter_answer": [
+            320,
+            330,
+            908,
+            849
+        ],
+        "iou": 0.8677839532075601,
+        "groundtruth": [
+            308,
+            332,
+            911,
+            911
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a conductor's baton with a black handle and a white shaft. In image-2, there are several musicians and a conductor. The conductor is holding a baton, which matches the description of the object in image-1. By examining the position of the conductor's baton in image-2, I can determine its location.</think>\n<answer>(490,370),(619,450)</answer>",
+        "filter_answer": [
+            490,
+            370,
+            619,
+            450
+        ],
+        "iou": 0.2673071489121221,
+        "groundtruth": [
+            533,
+            398,
+            628,
+            431
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the object in image-1 and then locate it in image-2. The object in image-1 is a music stand with a black metal frame and a perforated metal surface. In image-2, there are several musicians playing instruments. I should look for a similar music stand among them. After examining the musicians, I notice that one of them has a music stand in front of them. This music stand matches the description of the one in image-1.</think>\n<answer>(204,600),(468,999)</answer>",
+        "filter_answer": [
+            204,
+            600,
+            468,
+            999
+        ],
+        "iou": 0.35658920043744025,
+        "groundtruth": [
+            4,
+            405,
+            497,
+            994
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the cello in both images. In image-1, the cello is clearly visible with its distinctive shape and features. In image-2, there is a person playing a violin, but the cello is also present in the background. The cello in image-2 has a similar shape and features as the one in image-1. Therefore, the object in image-1 is located at the coordinates where the cello is positioned in image-2.</think>\n<answer>(250,150),(706,404)</answer>",
+        "filter_answer": [
+            250,
+            150,
+            706,
+            404
+        ],
+        "iou": 0.7325047133580057,
+        "groundtruth": [
+            247,
+            133,
+            663,
+            451
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the television screen. In image-1, the television is a black rectangular object with a brand name visible at the bottom. In image-2, there is a large screen on the right side of the room that matches the description of the television in image-1. This screen is mounted on the wall and has a similar shape and size.</think>\n<answer>(773,269),(999,679)</answer>",
+        "filter_answer": [
+            773,
+            269,
+            999,
+            679
+        ],
+        "iou": 0.9501138480645829,
+        "groundtruth": [
+            770,
+            257,
+            998,
+            677
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the chandelier in image-1 and then locate it in image-2. The chandelier in image-1 has a distinctive design with gold-colored glass spheres and black lampshades. In image-2, I can see a similar chandelier hanging from the ceiling on the right side of the room. This chandelier matches the description of the one in image-1.</think>\n<answer>(598,0),(850,250)</answer>",
+        "filter_answer": [
+            598,
+            0,
+            850,
+            250
+        ],
+        "iou": 0.673636591367903,
+        "groundtruth": [
+            594,
+            27,
+            803,
+            269
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a coffee table with a marble top and black legs. In image-2, I can see a similar coffee table placed in front of the couches. By comparing the shape, color, and design of the coffee table in both images, I can determine that the object in image-1 is located at the coordinates (479, 648) to (840, 780) in image-2.</think>\n<answer>(479,648),(840,780)</answer>",
+        "filter_answer": [
+            479,
+            648,
+            840,
+            780
+        ],
+        "iou": 0.862717351270669,
+        "groundtruth": [
+            478,
+            637,
+            824,
+            777
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the features of the sofa in both images. The sofa in image-1 is light gray with black legs and has a modern design. In image-2, there is a similar sofa with the same color and design. By matching these features, I can determine that the object in image-1 is located at the coordinates where the sofa is placed in image-2.</think>\n<answer>(189,535),(699,768)</answer>",
+        "filter_answer": [
+            189,
+            535,
+            699,
+            768
+        ],
+        "iou": 0.9651559454191033,
+        "groundtruth": [
+            188,
+            528,
+            701,
+            768
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a trash can with orange doors and recycling symbols. In image-2, I should look for a similar object that matches these characteristics. After examining the objects in image-2, I notice a trash can with orange doors and recycling symbols located near the playground area.</think><answer>(436,258),(716,690)</answer>",
+        "filter_answer": [
+            436,
+            258,
+            716,
+            690
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            211,
+            611,
+            256,
+            707
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a train with a red and white color scheme and a specific design. In image-2, I should look for a similar train. Upon examining image-2, I notice a train on the bridge that matches the description of the train in image-1. Therefore, the object in image-1 is located at the coordinates where the train on the bridge is positioned.</think>\n<answer>(189,795),(519,870)</answer>",
+        "filter_answer": [
+            189,
+            795,
+            519,
+            870
+        ],
+        "iou": 0.7225453301402669,
+        "groundtruth": [
+            157,
+            805,
+            557,
+            869
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a tall tower with a spire at the top. In image-2, I can see a similar tower in the background. By comparing the shape and structure of the towers, I can determine that the object in image-1 is located at the coordinates where the tower appears in image-2.</think>\n<answer>(656,189),(734,771)</answer>",
+        "filter_answer": [
+            656,
+            189,
+            734,
+            771
+        ],
+        "iou": 0.4795044740351352,
+        "groundtruth": [
+            691,
+            191,
+            745,
+            768
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a clock tower with a prominent clock face and a spire on top. In image-2, I should look for a similar clock tower with these characteristics. After examining the background of image-2, I notice a clock tower that matches the description from image-1. It is located towards the center of the image, slightly to the right.</think>\n<answer>(472,260),(522,597)</answer>",
+        "filter_answer": [
+            472,
+            260,
+            522,
+            597
+        ],
+        "iou": 0.7628389530771045,
+        "groundtruth": [
+            474,
+            227,
+            523,
+            646
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the features of the bus in both images. The bus in image-1 is white with a black stripe and has a distinctive front design. In image-2, there are several vehicles on the street, including a bus. I should look for a bus that matches the description from image-1. The bus on the right side of image-2 has a similar color scheme and design, making it the likely candidate.</think>\n<answer>(667,227),(999,743)</answer>",
+        "filter_answer": [
+            667,
+            227,
+            999,
+            743
+        ],
+        "iou": 0.9747128047072009,
+        "groundtruth": [
+            669,
+            237,
+            999,
+            743
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a red telephone booth with the word \"TELEPHONE\" written on it. In image-2, I can see a similar red telephone booth through a window. The booth in image-2 has the same design and color as the one in image-1. Therefore, the object in image-1 is located at the coordinates where the red telephone booth is visible through the window in image-2.</think>\n<answer>(677,420),(889,999)</answer>",
+        "filter_answer": [
+            677,
+            420,
+            889,
+            999
+        ],
+        "iou": 0.7289575138456721,
+        "groundtruth": [
+            696,
+            412,
+            938,
+            1000
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the two images and identify the common element. Image-1 shows a bronze statue of a person kneeling on one knee. In image-2, there is a statue of a man sitting on a pedestal. The statue in image-2 appears to be made of metal and is positioned outdoors. Since the question asks for the location of the object from image-1 in image-2, I should look for the statue in image-2 that matches the description of the statue in image-1. The statue in image-2 is the one that fits this description.</think>\n<answer>(215,181),(505,681)</answer>",
+        "filter_answer": [
+            215,
+            181,
+            505,
+            681
+        ],
+        "iou": 0.8797018547408563,
+        "groundtruth": [
+            209,
+            169,
+            525,
+            671
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a large bowl with colorful patterns and a metal stand inside it. In image-2, I should look for a similar bowl on the table. After examining the table in image-2, I notice a bowl with a similar design and a metal stand inside it, which matches the description of the object in image-1.</think>\n<answer>(400,640),(600,930)</answer>",
+        "filter_answer": [
+            400,
+            640,
+            600,
+            930
+        ],
+        "iou": 0.8742839915586373,
+        "groundtruth": [
+            386,
+            636,
+            600,
+            946
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the wine glass in image-2. The wine glass in image-1 is clear and has a stem. In image-2, there are three people holding wine glasses. I should look for a wine glass that matches the description of the one in image-1. The wine glass held by the person on the left in image-2 appears to be the same as the one in image-1.</think>\n<answer>(368,283),(575,659)</answer>",
+        "filter_answer": [
+            368,
+            283,
+            575,
+            659
+        ],
+        "iou": 0.5738368172623062,
+        "groundtruth": [
+            357,
+            290,
+            691,
+            623
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the bananas in image-2. The bananas are prominently displayed on top of the apples in the bowl. By examining the position and orientation of the bananas, I can determine their coordinates in image-2.</think>\n<answer>(256,36),(706,750)</answer>",
+        "filter_answer": [
+            256,
+            36,
+            706,
+            750
+        ],
+        "iou": 0.813633067440174,
+        "groundtruth": [
+            302,
+            12,
+            687,
+            769
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the key features of the object in image-1 and then search for those features in image-2. The object in image-1 is a Christmas tree decorated with lights and ornaments. In image-2, there is a large Christmas tree in the center of the scene, which matches the description of the object in image-1. Therefore, the coordinates of the object in image-1 in image-2 should be centered around the large Christmas tree.</think>\n<answer>(91,0),(420,800)</answer>",
+        "filter_answer": [
+            91,
+            0,
+            420,
+            800
+        ],
+        "iou": 0.8599318427161312,
+        "groundtruth": [
+            108,
+            6,
+            415,
+            866
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the red Santa hat with a white pom-pom. In image-2, there is a person dressed as Santa Claus wearing a similar hat. The hat is clearly visible on the upper part of the Santa's head.</think>\n<answer>(276,153),(426,309)</answer>",
+        "filter_answer": [
+            276,
+            153,
+            426,
+            309
+        ],
+        "iou": 0.71076276046645,
+        "groundtruth": [
+            283,
+            144,
+            445,
+            331
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the key features of the object in image-1 and then search for those features in image-2. The object in image-1 is a person running on a track. In image-2, there is a person rowing in a boat. The person in image-2 is wearing a red top and blue shorts, which matches the description of the person in image-1. Therefore, the object in image-1 located in image-2 is the person rowing.</think>\n<answer>(535,271),(940,795)</answer>",
+        "filter_answer": [
+            535,
+            271,
+            940,
+            795
+        ],
+        "iou": 0.9441945515943461,
+        "groundtruth": [
+            523,
+            257,
+            940,
+            796
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the key features of the object in image-1 and then search for those features in image-2. The object in image-1 is a person holding a camera. In image-2, there are several people, but I should look for someone who is holding a camera. After examining the individuals in image-2, I notice that the person standing on the right side of the image is holding a camera. This matches the description of the object in image-1.</think>\n<answer>(699,119),(876,840)</answer>",
+        "filter_answer": [
+            699,
+            119,
+            876,
+            840
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            524,
+            217,
+            660,
+            584
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the key features of the object in image-1 and then search for those features in image-2. The object in image-1 is a cat with a distinctive orange fur color. In image-2, I should look for a cat with similar characteristics. The cat in image-2 has the same orange fur color and is positioned near a toilet bowl. Therefore, the object in image-1 located in image-2 is the cat.</think>\n<answer>(306,440),(999,999)</answer>",
+        "filter_answer": [
+            306,
+            440,
+            999,
+            999
+        ],
+        "iou": 0.9158695434593003,
+        "groundtruth": [
+            279,
+            416,
+            996,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the skateboard in both images. In image-1, the skateboard is clearly visible with its red wheels and black deck. In image-2, there is a person riding a skateboard in a skate park. The skateboard in image-2 has similar features: red wheels and a black deck. Therefore, the object in image-1 is the skateboard being ridden by the person in image-2.</think>\n<answer>(530,550),(833,828)</answer>",
+        "filter_answer": [
+            530,
+            550,
+            833,
+            828
+        ],
+        "iou": 0.8480126986779173,
+        "groundtruth": [
+            510,
+            560,
+            856,
+            828
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the laptop shown in image-1 and then locate it in image-2. The laptop in image-1 is open and displaying a screen with various icons. In image-2, there is a laptop on the coffee table. This laptop matches the description of the one in image-1, so it is likely the same object.</think>\n<answer>(305,400),(463,579)</answer>",
+        "filter_answer": [
+            305,
+            400,
+            463,
+            579
+        ],
+        "iou": 0.7476164415128035,
+        "groundtruth": [
+            318,
+            391,
+            476,
+            596
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the two images. Image-1 shows a gray cat sitting on a white background. In image-2, there is a bed with various items on it, including a red suitcase and a cat. The cat in image-2 has yellow eyes and is lying on the suitcase. Since the cat in image-1 is gray and has yellow eyes, it matches the cat in image-2. Therefore, the object in image-1, which is the gray cat, is located at the coordinates where the cat is lying on the suitcase in image-2.</think>\n<answer>(388,381),(829,698)</answer>",
+        "filter_answer": [
+            388,
+            381,
+            829,
+            698
+        ],
+        "iou": 0.9157956147600759,
+        "groundtruth": [
+            383,
+            388,
+            838,
+            687
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the location of the object in image-1 within image-2, I need to compare the features of the giraffe in both images. In image-1, the giraffe is standing in a natural environment with trees and mountains in the background. In image-2, there are three giraffes in an enclosure with a city skyline in the background. The giraffe in image-1 has a distinct pattern of spots and is positioned similarly to the giraffe on the left in image-2. Therefore, the object in image-1 is likely the giraffe on the left in image-2.</think>\n<answer>(270,312),(690,579)</answer>",
+        "filter_answer": [
+            270,
+            312,
+            690,
+            579
+        ],
+        "iou": 0.8382042964136756,
+        "groundtruth": [
+            255,
+            300,
+            698,
+            602
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the stainless steel bowl. In image-2, there are several objects on the counter, including a pizza, bottles, and a large bowl. The large bowl is the one that matches the description of the stainless steel bowl from image-1. It is placed on the right side of the counter.</think>\n<answer>(638,637),(999,999)</answer>",
+        "filter_answer": [
+            638,
+            637,
+            999,
+            999
+        ],
+        "iou": 0.9398186314921682,
+        "groundtruth": [
+            638,
+            617,
+            1000,
+            997
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a white vase with a textured pattern. In image-2, there are several objects on the countertop, including a vase. I should look for a vase that matches the description of the one in image-1. After examining the objects in image-2, I notice a tall white vase on the right side of the countertop. This vase has a similar texture and color as the one in image-1. Therefore, this is likely the object I am looking for.</think>\n<answer>(870,190),(965,575)</answer>",
+        "filter_answer": [
+            870,
+            190,
+            965,
+            575
+        ],
+        "iou": 0.46140939597315433,
+        "groundtruth": [
+            859,
+            5,
+            992,
+            601
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a tall building with a unique spire at the top. In image-2, I can see a similar building in the background with a spire that matches the one in image-1. By comparing the position and appearance of the spire, I can determine that the object in image-1 is located at the coordinates (684, 79) to (746, 448) in image-2.</think>\n<answer>(684,79),(746,448)</answer>",
+        "filter_answer": [
+            684,
+            79,
+            746,
+            448
+        ],
+        "iou": 0.5889712696941612,
+        "groundtruth": [
+            674,
+            56,
+            757,
+            524
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the American flag in both images. In image-1, the flag is prominently displayed against a clear blue sky. In image-2, there are multiple objects, but the American flag can be identified by its red and white stripes and stars on a blue background. By comparing the position and appearance of the flag in both images, I can determine that the flag in image-2 is located at the coordinates (56, 568) to (160, 776).</think>\n<answer>(56,568),(160,776)</answer>",
+        "filter_answer": [
+            56,
+            568,
+            160,
+            776
+        ],
+        "iou": 0.4272251308900524,
+        "groundtruth": [
+            51,
+            552,
+            168,
+            670
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the boat in image-1 and then locate it in image-2. The boat in image-1 is a white boat with a person sitting on it. In image-2, there are several boats docked near a pier. I should look for a boat that matches the description of the one in image-1. After examining the boats in image-2, I notice a boat with a similar color and design as the one in image-1. This boat is located towards the left side of the image, docked near the pier.</think>\n<answer>(207,667),(419,915)</answer>",
+        "filter_answer": [
+            207,
+            667,
+            419,
+            915
+        ],
+        "iou": 0.5885988088307733,
+        "groundtruth": [
+            187,
+            655,
+            513,
+            929
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the features of the zebra in both images. In image-1, the zebra is captured in mid-air, showing its distinctive black and white stripes. In image-2, there are multiple animals, but I should look for one that matches the appearance of the zebra from image-1. The zebra in image-2 is grazing on the grass, and its stripes are clearly visible. By comparing the patterns and positions of the stripes, I can identify the correct location.</think>\n<answer>(368,429),(693,769)</answer>",
+        "filter_answer": [
+            368,
+            429,
+            693,
+            769
+        ],
+        "iou": 0.8008987461042255,
+        "groundtruth": [
+            341,
+            398,
+            706,
+            776
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>First, I need to identify the object in image-1. It is a green glass bottle. Next, I should look for this bottle in image-2. In image-2, there are several objects on the table, including cups and a bottle. The bottle that matches the description of the one in image-1 is located towards the right side of the table.</think>\n<answer>(830,597),(877,780)</answer>",
+        "filter_answer": [
+            830,
+            597,
+            877,
+            780
+        ],
+        "iou": 0.5035124692658939,
+        "groundtruth": [
+            812,
+            573,
+            890,
+            792
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 within image-2, I need to identify the yellow teapot. In image-2, there are multiple objects on the stove and counter. I should look for a yellow teapot among these items. After examining the objects, I can see a yellow teapot on the left side of the stove.</think><answer>(89,501),(310,680)</answer>",
+        "filter_answer": [
+            89,
+            501,
+            310,
+            680
+        ],
+        "iou": 0.9523311016433353,
+        "groundtruth": [
+            89,
+            503,
+            316,
+            682
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the key features of the object in image-1 and then search for those features in image-2. The object in image-1 is a speed limit sign with the number 60 on it. In image-2, I should look for a similar speed limit sign. After examining the background of image-2, I notice a speed limit sign on the left side of the image, which matches the description of the object in image-1.</think>\n<answer>(89,356),(167,470)</answer>",
+        "filter_answer": [
+            89,
+            356,
+            167,
+            470
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            63,
+            483,
+            126,
+            563
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the specific object from image-1 and then locate it in image-2. Image-1 shows a laptop with a screen displaying a webpage. In image-2, there are multiple laptops on a desk. I should look for a laptop that matches the description of the one in image-1. The laptop in image-1 has a similar design and color scheme as the laptops in image-2. After examining the laptops in image-2, I can see that the laptop on the left side of the desk matches the description of the one in image-1.</think>\n<answer>(179,525),(401,722)</answer>",
+        "filter_answer": [
+            179,
+            525,
+            401,
+            722
+        ],
+        "iou": 0.7819417128553549,
+        "groundtruth": [
+            173,
+            509,
+            408,
+            747
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the key features of the object in image-1 and then search for those features in image-2. The object in image-1 is a traffic officer wearing a high-visibility jacket and a white hat. In image-2, I should look for someone with similar attire. Scanning the image, I notice a person standing on a barrier wearing a high-visibility jacket and a white hat, which matches the description of the traffic officer in image-1.</think>\n<answer>(661,340),(883,659)</answer>",
+        "filter_answer": [
+            661,
+            340,
+            883,
+            659
+        ],
+        "iou": 0.86123948046894,
+        "groundtruth": [
+            643,
+            332,
+            887,
+            669
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a bottle of Fanta Orange soda. In image-2, there is a person sitting at a table with various items on it. I should look for a bottle that matches the description of the Fanta Orange soda from image-1. After examining the items on the table in image-2, I can see a bottle that appears to be the same as the one in image-1.</think>\n<answer>(284,434),(350,717)</answer>",
+        "filter_answer": [
+            284,
+            434,
+            350,
+            717
+        ],
+        "iou": 0.5404357512803449,
+        "groundtruth": [
+            260,
+            416,
+            367,
+            739
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the location of the object in image-1 within image-2, I need to compare the features of the giraffe in both images. In image-1, the giraffe is standing in a grassy field with trees and mountains in the background. In image-2, there are palm trees and a road visible. The giraffe in image-2 has a similar pattern and posture as the one in image-1. By comparing the patterns on the giraffe's body and its position relative to the surroundings, I can determine that the giraffe in image-2 is located at coordinates (538, 408) to (802, 872).</think>\n<answer>(538,408),(802,872)</answer>",
+        "filter_answer": [
+            538,
+            408,
+            802,
+            872
+        ],
+        "iou": 0.8431137724550898,
+        "groundtruth": [
+            527,
+            398,
+            817,
+            899
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the green gloves in image-1 and then locate them in image-2. In image-2, there are several objects on the wall, including a pair of green gloves hanging on the right side. These gloves match the description of the object in image-1.</think>\n<answer>(875,16),(958,258)</answer>",
+        "filter_answer": [
+            875,
+            16,
+            958,
+            258
+        ],
+        "iou": 0.7725384615384615,
+        "groundtruth": [
+            870,
+            13,
+            970,
+            273
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a flag with the text \"HUAWEI\" on it. In image-2, I should look for any flags or banners that have similar characteristics. After examining the objects in image-2, I notice a flag with the text \"HEAD\" on it, which matches the description of the object in image-1.</think>\n<answer>(453,80),(505,371)</answer>",
+        "filter_answer": [
+            453,
+            80,
+            505,
+            371
+        ],
+        "iou": 0.43262715498756327,
+        "groundtruth": [
+            447,
+            62,
+            536,
+            455
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to compare the two images and identify common features. The object in image-1 is a clock tower with a spire on top. In image-2, there is also a clock tower with a similar spire. By matching these features, I can determine that the object in image-1 is the same as the one in image-2. The coordinates provided for the object in image-1 are (385,139) to (614,997). I will use these coordinates to locate the object in image-2.</think>\n<answer>(385,139),(614,997)</answer>",
+        "filter_answer": [
+            385,
+            139,
+            614,
+            997
+        ],
+        "iou": 0.8356869222321189,
+        "groundtruth": [
+            363,
+            99,
+            621,
+            983
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the unique features of the object in image-1 and then search for those features in image-2. The object in image-1 is a large white projection screen with a black frame. In image-2, I should look for a similar object that matches these characteristics. After examining image-2, I notice a large white projection screen mounted on the wall behind the person. This matches the description of the object in image-1.</think>\n<answer>(330,40),(677,418)</answer>",
+        "filter_answer": [
+            330,
+            40,
+            677,
+            418
+        ],
+        "iou": 0.8840466401563658,
+        "groundtruth": [
+            319,
+            31,
+            689,
+            432
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the distinctive features of the object in image-1 and then search for those features in image-2. The object in image-1 is a double-decker bus with a beige color and specific markings on the side. In image-2, I should look for a bus that matches these characteristics. After examining the buses in image-2, I notice one that has similar features, including the color and design. This bus is positioned near the bus stop, which helps confirm its location.</think>\n<answer>(196,305),(520,730)</answer>",
+        "filter_answer": [
+            196,
+            305,
+            520,
+            730
+        ],
+        "iou": 0.8528428093645485,
+        "groundtruth": [
+            182,
+            285,
+            527,
+            753
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify a distinctive feature or object that is present in both images. In image-1, the person is wearing a red top and green leggings. In image-2, there are two people standing on the beach. One of them is wearing a red top. This matches the description of the person in image-1. Therefore, the object in image-1 located in image-2 is the person wearing the red top.</think>\n<answer>(826,354),(909,643)</answer>",
+        "filter_answer": [
+            826,
+            354,
+            909,
+            643
+        ],
+        "iou": 0.7116114868873857,
+        "groundtruth": [
+            816,
+            348,
+            922,
+            666
+        ]
+    },
+    {
+        "task": "refer_grounding",
+        "question": "Find and locate where does the object in image-1 locate in the image-2. First output the thinking process in <think> </think> tags and then output the bounding box in <answer> </answer> tags.",
+        "answer": "<think>To find the object in image-1 located in image-2, I need to identify the key features of the object in image-1 and then search for those features in image-2. The object in image-1 is a birthday cake with lit candles spelling \"HAPPY BIRTHDAY.\" In image-2, there is a table with various items on it. I should look for a cake with similar characteristics. After examining the table in image-2, I notice a cake with lit candles that matches the description from image-1. Therefore, the object in image-1 is located at the coordinates where the cake with lit candles is placed in image-2.</think>\n<answer>(505,594),(615,741)</answer>",
+        "filter_answer": [
+            505,
+            594,
+            615,
+            741
+        ],
+        "iou": 0.6572369223265455,
+        "groundtruth": [
+            494,
+            579,
+            633,
+            756
+        ]
+    },
+    {
+        "refer_grounding": {
+            "IOU@0.7": 66,
+            "IOU@0.5": 82,
+            "IOU@0.3": 91,
+            "AVE_IOU": 70.41892694092951,
+            "TOTAL": 99
+        }
+    }
+]

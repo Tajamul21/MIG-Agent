@@ -1,0 +1,5195 @@
+[
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(451,265),(519,388)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(459,265),(526,388)",
+        "filter_answer": [
+            459,
+            278,
+            526,
+            427
+        ],
+        "iou": 0.5153104026845637,
+        "groundtruth": [
+            443,
+            247,
+            522,
+            395
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(451,265),(519,388)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(825,355),(907,500)",
+        "filter_answer": [
+            825,
+            373,
+            907,
+            550
+        ],
+        "iou": 0.13793383068439832,
+        "groundtruth": [
+            764,
+            345,
+            852,
+            499
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(814,246),(915,539)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(695,362),(868,552)",
+        "filter_answer": [
+            695,
+            380,
+            868,
+            607
+        ],
+        "iou": 0.7594114561215058,
+        "groundtruth": [
+            691,
+            381,
+            855,
+            571
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(814,246),(915,539)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(342,397),(476,600)",
+        "filter_answer": [
+            342,
+            417,
+            476,
+            660
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            798,
+            216,
+            937,
+            467
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(814,246),(915,539)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(341,395),(479,600)",
+        "filter_answer": [
+            341,
+            415,
+            479,
+            660
+        ],
+        "iou": 0.175513698630137,
+        "groundtruth": [
+            420,
+            187,
+            529,
+            620
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(814,246),(915,539)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(342,391),(476,601)",
+        "filter_answer": [
+            342,
+            411,
+            476,
+            661
+        ],
+        "iou": 0.5991058122205664,
+        "groundtruth": [
+            304,
+            408,
+            512,
+            639
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(521,257),(659,392)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(219,350),(252,406)",
+        "filter_answer": [
+            219,
+            367,
+            252,
+            447
+        ],
+        "iou": 0.443013698630137,
+        "groundtruth": [
+            218,
+            345,
+            255,
+            416
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(521,257),(659,392)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(419,337),(438,368)",
+        "filter_answer": [
+            419,
+            354,
+            438,
+            405
+        ],
+        "iou": 0.042283298097251586,
+        "groundtruth": [
+            412,
+            330,
+            429,
+            360
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(521,257),(659,392)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(700,66),(745,137)",
+        "filter_answer": [
+            700,
+            69,
+            745,
+            151
+        ],
+        "iou": 0.32929369437606515,
+        "groundtruth": [
+            692,
+            42,
+            737,
+            116
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(277,437),(439,828)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(432,437),(479,631)",
+        "filter_answer": [
+            432,
+            459,
+            479,
+            694
+        ],
+        "iou": 0.48328520171523587,
+        "groundtruth": [
+            415,
+            426,
+            493,
+            719
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(277,437),(439,828)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(603,377),(685,577)",
+        "filter_answer": [
+            603,
+            396,
+            685,
+            635
+        ],
+        "iou": 0.7700205338809035,
+        "groundtruth": [
+            610,
+            382,
+            694,
+            631
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(277,437),(439,828)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(552,358),(642,697)",
+        "filter_answer": [
+            552,
+            376,
+            642,
+            767
+        ],
+        "iou": 0.686768149882904,
+        "groundtruth": [
+            534,
+            358,
+            656,
+            778
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(435,392),(545,935)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(355,419),(408,627)",
+        "filter_answer": [
+            355,
+            440,
+            408,
+            690
+        ],
+        "iou": 0.5133669120495932,
+        "groundtruth": [
+            335,
+            430,
+            424,
+            720
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(435,392),(545,935)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(542,392),(588,577)",
+        "filter_answer": [
+            542,
+            412,
+            588,
+            635
+        ],
+        "iou": 0.4420843953554234,
+        "groundtruth": [
+            511,
+            368,
+            584,
+            646
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(435,392),(545,935)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(566,383),(616,616)",
+        "filter_answer": [
+            566,
+            402,
+            616,
+            678
+        ],
+        "iou": 0.5565862708719852,
+        "groundtruth": [
+            545,
+            369,
+            622,
+            691
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(717,600),(823,841)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(420,562),(518,762)",
+        "filter_answer": [
+            420,
+            590,
+            518,
+            838
+        ],
+        "iou": 0.42058298631766805,
+        "groundtruth": [
+            394,
+            636,
+            554,
+            902
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(717,600),(823,841)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(546,400),(625,600)",
+        "filter_answer": [
+            546,
+            420,
+            625,
+            660
+        ],
+        "iou": 0.7155555555555555,
+        "groundtruth": [
+            531,
+            422,
+            615,
+            665
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(717,600),(823,841)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(937,318),(1000,608)",
+        "filter_answer": [
+            937,
+            334,
+            1000,
+            669
+        ],
+        "iou": 0.632421836063395,
+        "groundtruth": [
+            918,
+            295,
+            999,
+            641
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(474,420),(625,560)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(75,425),(230,587)",
+        "filter_answer": [
+            75,
+            446,
+            230,
+            646
+        ],
+        "iou": 0.7265749755318601,
+        "groundtruth": [
+            46,
+            447,
+            244,
+            629
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(474,420),(625,560)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(177,331),(220,397)",
+        "filter_answer": [
+            177,
+            348,
+            220,
+            437
+        ],
+        "iou": 0.4389485145434749,
+        "groundtruth": [
+            186,
+            318,
+            234,
+            431
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(474,420),(625,560)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(402,416),(422,447)",
+        "filter_answer": [
+            402,
+            437,
+            422,
+            492
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            698,
+            229,
+            769,
+            351
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(474,420),(625,560)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(400,416),(422,450)",
+        "filter_answer": [
+            400,
+            437,
+            422,
+            495
+        ],
+        "iou": 0.21257325519445924,
+        "groundtruth": [
+            396,
+            416,
+            421,
+            456
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(521,131),(779,388)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(72,425),(230,587)",
+        "filter_answer": [
+            72,
+            446,
+            230,
+            646
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            144,
+            156,
+            433,
+            406
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(521,131),(779,388)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(168,297),(220,377)",
+        "filter_answer": [
+            168,
+            312,
+            220,
+            415
+        ],
+        "iou": 0.09046705625195164,
+        "groundtruth": [
+            155,
+            162,
+            256,
+            351
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(521,131),(779,388)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(403,412),(425,445)",
+        "filter_answer": [
+            403,
+            433,
+            425,
+            490
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            677,
+            69,
+            791,
+            243
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(521,131),(779,388)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(398,412),(420,441)",
+        "filter_answer": [
+            398,
+            433,
+            420,
+            485
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            395,
+            346,
+            427,
+            420
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(264,268),(450,860)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(356,0),(720,997)",
+        "filter_answer": [
+            356,
+            0,
+            720,
+            999
+        ],
+        "iou": 0.9269622850904184,
+        "groundtruth": [
+            342,
+            5,
+            731,
+            994
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(264,268),(450,860)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(418,197),(546,587)",
+        "filter_answer": [
+            418,
+            207,
+            546,
+            646
+        ],
+        "iou": 0.7213906077489922,
+        "groundtruth": [
+            399,
+            174,
+            557,
+            667
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(264,268),(450,860)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(302,58),(426,577)",
+        "filter_answer": [
+            302,
+            61,
+            426,
+            635
+        ],
+        "iou": 0.6258195368143012,
+        "groundtruth": [
+            288,
+            29,
+            433,
+            489
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(476,391),(587,697)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(383,287),(552,500)",
+        "filter_answer": [
+            383,
+            301,
+            552,
+            550
+        ],
+        "iou": 0.40041386445938953,
+        "groundtruth": [
+            355,
+            272,
+            469,
+            544
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(476,391),(587,697)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(378,283),(552,500)",
+        "filter_answer": [
+            378,
+            297,
+            552,
+            550
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            578,
+            282,
+            654,
+            465
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(476,391),(587,697)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(378,281),(452,468)",
+        "filter_answer": [
+            378,
+            295,
+            452,
+            515
+        ],
+        "iou": 0.01740058124563146,
+        "groundtruth": [
+            349,
+            148,
+            421,
+            306
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(819,438),(969,666)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(575,537),(735,625)",
+        "filter_answer": [
+            575,
+            564,
+            735,
+            688
+        ],
+        "iou": 0.5108055009823183,
+        "groundtruth": [
+            573,
+            606,
+            741,
+            671
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(819,438),(969,666)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(845,450),(962,575)",
+        "filter_answer": [
+            845,
+            473,
+            962,
+            632
+        ],
+        "iou": 0.600833279503908,
+        "groundtruth": [
+            834,
+            438,
+            971,
+            664
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(819,438),(969,666)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(200,595),(350,675)",
+        "filter_answer": [
+            200,
+            625,
+            350,
+            743
+        ],
+        "iou": 0.6446652472202508,
+        "groundtruth": [
+            163,
+            634,
+            370,
+            750
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(116,647),(311,972)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(225,297),(275,350)",
+        "filter_answer": [
+            225,
+            312,
+            275,
+            385
+        ],
+        "iou": 0.28380065841752755,
+        "groundtruth": [
+            209,
+            251,
+            278,
+            362
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(116,647),(311,972)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(395,497),(445,558)",
+        "filter_answer": [
+            395,
+            522,
+            445,
+            614
+        ],
+        "iou": 0.7516339869281046,
+        "groundtruth": [
+            386,
+            513,
+            446,
+            615
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(116,647),(311,972)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(395,468),(445,541)",
+        "filter_answer": [
+            395,
+            491,
+            445,
+            595
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            380,
+            341,
+            472,
+            478
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(116,647),(311,972)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(398,583),(568,791)",
+        "filter_answer": [
+            398,
+            612,
+            568,
+            870
+        ],
+        "iou": 0.6064976468802186,
+        "groundtruth": [
+            382,
+            629,
+            599,
+            817
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(376,682),(573,901)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(183,600),(387,998)",
+        "filter_answer": [
+            183,
+            630,
+            387,
+            999
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            669,
+            388,
+            789,
+            515
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(376,682),(573,901)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(488,458),(588,537)",
+        "filter_answer": [
+            488,
+            481,
+            588,
+            591
+        ],
+        "iou": 0.6594189983960078,
+        "groundtruth": [
+            485,
+            483,
+            588,
+            557
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(244,192),(484,308)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(275,500),(416,700)",
+        "filter_answer": [
+            275,
+            525,
+            416,
+            770
+        ],
+        "iou": 0.06634142138649263,
+        "groundtruth": [
+            160,
+            715,
+            387,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(244,192),(484,308)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(265,595),(535,812)",
+        "filter_answer": [
+            265,
+            625,
+            535,
+            893
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            562,
+            180,
+            843,
+            328
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(219,682),(507,899)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(375,612),(595,825)",
+        "filter_answer": [
+            375,
+            643,
+            595,
+            907
+        ],
+        "iou": 0.6658291457286433,
+        "groundtruth": [
+            347,
+            691,
+            587,
+            891
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(219,682),(507,899)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(375,612),(595,825)",
+        "filter_answer": [
+            375,
+            643,
+            595,
+            907
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            690,
+            467,
+            799,
+            758
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(381,556),(752,662)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(40,366),(100,412)",
+        "filter_answer": [
+            40,
+            384,
+            100,
+            453
+        ],
+        "iou": 0.4895818155325659,
+        "groundtruth": [
+            29,
+            363,
+            108,
+            440
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(381,556),(752,662)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(520,75),(658,137)",
+        "filter_answer": [
+            520,
+            79,
+            658,
+            151
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            208,
+            186,
+            260,
+            288
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(381,556),(752,662)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(525,75),(658,137)",
+        "filter_answer": [
+            525,
+            79,
+            658,
+            151
+        ],
+        "iou": 0.538803000153069,
+        "groundtruth": [
+            523,
+            53,
+            653,
+            134
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(505,345),(537,435)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(370,562),(437,687)",
+        "filter_answer": [
+            370,
+            590,
+            437,
+            756
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            309,
+            217,
+            340,
+            308
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(505,345),(537,435)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(345,550),(425,687)",
+        "filter_answer": [
+            345,
+            578,
+            425,
+            756
+        ],
+        "iou": 0.48940269749518306,
+        "groundtruth": [
+            326,
+            629,
+            446,
+            768
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(505,345),(537,435)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(345,550),(425,687)",
+        "filter_answer": [
+            345,
+            578,
+            425,
+            756
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            621,
+            668,
+            747,
+            837
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(505,345),(537,435)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(552,200),(577,281)",
+        "filter_answer": [
+            552,
+            210,
+            577,
+            309
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            507,
+            354,
+            534,
+            449
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(505,345),(537,435)<|box_end|>). Recognize and locate this object in the 6th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(555,200),(578,275)",
+        "filter_answer": [
+            555,
+            210,
+            578,
+            303
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            311,
+            210,
+            341,
+            306
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(679,78),(870,277)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(448,0),(578,200)",
+        "filter_answer": [
+            448,
+            0,
+            578,
+            220
+        ],
+        "iou": 0.3453704343022854,
+        "groundtruth": [
+            445,
+            0,
+            530,
+            122
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(679,78),(870,277)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(448,18),(578,218)",
+        "filter_answer": [
+            448,
+            19,
+            578,
+            240
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            669,
+            76,
+            876,
+            294
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(679,78),(870,277)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(448,29),(578,252)",
+        "filter_answer": [
+            448,
+            30,
+            578,
+            277
+        ],
+        "iou": 0.31347477869888996,
+        "groundtruth": [
+            435,
+            12,
+            545,
+            145
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(679,78),(870,277)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(448,25),(578,250)",
+        "filter_answer": [
+            448,
+            26,
+            578,
+            275
+        ],
+        "iou": 0.6067517248932209,
+        "groundtruth": [
+            489,
+            7,
+            584,
+            284
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(679,78),(868,277)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(450,0),(575,175)",
+        "filter_answer": [
+            450,
+            0,
+            575,
+            193
+        ],
+        "iou": 0.42792189339503917,
+        "groundtruth": [
+            446,
+            0,
+            533,
+            127
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(679,78),(868,277)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(452,2),(548,175)",
+        "filter_answer": [
+            452,
+            2,
+            548,
+            193
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            677,
+            63,
+            879,
+            298
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(679,78),(868,277)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(452,2),(548,177)",
+        "filter_answer": [
+            452,
+            2,
+            548,
+            195
+        ],
+        "iou": 0.7243627741553053,
+        "groundtruth": [
+            441,
+            2,
+            546,
+            158
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(592,39),(836,299)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(10,12),(450,622)",
+        "filter_answer": [
+            10,
+            13,
+            450,
+            684
+        ],
+        "iou": 0.4612395395812626,
+        "groundtruth": [
+            18,
+            272,
+            500,
+            605
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(592,39),(836,299)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(430,280),(820,560)",
+        "filter_answer": [
+            430,
+            294,
+            820,
+            616
+        ],
+        "iou": 0.7125332776530772,
+        "groundtruth": [
+            368,
+            262,
+            857,
+            609
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(592,39),(836,299)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(600,197),(918,477)",
+        "filter_answer": [
+            600,
+            207,
+            918,
+            525
+        ],
+        "iou": 0.4781541173507933,
+        "groundtruth": [
+            639,
+            81,
+            936,
+            452
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(606,456),(999,892)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(652,325),(866,762)",
+        "filter_answer": [
+            652,
+            341,
+            866,
+            838
+        ],
+        "iou": 0.21703046636563209,
+        "groundtruth": [
+            672,
+            311,
+            862,
+            469
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(606,456),(999,892)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(652,325),(866,750)",
+        "filter_answer": [
+            652,
+            341,
+            866,
+            825
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            434,
+            305,
+            534,
+            457
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(606,456),(999,892)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(652,325),(866,750)",
+        "filter_answer": [
+            652,
+            341,
+            866,
+            825
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            414,
+            162,
+            522,
+            270
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(338,613),(693,810)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(668,552),(838,675)",
+        "filter_answer": [
+            668,
+            580,
+            838,
+            743
+        ],
+        "iou": 0.09289583719541082,
+        "groundtruth": [
+            674,
+            688,
+            998,
+            930
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(338,613),(693,810)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(100,625),(280,800)",
+        "filter_answer": [
+            100,
+            656,
+            280,
+            880
+        ],
+        "iou": 0.5282018001749387,
+        "groundtruth": [
+            12,
+            672,
+            293,
+            914
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(338,613),(693,810)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(597,491),(708,658)",
+        "filter_answer": [
+            597,
+            516,
+            708,
+            724
+        ],
+        "iou": 0.8095371669004208,
+        "groundtruth": [
+            592,
+            504,
+            716,
+            734
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(395,43),(650,991)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(418,91),(675,998)",
+        "filter_answer": [
+            418,
+            96,
+            675,
+            999
+        ],
+        "iou": 0.6506839998088256,
+        "groundtruth": [
+            479,
+            64,
+            711,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(395,43),(650,991)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(585,177),(728,527)",
+        "filter_answer": [
+            585,
+            186,
+            728,
+            580
+        ],
+        "iou": 0.7681044824953648,
+        "groundtruth": [
+            565,
+            164,
+            738,
+            588
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(395,43),(650,991)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(177,227),(375,997)",
+        "filter_answer": [
+            177,
+            238,
+            375,
+            999
+        ],
+        "iou": 0.5822832813334942,
+        "groundtruth": [
+            146,
+            210,
+            357,
+            801
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(395,43),(650,991)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(421,58),(682,991)",
+        "filter_answer": [
+            421,
+            61,
+            682,
+            999
+        ],
+        "iou": 0.6132518796992481,
+        "groundtruth": [
+            405,
+            49,
+            688,
+            676
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(541,701),(779,832)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(178,701),(418,801)",
+        "filter_answer": [
+            178,
+            736,
+            418,
+            881
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            611,
+            554,
+            727,
+            684
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(541,701),(779,832)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(235,712),(335,952)",
+        "filter_answer": [
+            235,
+            748,
+            335,
+            999
+        ],
+        "iou": 0.24028834601521826,
+        "groundtruth": [
+            137,
+            767,
+            444,
+            887
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(541,701),(779,832)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(179,687),(419,775)",
+        "filter_answer": [
+            179,
+            721,
+            419,
+            853
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            687,
+            519,
+            773,
+            692
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(762,485),(831,698)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(648,485),(712,698)",
+        "filter_answer": [
+            648,
+            509,
+            712,
+            768
+        ],
+        "iou": 0.7021743466985837,
+        "groundtruth": [
+            637,
+            548,
+            714,
+            776
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(762,485),(831,698)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(562,537),(625,687)",
+        "filter_answer": [
+            562,
+            564,
+            625,
+            756
+        ],
+        "iou": 0.6146341463414634,
+        "groundtruth": [
+            559,
+            593,
+            630,
+            721
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(762,485),(831,698)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(189,600),(245,733)",
+        "filter_answer": [
+            189,
+            630,
+            245,
+            806
+        ],
+        "iou": 0.5638182629197731,
+        "groundtruth": [
+            175,
+            648,
+            264,
+            813
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(636,539),(700,617)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(490,500),(680,670)",
+        "filter_answer": [
+            490,
+            525,
+            680,
+            737
+        ],
+        "iou": 0.10196285074430246,
+        "groundtruth": [
+            637,
+            585,
+            822,
+            729
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(636,539),(700,617)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(608,491),(698,641)",
+        "filter_answer": [
+            608,
+            516,
+            698,
+            705
+        ],
+        "iou": 0.11089907464083823,
+        "groundtruth": [
+            543,
+            459,
+            652,
+            586
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(636,539),(700,617)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(48,550),(237,730)",
+        "filter_answer": [
+            48,
+            578,
+            237,
+            803
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            256,
+            761,
+            508,
+            913
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(572,552),(631,659)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(362,512),(425,637)",
+        "filter_answer": [
+            362,
+            538,
+            425,
+            701
+        ],
+        "iou": 0.5951796474001338,
+        "groundtruth": [
+            359,
+            574,
+            434,
+            723
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(572,552),(631,659)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(777,458),(822,591)",
+        "filter_answer": [
+            777,
+            481,
+            822,
+            650
+        ],
+        "iou": 0.472360248447205,
+        "groundtruth": [
+            765,
+            476,
+            835,
+            706
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(572,552),(631,659)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(650,575),(708,712)",
+        "filter_answer": [
+            650,
+            604,
+            708,
+            783
+        ],
+        "iou": 0.3740713527634909,
+        "groundtruth": [
+            615,
+            625,
+            735,
+            819
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(572,552),(631,659)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(650,558),(708,691)",
+        "filter_answer": [
+            650,
+            586,
+            708,
+            760
+        ],
+        "iou": 0.5232582394659991,
+        "groundtruth": [
+            639,
+            517,
+            718,
+            759
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(439,57),(689,999)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(426,27),(648,627)",
+        "filter_answer": [
+            426,
+            28,
+            648,
+            690
+        ],
+        "iou": 0.8718728024695772,
+        "groundtruth": [
+            403,
+            22,
+            647,
+            707
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(439,57),(689,999)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(179,191),(341,700)",
+        "filter_answer": [
+            179,
+            201,
+            341,
+            770
+        ],
+        "iou": 0.803544908319663,
+        "groundtruth": [
+            167,
+            177,
+            342,
+            712
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(439,57),(689,999)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(291,117),(593,917)",
+        "filter_answer": [
+            291,
+            123,
+            593,
+            999
+        ],
+        "iou": 0.8446934996589026,
+        "groundtruth": [
+            264,
+            84,
+            601,
+            984
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(260,397),(404,719)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(583,233),(682,487)",
+        "filter_answer": [
+            583,
+            245,
+            682,
+            536
+        ],
+        "iou": 0.7324942791762014,
+        "groundtruth": [
+            577,
+            201,
+            692,
+            543
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(260,397),(404,719)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(337,287),(460,675)",
+        "filter_answer": [
+            337,
+            301,
+            460,
+            743
+        ],
+        "iou": 0.0432800272201429,
+        "groundtruth": [
+            241,
+            183,
+            355,
+            513
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(260,397),(404,719)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(332,100),(460,683)",
+        "filter_answer": [
+            332,
+            105,
+            460,
+            751
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            877,
+            123,
+            963,
+            510
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(423,442),(588,920)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(468,475),(662,825)",
+        "filter_answer": [
+            468,
+            499,
+            662,
+            907
+        ],
+        "iou": 0.8976541415818975,
+        "groundtruth": [
+            474,
+            513,
+            669,
+            904
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(423,442),(588,920)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(175,458),(425,891)",
+        "filter_answer": [
+            175,
+            481,
+            425,
+            980
+        ],
+        "iou": 0.6371783567134268,
+        "groundtruth": [
+            175,
+            485,
+            391,
+            853
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(423,442),(588,920)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(285,537),(537,999)",
+        "filter_answer": [
+            285,
+            564,
+            537,
+            999
+        ],
+        "iou": 0.8904281342884448,
+        "groundtruth": [
+            275,
+            596,
+            538,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(525,544),(626,756)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(492,575),(585,708)",
+        "filter_answer": [
+            492,
+            604,
+            585,
+            779
+        ],
+        "iou": 0.5520991951272569,
+        "groundtruth": [
+            495,
+            638,
+            592,
+            838
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(525,544),(626,756)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(597,558),(652,658)",
+        "filter_answer": [
+            597,
+            586,
+            652,
+            724
+        ],
+        "iou": 0.7997922617501948,
+        "groundtruth": [
+            596,
+            606,
+            652,
+            718
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(525,544),(626,756)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(441,531),(568,708)",
+        "filter_answer": [
+            441,
+            558,
+            568,
+            779
+        ],
+        "iou": 0.786104399059945,
+        "groundtruth": [
+            437,
+            556,
+            574,
+            745
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(499,499),(572,712)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(499,499),(572,712)",
+        "filter_answer": [
+            499,
+            524,
+            572,
+            783
+        ],
+        "iou": 0.39180727351244643,
+        "groundtruth": [
+            488,
+            441,
+            590,
+            698
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(499,499),(572,712)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(450,425),(525,641)",
+        "filter_answer": [
+            450,
+            446,
+            525,
+            705
+        ],
+        "iou": 0.791512119382386,
+        "groundtruth": [
+            451,
+            421,
+            532,
+            694
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(499,499),(572,712)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(425,475),(495,658)",
+        "filter_answer": [
+            425,
+            499,
+            495,
+            724
+        ],
+        "iou": 0.3751891074130106,
+        "groundtruth": [
+            423,
+            439,
+            487,
+            619
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(382,410),(565,794)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(427,431),(508,608)",
+        "filter_answer": [
+            427,
+            453,
+            508,
+            669
+        ],
+        "iou": 0.8068102849200834,
+        "groundtruth": [
+            425,
+            454,
+            521,
+            678
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(382,410),(565,794)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(585,468),(670,608)",
+        "filter_answer": [
+            585,
+            491,
+            670,
+            669
+        ],
+        "iou": 0.6187982096943149,
+        "groundtruth": [
+            572,
+            498,
+            661,
+            710
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(382,410),(565,794)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(597,500),(675,650)",
+        "filter_answer": [
+            597,
+            525,
+            675,
+            715
+        ],
+        "iou": 0.675692499221911,
+        "groundtruth": [
+            581,
+            548,
+            675,
+            734
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(541,504),(667,712)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(458,452),(533,600)",
+        "filter_answer": [
+            458,
+            475,
+            533,
+            660
+        ],
+        "iou": 0.6944,
+        "groundtruth": [
+            460,
+            505,
+            530,
+            685
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(541,504),(667,712)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(460,462),(525,631)",
+        "filter_answer": [
+            460,
+            485,
+            525,
+            694
+        ],
+        "iou": 0.7448948491313624,
+        "groundtruth": [
+            450,
+            494,
+            530,
+            682
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(541,504),(667,712)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(500,487),(635,650)",
+        "filter_answer": [
+            500,
+            511,
+            635,
+            715
+        ],
+        "iou": 0.24083769633507854,
+        "groundtruth": [
+            589,
+            541,
+            664,
+            711
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(541,504),(667,712)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(492,447),(602,625)",
+        "filter_answer": [
+            492,
+            469,
+            602,
+            688
+        ],
+        "iou": 0.4930332261521972,
+        "groundtruth": [
+            499,
+            417,
+            574,
+            653
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(434,358),(549,754)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(598,531),(668,725)",
+        "filter_answer": [
+            598,
+            558,
+            668,
+            797
+        ],
+        "iou": 0.4714337568058076,
+        "groundtruth": [
+            600,
+            606,
+            693,
+            862
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(434,358),(549,754)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(688,552),(762,937)",
+        "filter_answer": [
+            688,
+            580,
+            762,
+            999
+        ],
+        "iou": 0.4897080914294994,
+        "groundtruth": [
+            669,
+            645,
+            799,
+            971
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(434,358),(549,754)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(428,575),(484,758)",
+        "filter_answer": [
+            428,
+            604,
+            484,
+            834
+        ],
+        "iou": 0.48573631457208943,
+        "groundtruth": [
+            420,
+            654,
+            516,
+            841
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(348,628),(535,727)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(258,650),(512,1000)",
+        "filter_answer": [
+            258,
+            683,
+            512,
+            999
+        ],
+        "iou": 0.6815742397137746,
+        "groundtruth": [
+            229,
+            760,
+            517,
+            997
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(498,410),(584,773)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(368,316),(429,552)",
+        "filter_answer": [
+            368,
+            332,
+            429,
+            607
+        ],
+        "iou": 0.5143820856366532,
+        "groundtruth": [
+            346,
+            288,
+            447,
+            602
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(498,410),(584,773)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(451,397),(549,575)",
+        "filter_answer": [
+            451,
+            417,
+            549,
+            632
+        ],
+        "iou": 0.49165154264972777,
+        "groundtruth": [
+            439,
+            367,
+            514,
+            634
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(498,410),(584,773)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(509,227),(572,516)",
+        "filter_answer": [
+            509,
+            238,
+            572,
+            568
+        ],
+        "iou": 0.6341425410576833,
+        "groundtruth": [
+            493,
+            193,
+            579,
+            561
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(547,469),(623,713)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(538,347),(608,625)",
+        "filter_answer": [
+            538,
+            364,
+            608,
+            688
+        ],
+        "iou": 0.6744682269787291,
+        "groundtruth": [
+            529,
+            340,
+            617,
+            653
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(547,469),(623,713)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(458,275),(525,541)",
+        "filter_answer": [
+            458,
+            289,
+            525,
+            595
+        ],
+        "iou": 0.6275232459847845,
+        "groundtruth": [
+            444,
+            252,
+            532,
+            566
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(547,469),(623,713)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(529,352),(592,587)",
+        "filter_answer": [
+            529,
+            370,
+            592,
+            646
+        ],
+        "iou": 0.6741850510372077,
+        "groundtruth": [
+            516,
+            346,
+            598,
+            630
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(547,469),(623,713)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(539,355),(598,555)",
+        "filter_answer": [
+            539,
+            373,
+            598,
+            611
+        ],
+        "iou": 0.6086014145562401,
+        "groundtruth": [
+            534,
+            331,
+            594,
+            567
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(549,241),(861,999)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(368,325),(475,950)",
+        "filter_answer": [
+            368,
+            341,
+            475,
+            999
+        ],
+        "iou": 0.6694248234106963,
+        "groundtruth": [
+            345,
+            334,
+            502,
+            992
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(549,241),(861,999)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(575,362),(708,999)",
+        "filter_answer": [
+            575,
+            380,
+            708,
+            999
+        ],
+        "iou": 0.811631737500271,
+        "groundtruth": [
+            563,
+            361,
+            696,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(473,593),(680,922)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(650,575),(825,887)",
+        "filter_answer": [
+            650,
+            604,
+            825,
+            976
+        ],
+        "iou": 0.7202838918885847,
+        "groundtruth": [
+            655,
+            661,
+            826,
+            938
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(473,593),(680,922)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(650,550),(825,800)",
+        "filter_answer": [
+            650,
+            578,
+            825,
+            880
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            370,
+            372,
+            647,
+            702
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(346,552),(500,892)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(450,500),(600,850)",
+        "filter_answer": [
+            450,
+            525,
+            600,
+            935
+        ],
+        "iou": 0.18593606373199878,
+        "groundtruth": [
+            340,
+            589,
+            505,
+            920
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(346,552),(500,892)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(717,331),(883,998)",
+        "filter_answer": [
+            717,
+            348,
+            883,
+            999
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            489,
+            681,
+            676,
+            988
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(346,552),(500,892)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(395,612),(612,999)",
+        "filter_answer": [
+            395,
+            643,
+            612,
+            999
+        ],
+        "iou": 0.18265858394925905,
+        "groundtruth": [
+            93,
+            433,
+            648,
+            871
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(365,473),(605,664)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(519,641),(637,791)",
+        "filter_answer": [
+            519,
+            673,
+            637,
+            870
+        ],
+        "iou": 0.49747639688854584,
+        "groundtruth": [
+            514,
+            728,
+            646,
+            934
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(365,473),(605,664)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(491,641),(635,800)",
+        "filter_answer": [
+            491,
+            673,
+            635,
+            880
+        ],
+        "iou": 0.5360862415494244,
+        "groundtruth": [
+            485,
+            717,
+            599,
+            898
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(365,473),(605,664)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(750,466),(937,641)",
+        "filter_answer": [
+            750,
+            489,
+            937,
+            705
+        ],
+        "iou": 0.5418326693227091,
+        "groundtruth": [
+            666,
+            486,
+            963,
+            737
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(345,356),(515,976)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(548,231),(858,1000)",
+        "filter_answer": [
+            548,
+            243,
+            858,
+            999
+        ],
+        "iou": 0.9529229177444387,
+        "groundtruth": [
+            551,
+            233,
+            866,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(345,356),(515,976)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(253,252),(565,1000)",
+        "filter_answer": [
+            253,
+            265,
+            565,
+            999
+        ],
+        "iou": 0.9272744989768409,
+        "groundtruth": [
+            240,
+            248,
+            568,
+            997
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(345,356),(515,976)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(545,383),(681,998)",
+        "filter_answer": [
+            545,
+            402,
+            681,
+            999
+        ],
+        "iou": 0.8463936118089798,
+        "groundtruth": [
+            539,
+            388,
+            696,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(483,284),(805,912)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(837,212),(999,772)",
+        "filter_answer": [
+            837,
+            223,
+            999,
+            849
+        ],
+        "iou": 0.8339691024484696,
+        "groundtruth": [
+            823,
+            200,
+            998,
+            887
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(483,284),(805,912)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(658,197),(998,998)",
+        "filter_answer": [
+            658,
+            207,
+            998,
+            999
+        ],
+        "iou": 0.7361250250450811,
+        "groundtruth": [
+            632,
+            15,
+            992,
+            1000
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(483,284),(805,912)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(837,212),(999,772)",
+        "filter_answer": [
+            837,
+            223,
+            999,
+            849
+        ],
+        "iou": 0.8339691024484696,
+        "groundtruth": [
+            823,
+            200,
+            998,
+            887
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(483,284),(805,912)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(658,197),(998,998)",
+        "filter_answer": [
+            658,
+            207,
+            998,
+            999
+        ],
+        "iou": 0.7361250250450811,
+        "groundtruth": [
+            632,
+            15,
+            992,
+            1000
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(474,588),(678,775)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(10,600),(230,800)",
+        "filter_answer": [
+            10,
+            630,
+            230,
+            880
+        ],
+        "iou": 0.6786266209769536,
+        "groundtruth": [
+            28,
+            625,
+            265,
+            920
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(474,588),(678,775)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(308,737),(395,852)",
+        "filter_answer": [
+            308,
+            774,
+            395,
+            937
+        ],
+        "iou": 0.5417542991463565,
+        "groundtruth": [
+            293,
+            786,
+            412,
+            981
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(474,588),(678,775)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(450,500),(495,562)",
+        "filter_answer": [
+            450,
+            525,
+            495,
+            618
+        ],
+        "iou": 0.6030499075785583,
+        "groundtruth": [
+            436,
+            531,
+            497,
+            633
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(751,37),(991,999)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(125,66),(316,999)",
+        "filter_answer": [
+            125,
+            69,
+            316,
+            999
+        ],
+        "iou": 0.5494062544353503,
+        "groundtruth": [
+            103,
+            4,
+            424,
+            981
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(751,37),(991,999)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(432,300),(588,999)",
+        "filter_answer": [
+            432,
+            315,
+            588,
+            999
+        ],
+        "iou": 0.8296323941033775,
+        "groundtruth": [
+            426,
+            300,
+            610,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(751,37),(991,999)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(335,147),(508,999)",
+        "filter_answer": [
+            335,
+            154,
+            508,
+            999
+        ],
+        "iou": 0.81294201861131,
+        "groundtruth": [
+            304,
+            142,
+            504,
+            994
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,145),(228,561)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(350,275),(490,475)",
+        "filter_answer": [
+            350,
+            289,
+            490,
+            522
+        ],
+        "iou": 0.7094296750738468,
+        "groundtruth": [
+            356,
+            256,
+            515,
+            524
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,145),(228,561)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(480,100),(730,397)",
+        "filter_answer": [
+            480,
+            105,
+            730,
+            437
+        ],
+        "iou": 0.5387951807228916,
+        "groundtruth": [
+            510,
+            112,
+            682,
+            372
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,145),(228,561)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,145),(228,561)",
+        "filter_answer": [
+            0,
+            152,
+            228,
+            617
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            555,
+            84,
+            730,
+            244
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(242,115),(657,497)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(242,115),(657,497)",
+        "filter_answer": [
+            242,
+            121,
+            657,
+            547
+        ],
+        "iou": 0.88978003652823,
+        "groundtruth": [
+            229,
+            106,
+            658,
+            526
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(242,115),(657,497)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(358,175),(508,500)",
+        "filter_answer": [
+            358,
+            184,
+            508,
+            550
+        ],
+        "iou": 0.16359345387796942,
+        "groundtruth": [
+            341,
+            40,
+            979,
+            566
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(242,115),(657,497)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(498,0),(668,115)",
+        "filter_answer": [
+            498,
+            0,
+            668,
+            127
+        ],
+        "iou": 0.16125577552706466,
+        "groundtruth": [
+            493,
+            3,
+            990,
+            265
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,87),(271,623)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,0),(358,697)",
+        "filter_answer": [
+            0,
+            0,
+            358,
+            767
+        ],
+        "iou": 0.8529790648636589,
+        "groundtruth": [
+            1,
+            12,
+            363,
+            676
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,87),(271,623)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(200,100),(400,580)",
+        "filter_answer": [
+            200,
+            105,
+            400,
+            638
+        ],
+        "iou": 0.41658046679580973,
+        "groundtruth": [
+            180,
+            72,
+            589,
+            548
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,87),(271,623)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(191,100),(400,587)",
+        "filter_answer": [
+            191,
+            105,
+            400,
+            646
+        ],
+        "iou": 0.2234754635244662,
+        "groundtruth": [
+            188,
+            45,
+            889,
+            455
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(492,501),(545,603)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(375,650),(435,750)",
+        "filter_answer": [
+            375,
+            683,
+            435,
+            825
+        ],
+        "iou": 0.03325543771346396,
+        "groundtruth": [
+            318,
+            751,
+            385,
+            967
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(492,501),(545,603)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(375,550),(435,640)",
+        "filter_answer": [
+            375,
+            578,
+            435,
+            704
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            86,
+            525,
+            183,
+            681
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(492,501),(545,603)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(400,612),(450,712)",
+        "filter_answer": [
+            400,
+            643,
+            450,
+            783
+        ],
+        "iou": 0.7174151150054765,
+        "groundtruth": [
+            390,
+            652,
+            452,
+            792
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(617,463),(938,781)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(400,541),(545,825)",
+        "filter_answer": [
+            400,
+            568,
+            545,
+            907
+        ],
+        "iou": 0.5954234597301094,
+        "groundtruth": [
+            398,
+            638,
+            576,
+            949
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(617,463),(938,781)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(450,475),(638,652)",
+        "filter_answer": [
+            450,
+            499,
+            638,
+            717
+        ],
+        "iou": 0.361567920702861,
+        "groundtruth": [
+            531,
+            552,
+            656,
+            756
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(617,463),(938,781)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(200,425),(500,737)",
+        "filter_answer": [
+            200,
+            446,
+            500,
+            811
+        ],
+        "iou": 0.05803331542181623,
+        "groundtruth": [
+            455,
+            487,
+            515,
+            631
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(617,463),(938,781)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(175,437),(500,747)",
+        "filter_answer": [
+            175,
+            459,
+            500,
+            822
+        ],
+        "iou": 0.6484258341385065,
+        "groundtruth": [
+            152,
+            504,
+            553,
+            865
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(447,273),(749,813)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(318,297),(512,716)",
+        "filter_answer": [
+            318,
+            312,
+            512,
+            788
+        ],
+        "iou": 0.6821003237207092,
+        "groundtruth": [
+            319,
+            276,
+            552,
+            852
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(447,273),(749,813)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(351,325),(562,737)",
+        "filter_answer": [
+            351,
+            341,
+            562,
+            811
+        ],
+        "iou": 0.8143640783077125,
+        "groundtruth": [
+            338,
+            326,
+            574,
+            842
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(447,273),(749,813)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(551,352),(650,727)",
+        "filter_answer": [
+            551,
+            370,
+            650,
+            800
+        ],
+        "iou": 0.776258205689278,
+        "groundtruth": [
+            545,
+            363,
+            665,
+            820
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(509,276),(612,791)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(443,276),(522,700)",
+        "filter_answer": [
+            443,
+            290,
+            522,
+            770
+        ],
+        "iou": 0.5661729574773053,
+        "groundtruth": [
+            417,
+            242,
+            529,
+            840
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(509,276),(612,791)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(548,331),(622,700)",
+        "filter_answer": [
+            548,
+            348,
+            622,
+            770
+        ],
+        "iou": 0.6464621372086283,
+        "groundtruth": [
+            539,
+            334,
+            636,
+            832
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(509,276),(612,791)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(377,300),(575,700)",
+        "filter_answer": [
+            377,
+            315,
+            575,
+            770
+        ],
+        "iou": 0.5617529880478087,
+        "groundtruth": [
+            356,
+            351,
+            587,
+            633
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(212,212),(843,614)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(152,137),(522,608)",
+        "filter_answer": [
+            152,
+            144,
+            522,
+            669
+        ],
+        "iou": 0.88249736427839,
+        "groundtruth": [
+            143,
+            120,
+            515,
+            649
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(212,212),(843,614)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(525,177),(891,662)",
+        "filter_answer": [
+            525,
+            186,
+            891,
+            728
+        ],
+        "iou": 0.8620735785953177,
+        "groundtruth": [
+            515,
+            170,
+            883,
+            690
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(212,212),(843,614)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,250),(437,725)",
+        "filter_answer": [
+            0,
+            263,
+            437,
+            797
+        ],
+        "iou": 0.6725633170815896,
+        "groundtruth": [
+            4,
+            218,
+            490,
+            695
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(93,390),(970,806)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(42,375),(366,725)",
+        "filter_answer": [
+            42,
+            394,
+            366,
+            797
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            395,
+            428,
+            999,
+            953
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(93,390),(970,806)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(177,275),(462,612)",
+        "filter_answer": [
+            177,
+            289,
+            462,
+            673
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            476,
+            180,
+            993,
+            741
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(93,390),(970,806)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(498,175),(879,625)",
+        "filter_answer": [
+            498,
+            184,
+            879,
+            688
+        ],
+        "iou": 0.012815079755225197,
+        "groundtruth": [
+            22,
+            162,
+            510,
+            748
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(331,254),(503,923)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(595,133),(785,999)",
+        "filter_answer": [
+            595,
+            140,
+            785,
+            999
+        ],
+        "iou": 0.9471559543785414,
+        "groundtruth": [
+            598,
+            133,
+            780,
+            996
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(331,254),(503,923)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(225,125),(375,999)",
+        "filter_answer": [
+            225,
+            131,
+            375,
+            999
+        ],
+        "iou": 0.8466677529737657,
+        "groundtruth": [
+            204,
+            122,
+            379,
+            997
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(331,254),(503,923)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(495,241),(635,995)",
+        "filter_answer": [
+            495,
+            253,
+            635,
+            999
+        ],
+        "iou": 0.8373913995765496,
+        "groundtruth": [
+            492,
+            230,
+            618,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,484),(294,757)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(100,380),(460,997)",
+        "filter_answer": [
+            100,
+            399,
+            460,
+            999
+        ],
+        "iou": 0.20684190305436384,
+        "groundtruth": [
+            283,
+            471,
+            576,
+            763
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,484),(294,757)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(333,375),(541,708)",
+        "filter_answer": [
+            333,
+            394,
+            541,
+            779
+        ],
+        "iou": 0.2493162373627713,
+        "groundtruth": [
+            234,
+            352,
+            418,
+            808
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(0,484),(294,757)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(331,375),(500,700)",
+        "filter_answer": [
+            331,
+            394,
+            500,
+            770
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            807,
+            481,
+            986,
+            926
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(115,460),(280,704)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(285,362),(425,552)",
+        "filter_answer": [
+            285,
+            380,
+            425,
+            607
+        ],
+        "iou": 0.6867222423583424,
+        "groundtruth": [
+            273,
+            358,
+            442,
+            583
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(115,460),(280,704)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(285,358),(425,550)",
+        "filter_answer": [
+            285,
+            376,
+            425,
+            605
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            326,
+            35,
+            501,
+            234
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(616,274),(746,490)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(298,337),(375,525)",
+        "filter_answer": [
+            298,
+            354,
+            375,
+            578
+        ],
+        "iou": 0.7124868835257083,
+        "groundtruth": [
+            288,
+            336,
+            376,
+            548
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(616,274),(746,490)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(750,325),(820,500)",
+        "filter_answer": [
+            750,
+            341,
+            820,
+            550
+        ],
+        "iou": 0.5189111372856956,
+        "groundtruth": [
+            713,
+            330,
+            811,
+            536
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(238,518),(783,999)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(500,497),(999,1000)",
+        "filter_answer": [
+            500,
+            522,
+            999,
+            999
+        ],
+        "iou": 0.9094919398545519,
+        "groundtruth": [
+            500,
+            548,
+            980,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(238,518),(783,999)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(425,302),(697,537)",
+        "filter_answer": [
+            425,
+            317,
+            697,
+            591
+        ],
+        "iou": 0.8257218196724944,
+        "groundtruth": [
+            419,
+            289,
+            713,
+            596
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(238,518),(783,999)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(432,288),(697,538)",
+        "filter_answer": [
+            432,
+            302,
+            697,
+            592
+        ],
+        "iou": 0.2569645029889436,
+        "groundtruth": [
+            411,
+            223,
+            595,
+            451
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(500,576),(589,707)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(237,500),(575,998)",
+        "filter_answer": [
+            237,
+            525,
+            575,
+            999
+        ],
+        "iou": 0.05387861084063616,
+        "groundtruth": [
+            361,
+            815,
+            444,
+            919
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(500,576),(589,707)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(540,450),(620,583)",
+        "filter_answer": [
+            540,
+            473,
+            620,
+            641
+        ],
+        "iou": 0.00890925289550719,
+        "groundtruth": [
+            618,
+            571,
+            652,
+            642
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(2,205),(428,1000)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(10,695),(200,1000)",
+        "filter_answer": [
+            10,
+            730,
+            200,
+            999
+        ],
+        "iou": 0.2665289256198347,
+        "groundtruth": [
+            19,
+            741,
+            681,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(2,205),(428,1000)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(725,348),(999,999)",
+        "filter_answer": [
+            725,
+            365,
+            999,
+            999
+        ],
+        "iou": 0.5865022048955071,
+        "groundtruth": [
+            669,
+            223,
+            991,
+            917
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(4,399),(693,839)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,475),(325,800)",
+        "filter_answer": [
+            0,
+            499,
+            325,
+            880
+        ],
+        "iou": 0.8138136529512203,
+        "groundtruth": [
+            5,
+            448,
+            324,
+            909
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(4,399),(693,839)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(397,327),(735,609)",
+        "filter_answer": [
+            397,
+            343,
+            735,
+            670
+        ],
+        "iou": 0.7308470541559214,
+        "groundtruth": [
+            384,
+            250,
+            739,
+            676
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(633,416),(744,931)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(162,225),(488,600)",
+        "filter_answer": [
+            162,
+            236,
+            488,
+            660
+        ],
+        "iou": 0.1436760470522919,
+        "groundtruth": [
+            421,
+            324,
+            507,
+            633
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(633,416),(744,931)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(350,437),(575,797)",
+        "filter_answer": [
+            350,
+            459,
+            575,
+            877
+        ],
+        "iou": 0.1823713552108614,
+        "groundtruth": [
+            453,
+            707,
+            620,
+            949
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(633,416),(744,931)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,425),(315,875)",
+        "filter_answer": [
+            0,
+            446,
+            315,
+            963
+        ],
+        "iou": 0.3334968834614476,
+        "groundtruth": [
+            93,
+            661,
+            324,
+            909
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(256,274),(603,758)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(187,125),(408,998)",
+        "filter_answer": [
+            187,
+            131,
+            408,
+            999
+        ],
+        "iou": 0.8582140300644238,
+        "groundtruth": [
+            162,
+            119,
+            416,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(256,274),(603,758)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(566,308),(660,658)",
+        "filter_answer": [
+            566,
+            323,
+            660,
+            724
+        ],
+        "iou": 0.665259934269495,
+        "groundtruth": [
+            548,
+            280,
+            670,
+            702
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(256,274),(603,758)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(245,375),(495,812)",
+        "filter_answer": [
+            245,
+            394,
+            495,
+            893
+        ],
+        "iou": 0.7080978534851018,
+        "groundtruth": [
+            238,
+            377,
+            537,
+            821
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(2,60),(885,878)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(317,200),(699,625)",
+        "filter_answer": [
+            317,
+            210,
+            699,
+            688
+        ],
+        "iou": 0.2772319783863441,
+        "groundtruth": [
+            317,
+            443,
+            575,
+            864
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(2,60),(885,878)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(165,200),(500,600)",
+        "filter_answer": [
+            165,
+            210,
+            500,
+            660
+        ],
+        "iou": 0.7600125030249254,
+        "groundtruth": [
+            155,
+            176,
+            547,
+            682
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(2,60),(885,878)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(375,227),(725,600)",
+        "filter_answer": [
+            375,
+            238,
+            725,
+            660
+        ],
+        "iou": 0.8908053850081572,
+        "groundtruth": [
+            386,
+            225,
+            728,
+            681
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(606,2),(799,234)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(200,337),(422,999)",
+        "filter_answer": [
+            200,
+            354,
+            422,
+            999
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            738,
+            86,
+            888,
+            545
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(606,2),(799,234)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(458,325),(575,658)",
+        "filter_answer": [
+            458,
+            341,
+            575,
+            724
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            913,
+            65,
+            999,
+            565
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(606,2),(799,234)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(498,315),(570,637)",
+        "filter_answer": [
+            498,
+            331,
+            570,
+            701
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            7,
+            138,
+            151,
+            616
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(316,597),(813,995)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,581),(425,1000)",
+        "filter_answer": [
+            0,
+            610,
+            425,
+            999
+        ],
+        "iou": 0.7943529411764706,
+        "groundtruth": [
+            3,
+            659,
+            470,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(316,597),(813,995)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,575),(425,1000)",
+        "filter_answer": [
+            0,
+            604,
+            425,
+            999
+        ],
+        "iou": 0.08824887115516244,
+        "groundtruth": [
+            101,
+            526,
+            365,
+            667
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(442,296),(784,785)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(368,233),(600,825)",
+        "filter_answer": [
+            368,
+            245,
+            600,
+            907
+        ],
+        "iou": 0.8235698067231545,
+        "groundtruth": [
+            358,
+            205,
+            616,
+            886
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(442,296),(784,785)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(398,158),(848,999)",
+        "filter_answer": [
+            398,
+            166,
+            848,
+            999
+        ],
+        "iou": 0.8199884383203343,
+        "groundtruth": [
+            404,
+            53,
+            822,
+            994
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(442,296),(784,785)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(138,187),(718,999)",
+        "filter_answer": [
+            138,
+            196,
+            718,
+            999
+        ],
+        "iou": 0.863442515175503,
+        "groundtruth": [
+            157,
+            101,
+            721,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(435,668),(587,803)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(435,587),(566,777)",
+        "filter_answer": [
+            435,
+            616,
+            566,
+            855
+        ],
+        "iou": 0.5961004597900581,
+        "groundtruth": [
+            426,
+            562,
+            550,
+            903
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(435,668),(587,803)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(725,637),(875,775)",
+        "filter_answer": [
+            725,
+            669,
+            875,
+            853
+        ],
+        "iou": 0.5383527192706696,
+        "groundtruth": [
+            709,
+            716,
+            880,
+            898
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(840,286),(995,471)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(200,625),(310,998)",
+        "filter_answer": [
+            200,
+            656,
+            310,
+            999
+        ],
+        "iou": 0.4992795389048991,
+        "groundtruth": [
+            196,
+            810,
+            326,
+            1000
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(840,286),(995,471)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(480,350),(580,500)",
+        "filter_answer": [
+            480,
+            367,
+            580,
+            550
+        ],
+        "iou": 0.48918640576725025,
+        "groundtruth": [
+            459,
+            330,
+            607,
+            519
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(768,493),(985,928)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(802,500),(1000,997)",
+        "filter_answer": [
+            802,
+            525,
+            1000,
+            999
+        ],
+        "iou": 0.8659665871121719,
+        "groundtruth": [
+            801,
+            556,
+            995,
+            979
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(768,493),(985,928)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(800,487),(1000,997)",
+        "filter_answer": [
+            800,
+            511,
+            1000,
+            999
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            682,
+            162,
+            941,
+            408
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(358,413),(459,803)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(472,397),(568,737)",
+        "filter_answer": [
+            472,
+            417,
+            568,
+            811
+        ],
+        "iou": 0.52056151940545,
+        "groundtruth": [
+            436,
+            388,
+            576,
+            907
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(358,413),(459,803)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(525,408),(585,612)",
+        "filter_answer": [
+            525,
+            428,
+            585,
+            673
+        ],
+        "iou": 0.7167235494880546,
+        "groundtruth": [
+            520,
+            390,
+            590,
+            683
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(358,413),(459,803)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(595,452),(658,675)",
+        "filter_answer": [
+            595,
+            475,
+            658,
+            743
+        ],
+        "iou": 0.38776353865233565,
+        "groundtruth": [
+            575,
+            432,
+            698,
+            786
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(616,123),(993,505)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(458,500),(483,537)",
+        "filter_answer": [
+            458,
+            525,
+            483,
+            591
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            0,
+            0,
+            319,
+            553
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(616,123),(993,505)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(538,500),(566,541)",
+        "filter_answer": [
+            538,
+            525,
+            566,
+            595
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            574,
+            0,
+            887,
+            603
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(333,310),(439,653)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(579,181),(695,641)",
+        "filter_answer": [
+            579,
+            190,
+            695,
+            705
+        ],
+        "iou": 0.64225509589748,
+        "groundtruth": [
+            555,
+            158,
+            709,
+            762
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(333,310),(439,653)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(469,331),(532,575)",
+        "filter_answer": [
+            469,
+            348,
+            532,
+            632
+        ],
+        "iou": 0.5687583444592791,
+        "groundtruth": [
+            442,
+            313,
+            540,
+            634
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(333,310),(439,653)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(147,283),(262,775)",
+        "filter_answer": [
+            147,
+            297,
+            262,
+            853
+        ],
+        "iou": 0.3322455936148986,
+        "groundtruth": [
+            103,
+            213,
+            351,
+            989
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(1,296),(318,533)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(461,312),(875,547)",
+        "filter_answer": [
+            461,
+            328,
+            875,
+            602
+        ],
+        "iou": 0.6844825872295305,
+        "groundtruth": [
+            472,
+            308,
+            836,
+            555
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(1,296),(318,533)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(50,252),(470,487)",
+        "filter_answer": [
+            50,
+            265,
+            470,
+            536
+        ],
+        "iou": 0.3444976076555024,
+        "groundtruth": [
+            41,
+            226,
+            471,
+            373
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(407,510),(561,670)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(745,500),(875,675)",
+        "filter_answer": [
+            745,
+            525,
+            875,
+            743
+        ],
+        "iou": 0.5368421052631579,
+        "groundtruth": [
+            720,
+            539,
+            915,
+            783
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(407,510),(561,670)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(178,537),(237,637)",
+        "filter_answer": [
+            178,
+            564,
+            237,
+            701
+        ],
+        "iou": 0.6929076062024039,
+        "groundtruth": [
+            156,
+            569,
+            237,
+            697
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(745,362),(868,481)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(635,352),(725,497)",
+        "filter_answer": [
+            635,
+            370,
+            725,
+            547
+        ],
+        "iou": 0.5531055791580352,
+        "groundtruth": [
+            608,
+            318,
+            724,
+            562
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(745,362),(868,481)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(97,325),(187,487)",
+        "filter_answer": [
+            97,
+            341,
+            187,
+            536
+        ],
+        "iou": 0.5685466983107637,
+        "groundtruth": [
+            87,
+            266,
+            194,
+            522
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(745,362),(868,481)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(195,485),(245,575)",
+        "filter_answer": [
+            195,
+            509,
+            245,
+            632
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            405,
+            380,
+            547,
+            550
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(321,344),(413,653)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(313,408),(348,475)",
+        "filter_answer": [
+            313,
+            428,
+            348,
+            522
+        ],
+        "iou": 0.4829712272460364,
+        "groundtruth": [
+            303,
+            400,
+            355,
+            531
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(321,344),(413,653)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(621,397),(691,525)",
+        "filter_answer": [
+            621,
+            417,
+            691,
+            578
+        ],
+        "iou": 0.7718951014349332,
+        "groundtruth": [
+            620,
+            384,
+            693,
+            573
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(321,344),(413,653)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(427,637),(697,1000)",
+        "filter_answer": [
+            427,
+            669,
+            697,
+            999
+        ],
+        "iou": 0.6743581839799199,
+        "groundtruth": [
+            450,
+            747,
+            704,
+            995
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(371,392),(597,622)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(765,395),(965,600)",
+        "filter_answer": [
+            765,
+            415,
+            965,
+            660
+        ],
+        "iou": 0.6216932895187587,
+        "groundtruth": [
+            715,
+            408,
+            984,
+            701
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(371,392),(597,622)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(475,541),(495,575)",
+        "filter_answer": [
+            475,
+            568,
+            495,
+            632
+        ],
+        "iou": 0.33973050224581464,
+        "groundtruth": [
+            482,
+            566,
+            511,
+            635
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(371,392),(597,622)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(550,500),(580,541)",
+        "filter_answer": [
+            550,
+            525,
+            580,
+            595
+        ],
+        "iou": 0.3376110562685094,
+        "groundtruth": [
+            535,
+            497,
+            590,
+            582
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(594,327),(982,677)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(287,327),(668,587)",
+        "filter_answer": [
+            287,
+            343,
+            668,
+            646
+        ],
+        "iou": 0.7425228655595147,
+        "groundtruth": [
+            274,
+            294,
+            681,
+            676
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(594,327),(982,677)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,0),(200,700)",
+        "filter_answer": [
+            0,
+            0,
+            200,
+            770
+        ],
+        "iou": 0.742642635298721,
+        "groundtruth": [
+            1,
+            7,
+            207,
+            989
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(594,327),(982,677)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(808,0),(999,718)",
+        "filter_answer": [
+            808,
+            0,
+            999,
+            790
+        ],
+        "iou": 0.7350994695620154,
+        "groundtruth": [
+            796,
+            0,
+            995,
+            994
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(609,481),(678,564)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(625,568),(652,608)",
+        "filter_answer": [
+            625,
+            596,
+            652,
+            669
+        ],
+        "iou": 0.5703125,
+        "groundtruth": [
+            619,
+            577,
+            655,
+            673
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(609,481),(678,564)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(250,558),(275,604)",
+        "filter_answer": [
+            250,
+            586,
+            275,
+            664
+        ],
+        "iou": 0.6463878326996197,
+        "groundtruth": [
+            242,
+            594,
+            277,
+            662
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(609,481),(678,564)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(527,500),(555,545)",
+        "filter_answer": [
+            527,
+            525,
+            555,
+            600
+        ],
+        "iou": 0.3783783783783784,
+        "groundtruth": [
+            519,
+            500,
+            559,
+            575
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(263,138),(908,598)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(238,375),(538,562)",
+        "filter_answer": [
+            238,
+            394,
+            538,
+            618
+        ],
+        "iou": 0.7876599934361668,
+        "groundtruth": [
+            238,
+            361,
+            546,
+            638
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(263,138),(908,598)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(575,450),(875,637)",
+        "filter_answer": [
+            575,
+            473,
+            875,
+            701
+        ],
+        "iou": 0.7279383593716743,
+        "groundtruth": [
+            555,
+            442,
+            893,
+            720
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(263,138),(908,598)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(382,437),(632,641)",
+        "filter_answer": [
+            382,
+            459,
+            632,
+            705
+        ],
+        "iou": 0.588973393767125,
+        "groundtruth": [
+            366,
+            417,
+            643,
+            643
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(482,104),(983,381)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(487,508),(508,537)",
+        "filter_answer": [
+            487,
+            533,
+            508,
+            591
+        ],
+        "iou": 0.0051881005929257824,
+        "groundtruth": [
+            120,
+            212,
+            704,
+            614
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(482,104),(983,381)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(795,112),(1000,458)",
+        "filter_answer": [
+            795,
+            118,
+            1000,
+            504
+        ],
+        "iou": 0.6706248747882784,
+        "groundtruth": [
+            723,
+            101,
+            999,
+            479
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(265,207),(385,478)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(175,227),(280,500)",
+        "filter_answer": [
+            175,
+            238,
+            280,
+            550
+        ],
+        "iou": 0.6514230114327414,
+        "groundtruth": [
+            177,
+            179,
+            300,
+            575
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(265,207),(385,478)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(348,100),(568,550)",
+        "filter_answer": [
+            348,
+            105,
+            568,
+            605
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            96,
+            173,
+            184,
+            403
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(508,348),(626,584)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(495,388),(587,600)",
+        "filter_answer": [
+            495,
+            407,
+            587,
+            660
+        ],
+        "iou": 0.6863647086577023,
+        "groundtruth": [
+            490,
+            391,
+            598,
+            705
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(508,348),(626,584)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(408,427),(608,787)",
+        "filter_answer": [
+            408,
+            448,
+            608,
+            866
+        ],
+        "iou": 0.33193453629878306,
+        "groundtruth": [
+            495,
+            448,
+            677,
+            756
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(508,348),(626,584)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(375,415),(535,787)",
+        "filter_answer": [
+            375,
+            436,
+            535,
+            866
+        ],
+        "iou": 0.8232549341068163,
+        "groundtruth": [
+            367,
+            411,
+            542,
+            844
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(554,277),(949,538)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(598,305),(750,487)",
+        "filter_answer": [
+            598,
+            320,
+            750,
+            536
+        ],
+        "iou": 0.7109607577807848,
+        "groundtruth": [
+            602,
+            269,
+            765,
+            533
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(554,277),(949,538)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(395,418),(537,625)",
+        "filter_answer": [
+            395,
+            439,
+            537,
+            688
+        ],
+        "iou": 0.7613941018766756,
+        "groundtruth": [
+            378,
+            424,
+            546,
+            675
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(554,277),(949,538)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(538,187),(918,637)",
+        "filter_answer": [
+            538,
+            196,
+            918,
+            701
+        ],
+        "iou": 0.8037225042301185,
+        "groundtruth": [
+            533,
+            164,
+            927,
+            770
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(403,154),(531,443)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(348,225),(556,700)",
+        "filter_answer": [
+            348,
+            236,
+            556,
+            770
+        ],
+        "iou": 0.822867150362772,
+        "groundtruth": [
+            340,
+            197,
+            564,
+            742
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(403,154),(531,443)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(355,166),(665,955)",
+        "filter_answer": [
+            355,
+            174,
+            665,
+            999
+        ],
+        "iou": 0.8210743288185891,
+        "groundtruth": [
+            389,
+            134,
+            673,
+            988
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(403,154),(531,443)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(398,275),(762,998)",
+        "filter_answer": [
+            398,
+            289,
+            762,
+            999
+        ],
+        "iou": 0.9417526036535079,
+        "groundtruth": [
+            382,
+            290,
+            768,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(457,695),(895,862)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(457,695),(895,862)",
+        "filter_answer": [
+            457,
+            730,
+            895,
+            948
+        ],
+        "iou": 0.0553620253164557,
+        "groundtruth": [
+            550,
+            684,
+            621,
+            807
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(457,695),(895,862)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(550,537),(700,675)",
+        "filter_answer": [
+            550,
+            564,
+            700,
+            743
+        ],
+        "iou": 0.5205506010081427,
+        "groundtruth": [
+            580,
+            554,
+            717,
+            816
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(457,695),(895,862)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(0,700),(295,997)",
+        "filter_answer": [
+            0,
+            735,
+            295,
+            999
+        ],
+        "iou": 0.4167362680554191,
+        "groundtruth": [
+            33,
+            735,
+            623,
+            994
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(261,211),(351,453)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(125,287),(225,555)",
+        "filter_answer": [
+            125,
+            301,
+            225,
+            611
+        ],
+        "iou": 0.6782945736434108,
+        "groundtruth": [
+            110,
+            262,
+            230,
+            581
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(261,211),(351,453)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(12,316),(202,998)",
+        "filter_answer": [
+            12,
+            332,
+            202,
+            999
+        ],
+        "iou": 0.8793549685325118,
+        "groundtruth": [
+            4,
+            282,
+            205,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(221,365),(808,808)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(100,112),(818,998)",
+        "filter_answer": [
+            100,
+            118,
+            818,
+            999
+        ],
+        "iou": 0.8906682862684318,
+        "groundtruth": [
+            96,
+            32,
+            818,
+            984
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(221,365),(808,808)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(175,412),(837,998)",
+        "filter_answer": [
+            175,
+            433,
+            837,
+            999
+        ],
+        "iou": 0.5538013846769512,
+        "groundtruth": [
+            73,
+            428,
+            620,
+            971
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(221,365),(808,808)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(183,412),(837,998)",
+        "filter_answer": [
+            183,
+            433,
+            837,
+            999
+        ],
+        "iou": 0.8670169997702734,
+        "groundtruth": [
+            163,
+            384,
+            843,
+            987
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(226,28),(426,102)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(770,41),(900,100)",
+        "filter_answer": [
+            770,
+            43,
+            900,
+            110
+        ],
+        "iou": 0.5173130605214705,
+        "groundtruth": [
+            756,
+            22,
+            905,
+            135
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(226,28),(426,102)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(176,108),(316,183)",
+        "filter_answer": [
+            176,
+            113,
+            316,
+            201
+        ],
+        "iou": 0.5727932568485132,
+        "groundtruth": [
+            162,
+            91,
+            315,
+            230
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(226,28),(426,102)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(510,47),(680,112)",
+        "filter_answer": [
+            510,
+            49,
+            680,
+            123
+        ],
+        "iou": 0.38601982263954093,
+        "groundtruth": [
+            491,
+            5,
+            704,
+            158
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(188,105),(988,994)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(368,325),(950,998)",
+        "filter_answer": [
+            368,
+            341,
+            950,
+            999
+        ],
+        "iou": 0.743140243902439,
+        "groundtruth": [
+            214,
+            349,
+            990,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(188,105),(988,994)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(345,395),(975,998)",
+        "filter_answer": [
+            345,
+            415,
+            975,
+            999
+        ],
+        "iou": 0.8503480737283443,
+        "groundtruth": [
+            386,
+            371,
+            992,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(188,105),(988,994)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(229,417),(862,997)",
+        "filter_answer": [
+            229,
+            438,
+            862,
+            999
+        ],
+        "iou": 0.4018505487884147,
+        "groundtruth": [
+            513,
+            269,
+            959,
+            996
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(188,105),(988,994)<|box_end|>). Recognize and locate this object in the 5th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(218,408),(798,997)",
+        "filter_answer": [
+            218,
+            428,
+            798,
+            999
+        ],
+        "iou": 0.6876670608628035,
+        "groundtruth": [
+            160,
+            415,
+            672,
+            989
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(440,205),(663,929)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(400,291),(575,805)",
+        "filter_answer": [
+            400,
+            306,
+            575,
+            886
+        ],
+        "iou": 0.8823529411764706,
+        "groundtruth": [
+            401,
+            276,
+            578,
+            856
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(440,205),(663,929)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(408,358),(668,999)",
+        "filter_answer": [
+            408,
+            376,
+            668,
+            999
+        ],
+        "iou": 0.8594246616506593,
+        "groundtruth": [
+            403,
+            354,
+            672,
+            948
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(440,205),(663,929)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(385,355),(666,998)",
+        "filter_answer": [
+            385,
+            373,
+            666,
+            999
+        ],
+        "iou": 0.7758254165674314,
+        "groundtruth": [
+            356,
+            286,
+            674,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(131,254),(329,822)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(771,27),(912,691)",
+        "filter_answer": [
+            771,
+            28,
+            912,
+            760
+        ],
+        "iou": 0.9384258907543873,
+        "groundtruth": [
+            777,
+            21,
+            913,
+            763
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(131,254),(329,822)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(475,288),(645,817)",
+        "filter_answer": [
+            475,
+            302,
+            645,
+            899
+        ],
+        "iou": 0.7204418040331353,
+        "groundtruth": [
+            449,
+            279,
+            639,
+            827
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(299,0),(550,979)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(269,247),(597,1000)",
+        "filter_answer": [
+            269,
+            259,
+            597,
+            999
+        ],
+        "iou": 0.9632024886414801,
+        "groundtruth": [
+            272,
+            254,
+            590,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(299,0),(550,979)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(325,268),(545,999)",
+        "filter_answer": [
+            325,
+            281,
+            545,
+            999
+        ],
+        "iou": 0.8839263498382682,
+        "groundtruth": [
+            321,
+            296,
+            528,
+            996
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(299,0),(550,979)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(317,275),(658,1000)",
+        "filter_answer": [
+            317,
+            289,
+            658,
+            999
+        ],
+        "iou": 0.6978917365211849,
+        "groundtruth": [
+            306,
+            332,
+            578,
+            999
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(146,211),(237,593)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(53,137),(147,312)",
+        "filter_answer": [
+            53,
+            144,
+            147,
+            343
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            442,
+            183,
+            523,
+            523
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(146,211),(237,593)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(437,112),(500,208)",
+        "filter_answer": [
+            437,
+            118,
+            500,
+            229
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            842,
+            163,
+            942,
+            568
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(146,211),(237,593)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(100,100),(200,300)",
+        "filter_answer": [
+            100,
+            105,
+            200,
+            330
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            818,
+            0,
+            994,
+            345
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(50,142),(143,276)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(595,125),(658,225)",
+        "filter_answer": [
+            595,
+            131,
+            658,
+            248
+        ],
+        "iou": 0.6990902729181245,
+        "groundtruth": [
+            583,
+            117,
+            660,
+            242
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(50,142),(143,276)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(445,125),(525,250)",
+        "filter_answer": [
+            445,
+            131,
+            525,
+            275
+        ],
+        "iou": 0.6889683350357507,
+        "groundtruth": [
+            443,
+            140,
+            516,
+            254
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(535,461),(683,632)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(675,500),(775,675)",
+        "filter_answer": [
+            675,
+            525,
+            775,
+            743
+        ],
+        "iou": 0.511864406779661,
+        "groundtruth": [
+            675,
+            592,
+            775,
+            820
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(535,461),(683,632)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(525,0),(758,215)",
+        "filter_answer": [
+            525,
+            0,
+            758,
+            237
+        ],
+        "iou": 0.4703429979154823,
+        "groundtruth": [
+            622,
+            2,
+            795,
+            221
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(599,267),(951,494)<|box_end|>). Recognize and locate this object in the 2th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(175,275),(525,495)",
+        "filter_answer": [
+            175,
+            289,
+            525,
+            544
+        ],
+        "iou": 0.799509096935439,
+        "groundtruth": [
+            157,
+            277,
+            560,
+            554
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(599,267),(951,494)<|box_end|>). Recognize and locate this object in the 3th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(175,275),(515,495)",
+        "filter_answer": [
+            175,
+            289,
+            515,
+            544
+        ],
+        "iou": 0.0,
+        "groundtruth": [
+            654,
+            219,
+            765,
+            455
+        ]
+    },
+    {
+        "task": "multi_view",
+        "question": "These images share one object in common(the object marked with red bounding box in the first image(<|box_start|>(599,267),(951,494)<|box_end|>). Recognize and locate this object in the 4th image. Format:<|box_start|>(x1,y1),(x2,y2)<|box_end|>. Don't generate addtional words.",
+        "answer": "(650,267),(775,458)",
+        "filter_answer": [
+            650,
+            280,
+            775,
+            504
+        ],
+        "iou": 0.5467872999916227,
+        "groundtruth": [
+            651,
+            207,
+            758,
+            463
+        ]
+    },
+    {
+        "multi_view": {
+            "IOU@0.7": 86,
+            "IOU@0.5": 169,
+            "IOU@0.3": 210,
+            "AVE_IOU": 142.08346380380692,
+            "TOTAL": 288
+        }
+    }
+]
