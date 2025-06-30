@@ -271,6 +271,7 @@ Each testing example is formatted as below, which includes the key informantion 
 ```
 You can conduct one-hit evaluation for <strong>SEVEN</strong> different models[[Migician](https://huggingface.co/Michael4933/Migician), [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [InternVL2](https://huggingface.co/OpenGVLab/InternVL2-8B), [MiniCPM-V_2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6), [LLaVA-OneVision](https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov-hf), [mPLUG-Owl3](https://huggingface.co/mPLUG/mPLUG-Owl3-7B-241101), and [Mantis](https://huggingface.co/TIGER-Lab/Mantis-8B-Idefics2)] on MIG-Bench. Simply run the MIG_bench_eval.py script and it will report IOU@0.7, IOU@0.5, IOU@0.3 and ave-iou scores. We further facilitate the evaluation for 🤗[MIBench](https://huggingface.co/datasets/StarBottle/MIBench) and 🤗[MMIU](https://huggingface.co/MMIUBenchmark/MMIU/tree/main) in MIG_bench_eval.py for different models.
 
+Run  MIG_bench_qwen2.5.py for qwen 2.5Vl-7B-instruct
 
 <span id='Finetune'/>
 
